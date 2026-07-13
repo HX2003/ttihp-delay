@@ -32,7 +32,7 @@ async def test_project(dut):
 
     await Timer(100, unit="ns")
     
-    dut._log.info("Test project behavior")
+    dut._log.info("Test initial register values")
 
     # Ensure all mux_sel registers are intialized to zero
     assert int(dut.user_project.mux_sel[0].value) == 0
@@ -40,3 +40,40 @@ async def test_project(dut):
     assert int(dut.user_project.mux_sel[2].value) == 0
     assert int(dut.user_project.mux_sel[3].value) == 0
     assert int(dut.user_project.mux_sel[4].value) == 0
+
+    dut._log.info("Test writing register values")
+    async def write_reg(reg_addr, reg_val):
+        dut.uio_in[2:0].value = reg_addr
+        dut.uio_in[7:3].value = reg_val
+        await Timer(100, unit="ns")
+        dut.clk.value = 1
+
+        await Timer(100, unit="ns")
+        dut.clk.value = 0
+    
+
+    await write_reg(0, 2)
+    await write_reg(0, 6)
+    await write_reg(0, 7)
+    await write_reg(0, 18)
+    await write_reg(0, 31)
+
+    assert int(dut.user_project.mux_sel[0].value) == 2
+    assert int(dut.user_project.mux_sel[1].value) == 6
+    assert int(dut.user_project.mux_sel[2].value) == 7
+    assert int(dut.user_project.mux_sel[3].value) == 18
+    assert int(dut.user_project.mux_sel[4].value) == 31
+
+    dut._log.info("Testing verilog simulation passthrough")
+    async def test_pass_through(val: str):
+        dut.uio_in[4:0].value = val
+        await Timer(100, unit="ns")
+        assert dut.uo_out.value == val
+
+    await test_pass_through("00000")
+    await test_pass_through("11111")
+    await test_pass_through("00001")
+    await test_pass_through("00010")
+    await test_pass_through("00100")
+    await test_pass_through("01000")
+    await test_pass_through("10000")

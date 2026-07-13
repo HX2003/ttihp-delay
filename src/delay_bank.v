@@ -53,4 +53,20 @@ module delay_bank (
     output wire REF_DELAY_OUT_LAST
 );
 
+// Simplified verilog model without timing delay
+assign CHAN0_MUX_OUT = CHAN0_DELAY_IN;
+assign CHAN0_DELAY_OUT_LAST = CHAN0_DELAY_IN;
+
+assign CHAN1_MUX_OUT = CHAN1_DELAY_IN;
+assign CHAN1_DELAY_OUT_LAST = CHAN1_DELAY_IN;
+
+assign CHAN2_MUX_OUT = CHAN2_DELAY_IN;
+assign CHAN2_DELAY_OUT_LAST = CHAN2_DELAY_IN;
+
+assign CHAN3_MUX_OUT = CHAN3_DELAY_IN;
+assign CHAN3_DELAY_OUT_LAST = CHAN3_DELAY_IN;
+
+assign REF_MUX_OUT = REF_CLK_IN;
+assign REF_DELAY_OUT_LAST = REF_CLK_IN;
+
 endmodule
