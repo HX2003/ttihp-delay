@@ -30,6 +30,19 @@ Provide a 50 MHz reference clock to the `ref_clk` pin (not `sys_clk`), as well a
 | uo[4]         | ref_clk_out    | Output    | 1 bit  | Delayed reference clock                      |
 | uo[7:5]       | -              | Output    | 3 bit  | Unused                                        |
 
-## External hardware
+Initialization procedure:
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+1. Ensure `rst_n` and `dll_rst_n` are low for at least 1ms.
+2. Then raise `rst_n` and `dll_rst_n` high for at least 5ms.
+3. Keep `rst_n` and `dll_rst_n` high. The DLL should be locked at this point.
+
+To write a delay value to a register, set the 3 bit register address and the 5 bit delay tap amount to the correct value. Wait for a little, then raise `clk` high for some time, then make `clk` low.
+
+
+| Register Address |      Register Name      |
+| :--------------: | :----------------------: |
+|        0        |        Channel 0        |
+|        1        |        Channel 1        |
+|        2        |        Channel 2        |
+|        3        |        Channel 3        |
+|        4        | External reference clock |
