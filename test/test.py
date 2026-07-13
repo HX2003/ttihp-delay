@@ -21,16 +21,16 @@ async def test_project(dut):
     dut.uio_in.value = 0
     dut.rst_n.value = 0 
 
-    await Timer(100, units="ns")
+    await Timer(100, unit="ns")
     dut.rst_n.value = 1
 
-    await Timer(100, units="ns")
+    await Timer(100, unit="ns")
     
     dut._log.info("Test project behavior")
 
     # Ensure all mux_sel registers are intialized to zero
-    assert dut.user_project.mux_sel[0].value == 0
-    assert dut.user_project.mux_sel[1].value == 0
-    assert dut.user_project.mux_sel[2].value == 0
-    assert dut.user_project.mux_sel[3].value == 0
-    assert dut.user_project.mux_sel[4].value == 0
+    assert int(dut.user_project.mux_sel[0].value) == 0
+    assert int(dut.user_project.mux_sel[1].value) == 0
+    assert int(dut.user_project.mux_sel[2].value) == 0
+    assert int(dut.user_project.mux_sel[3].value) == 0
+    assert int(dut.user_project.mux_sel[4].value) == 0
