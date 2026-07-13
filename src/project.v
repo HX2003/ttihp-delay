@@ -30,8 +30,8 @@ module tt_um_hx2003_delay (
   assign uio_out = 0;
   assign uio_oe  = 0;
 
-  wire reg_addr[2:0] = uio[2:0];
-  wire reg_val[4:0] = uio[7:3];
+  wire reg_addr[2:0] = uio_in[2:0];
+  wire reg_val[4:0] = uio_in[7:3];
 
   reg [4:0] mux_sel [0:4]; // Array of 5, 5 bit values
 
