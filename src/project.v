@@ -22,7 +22,7 @@ module tt_um_hx2003_delay (
   wire ref_clk = ui_in[4];
   wire dll_rst_n = ui_in[5];
 
-  assign uo_out[3:0] = delay_out[3:0];
+  assign uo_out[3:0] = delay_out;
   assign uo_out[4] = ref_clk_out;
   assign uo_out[7:5] = {3'b000};
 
