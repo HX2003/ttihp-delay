@@ -19,8 +19,14 @@ async def test_project(dut):
     dut.ena.value = 1
     dut.ui_in.value = 0
     dut.uio_in.value = 0
-    dut.rst_n.value = 0 
+    dut.rst_n.value = 0
 
+    await Timer(100, unit="ns")
+    dut.clk.value = 1
+
+    await Timer(100, unit="ns")
+    dut.clk.value = 0
+    
     await Timer(100, unit="ns")
     dut.rst_n.value = 1
 

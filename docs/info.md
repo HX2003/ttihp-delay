@@ -13,7 +13,7 @@ This project is a 4 Channel - 32 Tap Programmable Delay with Delay Locked Loop C
 
 ## How to use
 
-Provide a 50 MHz reference clock to the `ref_clk` pin (not `sys_clk`), as well as any signal you want to delay on the channel input pins. You should observe a delayed version on the corresponding channel output pin. The total delay is a sum of delay caused by the delay line itself (0 to 19.375ns 0.625ns to 20ns), the delay line multiplexer (~0.6ns), and Tiny Tapeout’s mux infrastructure (10+ ns).
+Provide a 50 MHz reference clock to the `ref_clk` pin (not `clk`), as well as any signal you want to delay on the channel input pins. You should observe a delayed version on the corresponding channel output pin. The total delay is a sum of delay caused by the delay line itself (0 to 19.375ns 0.625ns to 20ns), the delay line multiplexer (~0.6ns), and Tiny Tapeout’s mux infrastructure (10+ ns).
 
 
 | Top Level Pin | Specific Name  | Direction | Width  | Description                                   |
@@ -32,9 +32,11 @@ Provide a 50 MHz reference clock to the `ref_clk` pin (not `sys_clk`), as well a
 
 Initialization procedure:
 
-1. Ensure `rst_n` and `dll_rst_n` are low for at least 1ms.
-2. Then raise `rst_n` and `dll_rst_n` high for at least 5ms.
-3. Keep `rst_n` and `dll_rst_n` high. The DLL should be locked at this point.
+1. Ensure `rst_n`, `dll_rst_n` and `clk` are low for at least 1ms.
+2. Raise `clk` high.
+3. Make `clk` low.
+4. Raise `rst_n` and `dll_rst_n` high for at least 5ms.
+5. Keep `rst_n` and `dll_rst_n` high. The DLL should be locked at this point.
 
 To write a delay value to a register, set the 3 bit register address and the 5 bit delay tap amount to the correct value. Wait for a little, then raise `clk` high for some time, then make `clk` low.
 
