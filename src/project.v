@@ -38,7 +38,7 @@ module tt_um_hx2003_delay (
   reg ref_mux_sel[4:0];
 
   delay_bank delay_bank_inst (
-    .CHAN0_DELAY_IN(delay_in[0])
+    .CHAN0_DELAY_IN(delay_in[0]),
     .CHAN0_MUX_SEL0(mux_sel[0][0]),
     .CHAN0_MUX_SEL1(mux_sel[0][1]),
     .CHAN0_MUX_SEL2(mux_sel[0][2]),
@@ -47,7 +47,7 @@ module tt_um_hx2003_delay (
     .CHAN0_MUX_OUT(delay_out[0]),
     .CHAN0_DELAY_OUT_LAST(),
 
-    .CHAN1_DELAY_IN(delay_in[1])
+    .CHAN1_DELAY_IN(delay_in[1]),
     .CHAN1_MUX_SEL0(mux_sel[1][0]),
     .CHAN1_MUX_SEL1(mux_sel[1][1]),
     .CHAN1_MUX_SEL2(mux_sel[1][2]),
@@ -56,7 +56,7 @@ module tt_um_hx2003_delay (
     .CHAN1_MUX_OUT(delay_out[1]),
     .CHAN1_DELAY_OUT_LAST(),
 
-    .CHAN2_DELAY_IN(delay_in[2])
+    .CHAN2_DELAY_IN(delay_in[2]),
     .CHAN2_MUX_SEL0(mux_sel[2][0]),
     .CHAN2_MUX_SEL1(mux_sel[2][1]),
     .CHAN2_MUX_SEL2(mux_sel[2][2]),
@@ -65,7 +65,7 @@ module tt_um_hx2003_delay (
     .CHAN2_MUX_OUT(delay_out[2]),
     .CHAN2_DELAY_OUT_LAST(),
 
-    .CHAN3_DELAY_IN(delay_in[3])
+    .CHAN3_DELAY_IN(delay_in[3]),
     .CHAN3_MUX_SEL0(mux_sel[3][0]),
     .CHAN3_MUX_SEL1(mux_sel[3][1]),
     .CHAN3_MUX_SEL2(mux_sel[3][2]),
@@ -81,7 +81,7 @@ module tt_um_hx2003_delay (
     .REF_MUX_SEL2(mux_sel[4][2]),
     .REF_MUX_SEL3(mux_sel[4][3]),
     .REF_MUX_SEL4(mux_sel[4][4]), 
-    .REF_MUX_OUT(ref_clk_out)
+    .REF_MUX_OUT(ref_clk_out),
     .REF_DELAY_OUT_LAST()
   );
 
