@@ -15,10 +15,10 @@ module tt_um_hx2003_delay (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-  wire delay_out[3:0];
+  wire [3:0] delay_out;
   wire ref_clk_out;
 
-  wire delay_in[3:0] = ui_in[3:0];
+  wire [3:0] delay_in = ui_in[3:0];
   wire ref_clk = ui_in[4];
   wire dll_rst_n = ui_in[5];
 
@@ -30,12 +30,12 @@ module tt_um_hx2003_delay (
   assign uio_out = 0;
   assign uio_oe  = 0;
 
-  wire reg_addr[2:0] = uio_in[2:0];
-  wire reg_val[4:0] = uio_in[7:3];
+  wire [2:0] reg_addr = uio_in[2:0];
+  wire [4:0] reg_val = uio_in[7:3];
 
   reg [4:0] mux_sel [0:4]; // Array of 5, 5 bit values
 
-  reg ref_mux_sel[4:0];
+  reg [4:0] ref_mux_sel;
 
   delay_bank delay_bank_inst (
     .CHAN0_DELAY_IN(delay_in[0]),
