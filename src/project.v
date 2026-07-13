@@ -91,7 +91,9 @@ module tt_um_hx2003_delay (
         mux_sel[i] <= 5'b0;
       end
     end else begin
-      mux_sel[reg_addr] = reg_val;
+      if (reg_addr < 3'd5) begin
+        mux_sel[reg_addr] <= reg_val;
+      end
     end
   end
 
