@@ -1,0 +1,66 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type="tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "primitive"
+\} else \{
+    return "subcircuit"
+\}])"
+format="@name @@VDD @@DELAY_OUT_LAST @@VSS @@DELAY_VBIASN @@DELAY_VBIASP @@DLL_RESETN @@REF_CLK @@MUX_SEL0 @@MUX_SEL1 @@MUX_OUT @@MUX_SEL4 @@MUX_SEL2 @@MUX_SEL3 @symname"
+template="name=x1"}
+V {}
+S {}
+F {}
+E {}
+L 4 -110 -140 -90 -140 {}
+L 4 -110 -120 -90 -120 {}
+L 4 -110 -60 -90 -60 {}
+L 4 100 10 120 10 {}
+L 4 -110 10 -90 10 {}
+L 4 -110 30 -90 30 {}
+L 4 -110 50 -90 50 {}
+L 4 -110 70 -90 70 {}
+L 4 -110 90 -90 90 {}
+L 4 100 -60 120 -60 {}
+L 4 100 -40 120 -40 {}
+L 4 -110 -40 -90 -40 {}
+L 4 100 30 120 30 {}
+B 5 -112.5 -142.5 -107.5 -137.5 {name=VDD dir=in}
+B 5 -112.5 -122.5 -107.5 -117.5 {name=VSS dir=in}
+B 5 -112.5 7.5 -107.5 12.5 {name=MUX_SEL0 dir=in}
+B 5 -112.5 27.5 -107.5 32.5 {name=MUX_SEL1 dir=in}
+B 5 -112.5 47.5 -107.5 52.5 {name=MUX_SEL2 dir=in}
+B 5 -112.5 67.5 -107.5 72.5 {name=MUX_SEL3 dir=in}
+B 5 -112.5 87.5 -107.5 92.5 {name=MUX_SEL4 dir=in}
+B 5 117.5 7.5 122.5 12.5 {name=MUX_OUT dir=out}
+B 5 -112.5 -62.5 -107.5 -57.5 {name=REF_CLK dir=in}
+B 5 117.5 -62.5 122.5 -57.5 {name=DELAY_VBIASP dir=out}
+B 5 117.5 -42.5 122.5 -37.5 {name=DELAY_VBIASN dir=out}
+B 5 -112.5 -42.5 -107.5 -37.5 {name=DLL_RESETN dir=in}
+B 5 117.5 27.5 122.5 32.5 {name=DELAY_OUT_LAST dir=out}
+P 4 5 100 -160 -90 -160 -90 110 100 110 100 -160 {}
+T {@symname} -88.5 114 0 0 0.3 0.3 {}
+T {@name} 65 -182 0 0 0.2 0.2 {}
+T {VDD} -85 -144 0 0 0.2 0.2 {}
+T {VSS} -85 -124 0 0 0.2 0.2 {}
+T {tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "Using post-layout netlist
+(with parasitics)"
+\} else \{
+    return ""
+\}])} -88.5 134 0 0 0.3 0.3 {layer=21
+weight=bold}
+T {DELAY LINE
+with MUX + DLL} -60 -150 0 0 0.4 0.4 {}
+T {MUX_SEL0} -85 -4 0 0 0.2 0.2 {}
+T {MUX_SEL1} -85 16 0 0 0.2 0.2 {}
+T {MUX_SEL2} -85 36 0 0 0.2 0.2 {}
+T {MUX_SEL3} -85 56 0 0 0.2 0.2 {}
+T {MUX_SEL4} -85 76 0 0 0.2 0.2 {}
+T {MUX_OUT} 95 -4 0 1 0.2 0.2 {}
+T {REF_CLK} -85 -74 0 0 0.2 0.2 {}
+T {DELAY_VBIASP} 95 -74 0 1 0.2 0.2 {}
+T {DELAY_VBIASN} 95 -54 0 1 0.2 0.2 {}
+T {DLL_RESETN} -85 -54 0 0 0.2 0.2 {}
+T {DELAY_OUT_LAST} 95 16 0 1 0.2 0.2 {}

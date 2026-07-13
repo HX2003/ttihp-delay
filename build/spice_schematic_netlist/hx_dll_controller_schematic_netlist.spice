@@ -1,0 +1,194 @@
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_dll_controller.sch
+.subckt hx_dll_controller VDD VSS DLL_RESETN DELAY_OUT_LAST DELAY_IN DELAY_VBIASN DELAY_VBIASP
+*.PININFO VDD:I VSS:I DELAY_VBIASP:O DELAY_VBIASN:O DLL_RESETN:I DELAY_IN:I DELAY_OUT_LAST:I
+x1 VDD VSS net4 net3 hx_charge_pump_current_generator
+x2 VSS VDD net1 down net2 DLL_RESETN DELAY_IN up DELAY_OUT_LAST hx_phase_detector
+x4 DELAY_VBIASN VSS hx_loop_capacitor
+x3 VSS VDD net1 down net2 up DELAY_VBIASP DELAY_VBIASN net3 net4 DLL_RESETN hx_charge_pump_switch
+.ends
+
+* expanding   symbol:  hx_charge_pump_current_generator.sym # of pins=4
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_charge_pump_current_generator.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_charge_pump_current_generator.sch
+.subckt hx_charge_pump_current_generator VDD VSS CURRENT_SINK CURRENT_SOURCE
+*.PININFO VDD:I VSS:I CURRENT_SOURCE:O CURRENT_SINK:O
+MM4002 net4 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4009 net5 net1 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+MM4008 net1 net1 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+MM4003 CURRENT_SOURCE node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4000 node0 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4001 node1 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4004 node0 node0 VSS VSS sg13_lv_nmos w=4u l=1u ng=2
+MM4005 node1 node0 net2 VSS sg13_lv_nmos w=4u l=1u ng=2 m=4
+RR2 net2 VSS 8.3404k $SUB=sub! $[rppd] w=1e-6 l=32e-6 b=0
+MM4102 net3 net3 VDD VDD sg13_lv_pmos w=0.36u l=2u ng=1
+MM4100 node1 net3 node0 VSS sg13_lv_nmos w=4u l=1u ng=2
+MM4101 net3 node0 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=4
+RR4 VSS sub! ptap1 A=6.084e-13 P=3.12e-06
+MM4006 net4 net4 net1 VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+MM4007 CURRENT_SINK net4 net5 VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+.ends
+
+
+* expanding   symbol:  hx_phase_detector.sym # of pins=9
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_phase_detector.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_phase_detector.sch
+.subckt hx_phase_detector VSS VDD UP_INV DOWN DOWN_INV DLL_RESETN DELAY_IN UP DELAY_OUT
+*.PININFO VDD:I VSS:I UP:O DOWN:O UP_INV:O DLL_RESETN:I DOWN_INV:O DELAY_IN:I DELAY_OUT:I
+x200 UP UP_INV DELAY_IN net1 net4 VDD VSS sg13g2_dfrbp_1
+x201 DOWN DOWN_INV DELAY_OUT net3 net4 VDD VSS sg13g2_dfrbp_1
+x206 net2 VDD VSS sg13g2_tiehi
+x204 net1 DELAY_IN net2 DLL_RESETN VDD VSS sg13g2_dfrbpq_1
+x205 net3 VDD VSS sg13g2_tiehi
+x202 net4 DOWN UP net5 VDD VSS sg13g2_a21oi_1
+x203 net5 DLL_RESETN VDD VSS sg13g2_inv_1
+.ends
+
+
+* expanding   symbol:  hx_loop_capacitor.sym # of pins=2
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_loop_capacitor.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_loop_capacitor.sch
+.subckt hx_loop_capacitor SIGP VSS
+*.PININFO VSS:I SIGP:B
+MM1 VSS SIGP VSS VSS sg13_lv_nmos w=56u l=7u ng=8 m=2
+.ends
+
+
+* expanding   symbol:  hx_charge_pump_switch.sym # of pins=11
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_charge_pump_switch.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_charge_pump_switch.sch
+.subckt hx_charge_pump_switch VSS VDD UP_INV DOWN DOWN_INV UP DELAY_VBIASP DELAY_VBIASN CURRENT_SOURCE CURRENT_SINK DLL_RESETN
+*.PININFO CURRENT_SOURCE:I VSS:I DELAY_VBIASP:O DELAY_VBIASN:O UP_INV:I UP:I DOWN:I DOWN_INV:I DLL_RESETN:I VDD:I CURRENT_SINK:I
+MM3004 DELAY_VBIASN DOWN CURRENT_SINK VSS sg13_lv_nmos w=0.4u l=0.2u ng=1
+MM3003 DELAY_VBIASN UP_INV CURRENT_SOURCE VDD sg13_lv_pmos w=0.4u l=0.2u ng=1
+MM3002 DELAY_VBIASN DLL_RESETN VDD VDD sg13_lv_pmos w=0.8u l=0.2u ng=1
+MM3005 VSS UP CURRENT_SOURCE VDD sg13_lv_pmos w=0.4u l=0.2u ng=1
+MM3006 VDD DOWN_INV CURRENT_SINK VSS sg13_lv_nmos w=0.4u l=0.2u ng=1
+MM3000 DELAY_VBIASP DELAY_VBIASP VDD VDD sg13_lv_pmos w=1.12u l=0.6u ng=1
+MM3001 DELAY_VBIASP DELAY_VBIASN VSS VSS sg13_lv_nmos w=0.74u l=0.6u ng=1
+.ends
+
+
+* expanding   symbol:  sg13g2_stdcells/sg13g2_dfrbp_1.sym # of pins=5
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_dfrbp_1.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_dfrbp_1.sch
+.subckt sg13g2_dfrbp_1 Q Q_N CLK D RESET_B VDD VSS
+
+*.PININFO D:I RESET_B:I CLK:I Q:O Q_N:O
+MM1 Db D net12 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM2 net12 RESET_B VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM3 net2 clkneg net11 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM4 net11 net1 VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM5 net1 net2 net7 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM6 net7 RESET_B VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM7 Q_N net2 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM8 net3 net2 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM9 Q net3 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM10 clkneg CLK VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM11 clkpos clkneg VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM12 Db clkneg net5 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM13 net5 clkpos net10 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM14 net10 net4 net6 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM15 net6 RESET_B VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM16 net4 net5 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM17 net4 clkpos net2 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM18 Db RESET_B VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM19 Db D VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM20 net9 net1 VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM21 net2 clkpos net9 VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM22 net1 net2 VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM23 net1 RESET_B VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM24 Q_N net2 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM25 net3 net2 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM26 Q net3 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM27 clkneg CLK VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM28 clkpos clkneg VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM29 Db clkpos net5 VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM30 net8 net4 VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM31 net5 clkneg net8 VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM32 net5 RESET_B VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM33 net4 net5 VDD VDD sg13_lv_pmos w=1.000u l=130.00n ng=1
+MM34 net4 clkneg net2 VDD sg13_lv_pmos w=1.000u l=130.00n ng=1
+.ends
+
+
+* expanding   symbol:  sg13g2_stdcells/sg13g2_tiehi.sym # of pins=1
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_tiehi.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_tiehi.sch
+.subckt sg13g2_tiehi L_HI VDD VSS
+
+*.PININFO L_HI:O
+MM1 net1 net1 VSS VSS sg13_lv_nmos w=300n l=130.00n ng=1
+MM2 net3 net2 VSS VSS sg13_lv_nmos w=795.00n l=130.00n ng=1
+MM3 net2 net1 VDD VDD sg13_lv_pmos w=660.0n l=130.00n ng=1
+MM4 L_HI net3 VDD VDD sg13_lv_pmos w=1.155u l=130.00n ng=1
+.ends
+
+
+* expanding   symbol:  sg13g2_stdcells/sg13g2_dfrbpq_1.sym # of pins=4
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_dfrbpq_1.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_dfrbpq_1.sch
+.subckt sg13g2_dfrbpq_1 Q CLK D RESET_B VDD VSS
+
+*.PININFO Q:O CLK:I D:I RESET_B:I
+MM1 Db D net12 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM2 net12 RESET_B VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM3 net3 clkneg net11 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM4 net11 net1 VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM5 net1 net3 net7 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM6 net7 RESET_B VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM7 net2 net3 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM8 Q net2 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM9 clkneg CLK VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM10 clkpos clkneg VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM11 Db clkneg net5 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM12 net5 clkpos net10 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM13 net10 net4 net6 VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM14 net6 RESET_B VSS VSS sg13_lv_nmos w=420.00n l=130.00n ng=1
+MM15 net4 net5 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM16 net4 clkpos net3 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM17 Db RESET_B VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM18 Db D VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM19 net9 net1 VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM20 net3 clkpos net9 VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM21 net1 net3 VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM22 net1 RESET_B VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM23 net2 net3 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM24 Q net2 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM25 clkneg CLK VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM26 clkpos clkneg VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM27 Db clkpos net5 VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM28 net8 net4 VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM29 net5 clkneg net8 VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM30 net5 RESET_B VDD VDD sg13_lv_pmos w=420.00n l=130.00n ng=1
+MM31 net4 net5 VDD VDD sg13_lv_pmos w=1.000u l=130.00n ng=1
+MM32 net4 clkneg net3 VDD sg13_lv_pmos w=1.000u l=130.00n ng=1
+.ends
+
+
+* expanding   symbol:  sg13g2_a21oi_1.sym # of pins=4
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_a21oi_1.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_a21oi_1.sch
+.subckt sg13g2_a21oi_1 Y A1 A2 B1 VDD VSS
+
+*.PININFO A1:I A2:I B1:I Y:O
+MM1 Y B1 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM2 Y A1 net2 VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM3 net2 A2 VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM4 net1 A1 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM5 net1 A2 VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MM6 Y B1 net1 VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+.ends
+
+
+* expanding   symbol:  sg13g2_inv_1.sym # of pins=2
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_inv_1.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_inv_1.sch
+.subckt sg13g2_inv_1 Y A VDD VSS
+
+*.PININFO Y:O A:I
+MM1 Y A VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM2 Y A VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+.ends
+
+.GLOBAL sub!

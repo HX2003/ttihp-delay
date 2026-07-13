@@ -1,0 +1,37 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type="tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "primitive"
+\} else \{
+    return "subcircuit"
+\}])"
+format="@name @@VDD @@VSS @@CURRENT_SINK @@CURRENT_SOURCE @symname"
+template="name=x1"}
+V {}
+S {}
+F {}
+E {}
+L 4 -120 -10 -100 -10 {}
+L 4 110 -10 130 -10 {}
+L 4 110 10 130 10 {}
+L 4 -120 10 -100 10 {}
+B 5 -122.5 -12.5 -117.5 -7.5 {name=VDD dir=in}
+B 5 127.5 -12.5 132.5 -7.5 {name=CURRENT_SOURCE dir=out}
+B 5 127.5 7.5 132.5 12.5 {name=CURRENT_SINK dir=out}
+B 5 -122.5 7.5 -117.5 12.5 {name=VSS dir=in}
+P 4 5 110 -20 -100 -20 -100 20 110 20 110 -20 {}
+T {@symname} -98.5 24 0 0 0.3 0.3 {}
+T {@name} 75 -32 0 0 0.2 0.2 {}
+T {VDD} -95 -14 0 0 0.2 0.2 {}
+T {CURRENT_SOURCE} 105 -14 0 1 0.2 0.2 {}
+T {CURRENT_SINK} 105 6 0 1 0.2 0.2 {}
+T {VSS} -95 6 0 0 0.2 0.2 {}
+T {tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "Using post-layout netlist
+(with parasitics)"
+\} else \{
+    return ""
+\}])} -98.5 54 0 0 0.3 0.3 {layer=21
+weight=bold}

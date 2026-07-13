@@ -1,0 +1,28 @@
+* NGSPICE file created from hx_loop_capacitor.ext - technology: ihp-sg13g2
+
+.subckt hx_loop_capacitor SIGP VSS
+X0 VSS SIGP VSS VSS.t7 sg13_lv_nmos ad=1.33p pd=7.38u as=0.10252n ps=0.57616m w=7u l=7u
+X1 VSS SIGP VSS VSS.t8 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X2 VSS SIGP VSS VSS.t5 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X3 VSS SIGP VSS VSS.t9 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X4 VSS SIGP VSS VSS sg13_lv_nmos ad=2.38p pd=14.68u as=0 ps=0 w=7u l=7u
+X5 VSS SIGP VSS VSS.t7 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X6 VSS SIGP VSS VSS.t3 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X7 VSS SIGP VSS VSS.t6 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X8 VSS SIGP VSS VSS.t6 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X9 VSS SIGP VSS VSS.t9 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X10 VSS SIGP VSS VSS sg13_lv_nmos ad=2.38p pd=14.68u as=0 ps=0 w=7u l=7u
+X11 VSS SIGP VSS VSS.t4 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X12 VSS.t16 SIGP VSS VSS.t5 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X13 VSS SIGP VSS VSS.t8 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X14 VSS SIGP VSS VSS.t3 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+X15 VSS SIGP VSS VSS.t4 sg13_lv_nmos ad=1.33p pd=7.38u as=0 ps=0 w=7u l=7u
+R0 VSS.t4 VSS 15.9918
+R1 VSS.t6 VSS 19.6202
+R2 VSS VSS.t8 20.5281
+R3 VSS.t3 VSS 19.6189
+R4 VSS.t5 VSS 15.9931
+R5 VSS.t7 VSS 9.64544
+R6 VSS VSS.t9 12.0641
+C0 SIGP VSS 96.6152f
+.ends
