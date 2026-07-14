@@ -28,6 +28,9 @@ VERILOG_SOURCES += $(PDK_ROOT)/ihp-sg13cmos5l/libs.ref/sg13cmos5l_stdcell/verilo
 # this gets copied in by the GDS action workflow
 VERILOG_SOURCES += $(PWD)/gate_level_netlist.v
 
+# only needed for the macro
+VERILOG_SOURCES += $(addprefix $(SRC_DIR)/, hx_delay_bank.v)
+
 endif
 
 # Allow sharing configuration between design and testbench via `include`:
