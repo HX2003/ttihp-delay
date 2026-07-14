@@ -63,12 +63,12 @@
   
   "//": "Set these to false if you still want to generate the gds for debugging even",
   "//": "when there are errors. But REMEMBER TO SET TO TRUE IN THE PRODUCTION RUN",
-  "ERROR_ON_MAGIC_DRC": false,
-  "ERROR_ON_KLAYOUT_DRC": false,
-  "ERROR_ON_LVS_ERROR": false,
-  "ERROR_ON_ILLEGAL_OVERLAPS": false,
-  "ERROR_ON_PDN_VIOLATIONS": false,
-  "ERROR_ON_DISCONNECTED_PINS": false,
+  "ERROR_ON_MAGIC_DRC": true,
+  "ERROR_ON_KLAYOUT_DRC": true,
+  "ERROR_ON_LVS_ERROR": true,
+  "ERROR_ON_ILLEGAL_OVERLAPS": true,
+  "ERROR_ON_PDN_VIOLATIONS": true,
+  "ERROR_ON_DISCONNECTED_PINS": true,
 
   "//": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
   "//": "!!! DO NOT CHANGE ANYTHING BELOW THIS POINT !!!",
