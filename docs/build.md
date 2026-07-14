@@ -47,12 +47,15 @@ To help automate some these processes, an automation script was written to aid i
 
 The outputs are found in `/build` directory. You will observe quite a number of files being generated. This is because in addition to the whole macro, the script also generates children designs so that they can be more easily tested in isolation.
 
-### Manual task: DRC check in klayout
+### Manual task: Layout in Klayout
+The majority of the macro (wires, transistors) are drawn manually. PCells from the PDK were used occasionally for some transistors, and the resistor.
+
+### Manual task: DRC check in Klayout
 
 Although the Github Actions do perform DRC check on the whole design,
 IHP PDK has a Klayout tool that enables quick DRC checks for whole macro / part of the macro.
 
-### Manual task: LVS check in klayout
+### Manual task: LVS check in Klayout
 
 IHP PDK also has a Klayout tool that enables quick LVS checks for whole macro / part of the macro.
 
@@ -69,6 +72,6 @@ xschem schematics/delay_line_with_mux_dll_test.sch --rcfile $PDK_ROOT/ihp-sg13g2
 
 Note: All cells/schematic/symbols are prefixed with hx_ to avoid conflicts with the Xschem library. For example ‘delay_line’ is an existing device in Xschem.
 
-## Additional thoughts
+## Additional notes
 
 Some extra things of note, to remind myself:

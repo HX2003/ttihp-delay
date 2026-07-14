@@ -109,7 +109,7 @@ The design is a simple ‘Beta Multiplier’ circuit with a resistor which gener
 ## Register Control Logic Design
 The register control logic is rudimentary but functional; on the rising edge of system `clk`, the corresponding register is written with the values present on the data pins at that point in time. In the future, the delay line may be incorporated into a larger design which may include more robust interfaces like a standard SPI bus.
 
-## Additional thoughts
+## Additional notes
 
 I did not add any antenna diodes into the macro itself, but some wires are actually a little long, so it may not be a bad idea to add them.
 
