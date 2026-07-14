@@ -9,14 +9,15 @@ Caution ⚠️: The design was characterized for SG13G2 not SG13CMOS5L, as the l
 ## Project Structure
 
 
-| Directory   | Description                                               |
-| ----------- | --------------------------------------------------------- |
-| /archive    | Some old stuff / previous iterations                      |
-| /build      | Build outputs for analog macro (automatically generated) |
-| /docs       | Documentation                                             |
-| /schematics | Xschem schematics and symbols for analog macro            |
-| /src        | Verilog sources, Librelane configuration                  |
-| /test       | Verilog testbench (no analog simulation)                  |
+| Directory        | Description                                                          |
+| ---------------- | -------------------------------------------------------------------- |
+| /archive         | Some old stuff / previous iterations                                 |
+| /build           | Build outputs for analog macro (automatically generated)            |
+| /docs            | Documentation                                                        |
+| /schematics      | Xschem schematics and symbols for analog macro                       |
+| /src             | Verilog sources, Librelane configuration                             |
+| /test            | Verilog testbench (no analog simulation)                             |
+| /tile_simulation | Files for simulating the entire integrated design (manually updated) |
 
 ## Build Process
 
@@ -50,6 +51,7 @@ To help automate some these processes, an automation script was written to aid i
 The outputs are found in `/build` directory. You will observe quite a number of files being generated. This is because in addition to the whole macro, the script also generates children designs so that they can be more easily tested in isolation.
 
 ### Manual task: Layout in Klayout
+
 The majority of the macro (wires, transistors) are drawn manually. PCells from the PDK were used occasionally for some transistors, and the resistor.
 
 ### Manual task: DRC check in Klayout
@@ -66,11 +68,12 @@ IHP PDK also has a Klayout tool that enables quick LVS checks for whole macro / 
 The port order between the .sym schematic symbol file and the .pex.spice extracted parasitic netlist must be identical for the simulations to work correctly. Moreover, the .sym and .sch files are used to generate the netlist for manual LVS checking, as well as ensuring the macro .lef file correctly indicates the direction (input/output) of the pins.
 
 Below is an example of the port declaration:
+
 ```
 format="@name @@VDD @@VSS @@DELAY_CELL_OUT_INV @@DELAY_CELL_OUT @@DELAY_CELL_IN @@DELAY_VBIASP @@DELAY_VBIASN @symname"
 ```
 
-### Manual task: Running analog simulations
+### Manual task: Running analog simulations for macro
 
 To launch Xschem, navigate to the downloaded project directory in your command terminal and enter the following (change the path as necessary):
 
@@ -80,6 +83,28 @@ xschem schematics/delay_line_with_mux_dll_test.sch --rcfile $PDK_ROOT/ihp-sg13g2
 ```
 
 Note: All cells/schematic/symbols are prefixed with hx_ to avoid conflicts with the Xschem library. For example ‘delay_line’ is an existing device in Xschem.
+
+Other than the schematics of the actual analog macro, the following schematics are used to manually test full/various components of the design. Either pre-layout, or post-layout parasitic extracted netlist can be used to verify the design.
+
+
+| Schematic                        | Description                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                  |                                                                                                                                                                                                                                                                                                                                         |
+| delay\_bank\_test.sch            | Tests single DLL, delay line and mux.                                                                                                                                                                                                                                                                                                   |
+| delay\_line\_with\_mux\_test.sch | Single delay line and mux only, with no DLL. A fixed bias voltage is supplied to the delay line. Without DLL, verifying the exact delay value is not the point of this test. Runs multiple simulations across all 32 taps to verify that the delay is proportional to the tap value and that the rise and fall delays are well balanced |
+
+### Manual task: Running analog simulation for entire design
+
+To verify the integration of the analog macro and digital blocks, an analog simulation can be run on the full design post-layout. This essentially tests the file used for submission to Tiny Tapeout. Very long to simulate.
+
+1. Either run the hardening locally, or download the `tt_submission` artifact from Github Actions. Copy `tt_um_hx2003_delay.gds` into `/tile_simulation` directory.
+2. Run `tt_tile_test_parasitic_extraction.ipynb` to generate the .pex.spice file for simulation.
+3. Launch Xschem by navigating to the downloaded project directory in your command terminal and enter the following (change the path as necessary):
+
+```
+export XSCHEM_USER_LIBRARY_PATH=/home/hx2003/Desktop/ttihp-delay/tile_simulation
+xschem tile_simulation/tile_simulatin_test.sch --rcfile $PDK_ROOT/ihp-sg13g2/libs.tech/xschem/xschemrc
+```
 
 ## Additional notes
 
