@@ -69,7 +69,6 @@
   "ERROR_ON_ILLEGAL_OVERLAPS": false,
   "ERROR_ON_PDN_VIOLATIONS": false,
   "ERROR_ON_DISCONNECTED_PINS": false,
-  "RUN_IRDROP_REPORT": false,
 
   "//": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
   "//": "!!! DO NOT CHANGE ANYTHING BELOW THIS POINT !!!",
