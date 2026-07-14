@@ -155,6 +155,26 @@ mux_out"
 divx=5
 hilight_wave=0
 }
+B 2 840 -1320 1640 -920 {flags=graph
+y1=-5.5319154e-05
+y2=0.00012368115
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=-1.3962334e-07
+x2=3.6005245e-07
+subdivx=1
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+divx=5
+color=4
+node=i(x1.x1.vcharge)}
 T {The system should be initialized in reset state,
 in which the loop capacitor is to be charged to 1.2V.
 
