@@ -2,7 +2,9 @@
 
 This is mixed-signal design, with the `hx_delay_bank` analog macro block being layout by hand, and the digital register control logic written in verilog. Librelane performs place-and-route for the digital block, and integrates the hand-crafted analog macro block.
 
-Note of caution ⚠️: The IHP Open PDK is in active development, and the directory structure is expected to change, so scripts/commands may need to be updated.
+Caution ⚠️: The IHP Open PDK is in active development, and the PDK's directory structure is expected to change, so scripts/commands may need to be updated.
+
+Caution ⚠️: The design was characterized for SG13G2 not SG13CMOS5L, as the latter was just newly introduced. Based on the process specification documents provided, they should be similar, though slight differences in parasitics are expected due to the loss of metal layers in the latter.
 
 ## Project Structure
 
@@ -42,7 +44,7 @@ To help automate some these processes, an automation script was written to aid i
 * generating flattened .gds file for the whole macro / part of the macro (using klayout python)
 * generating .lef file from flattened .gds layout for the whole macro (using magic)
 * running parasitic extraction from flattened .gds layout for the whole macro / part of the macro (using klayout-pex)
-* generating netlist from .sch schematic for LVS purposes (using xschem)
+* generating netlist from .sch schematic and .sym schematic symbol for LVS purposes (using xschem)
 * running simple pin order check between extracted parasitics netlist and Xschem schematic netlist
 
 The outputs are found in `/build` directory. You will observe quite a number of files being generated. This is because in addition to the whole macro, the script also generates children designs so that they can be more easily tested in isolation.
@@ -61,9 +63,16 @@ IHP PDK also has a Klayout tool that enables quick LVS checks for whole macro / 
 
 ### Manual task: Updating .sym port declaration
 
+The port order between the .sym schematic symbol file and the .pex.spice extracted parasitic netlist must be identical for the simulations to work correctly. Moreover, the .sym and .sch files are used to generate the netlist for manual LVS checking, as well as ensuring the macro .lef file correctly indicates the direction (input/output) of the pins.
+
+Below is an example of the port declaration:
+```
+format="@name @@VDD @@VSS @@DELAY_CELL_OUT_INV @@DELAY_CELL_OUT @@DELAY_CELL_IN @@DELAY_VBIASP @@DELAY_VBIASN @symname"
+```
+
 ### Manual task: Running analog simulations
 
-To launch Xschem, navigate to the downloaded project directory in your command terminal and enter the following (change the path as neccessary):
+To launch Xschem, navigate to the downloaded project directory in your command terminal and enter the following (change the path as necessary):
 
 ```
 export XSCHEM_USER_LIBRARY_PATH=/home/hx2003/Desktop/ttihp-delay/schematics
