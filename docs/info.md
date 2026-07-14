@@ -50,13 +50,14 @@ To write a delay value to a register, set the 3 bit register address and the 5 b
 |        4        | External reference clock |
 
 ## Overview of architecture
+This is mixed-signal design, with the `hx_delay_bank` analog macro block being layout by hand, and the digital register control logic written in verilog. Place-and-route for the digital block, as well as integration of the hand-crafted analog macro block is done automatically.
 
-The design consists of five identical delay lines, one of which is used within a Delay-Locked Loop (DLL). The DLL determines the control voltage required, so as to set the total delay of that delay line to exactly one clock period. This same control voltage is used to set the delay of the remaining four delay lines to one clock period as well (assuming the delay lines are well matched). The desired delay is selected by tapping the appropriate point along the delay line using a multiplexer.
+The `hx_delay_bank` analog macro block consists of five identical delay lines, one of which is used within a Delay-Locked Loop (DLL). The DLL determines the control voltage required, so as to set the total delay of that delay line to exactly one clock period. This same control voltage is used to set the delay of the remaining four delay lines to one clock period as well (assuming the delay lines are well matched). The desired delay is selected by tapping the appropriate point along the delay line using a multiplexer.
 
-Here is the hierarchy for the design
+Here is the hierarchy for the abalog macro block:
 
 ```
-hx_delay_line_bank
+hx_delay_bank
   hx_delay_line_with_mux (5x total)
     hx_delay_line ✓
       hx_delay_cell (32x total) ✓
