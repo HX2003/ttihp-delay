@@ -37,7 +37,7 @@
     "hx_delay_bank": {
       "instances": {
         "hx_delay_bank_inst": {
-          "location": [35, 30],
+          "location": [50, 30],
           "orientation": "N"
         }
       },
