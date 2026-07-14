@@ -32,6 +32,44 @@
   "CLOCK_PORT": "clk",
 
   "//": "Configuration docs: https://librelane.readthedocs.io/en/latest/reference/configuration.html",
+  
+   "MACROS": {
+    "hx_delay_bank": {
+      "instances": {
+        "hx_delay_bank_inst": {
+          "location": [35, 30],
+          "orientation": "N"
+        }
+      },
+      "gds": [
+        "dir::../build/gds_flattened/delayline__hx_delay_bank__generated.gds"
+      ],
+      "lef": [
+        "dir::../build/lef/hx_delay_bank.lef"
+      ],
+      "nl": [
+        "dir::./hx_delay_bank.v"
+      ]
+    }
+  },
+  "PDN_MACRO_CONNECTIONS": [
+    "hx_delay_bank_inst VPWR VGND VDD VSS"
+  ],
+  "FP_MACRO_HORIZONTAL_HALO": 5,
+  "FP_MACRO_VERTICAL_HALO": 5,
+  
+  "//": "Custom PDN config",
+  "PDN_CFG": "dir::pdn_cfg.tcl",
+  
+  "//": "Set these to false if you still want to generate the gds for debugging even",
+  "//": "when there are errors. But REMEMBER TO SET TO TRUE IN THE PRODUCTION RUN",
+  "ERROR_ON_MAGIC_DRC": false,
+  "ERROR_ON_KLAYOUT_DRC": false,
+  "ERROR_ON_LVS_ERROR": false,
+  "ERROR_ON_ILLEGAL_OVERLAPS": false,
+  "ERROR_ON_PDN_VIOLATIONS": false,
+  "ERROR_ON_DISCONNECTED_PINS": false,
+  "RUN_IRDROP_REPORT": false,
 
   "//": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
   "//": "!!! DO NOT CHANGE ANYTHING BELOW THIS POINT !!!",

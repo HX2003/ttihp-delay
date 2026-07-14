@@ -35,7 +35,7 @@ module tt_um_hx2003_delay (
 
   reg [4:0] mux_sel [0:4]; // Array of 5, 5 bit values
 
-  delay_bank delay_bank_inst (
+  hx_delay_bank hx_delay_bank_inst (
     .CHAN0_DELAY_IN(delay_in[0]),
     .CHAN0_MUX_SEL0(mux_sel[0][0]),
     .CHAN0_MUX_SEL1(mux_sel[0][1]),
@@ -72,7 +72,7 @@ module tt_um_hx2003_delay (
     .CHAN3_MUX_OUT(delay_out[3]),
     .CHAN3_DELAY_OUT_LAST(),
 
-    .REF_CLK_IN(ref_clk),
+    .REF_CLK(ref_clk),
     .DLL_RESETN(dll_rst_n),
     .REF_MUX_SEL0(mux_sel[4][0]),
     .REF_MUX_SEL1(mux_sel[4][1]),
