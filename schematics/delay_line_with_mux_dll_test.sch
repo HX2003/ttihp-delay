@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -34,8 +34,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -49,15 +49,15 @@ node="x1.x1.up
 x1.x1.down"
 fullxzoom=#}
 B 2 10 -1320 810 -920 {flags=graph
-y1=-0.27153961
-y2=1.2589606
+y1=-0.14648895
+y2=1.4735706
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -76,8 +76,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -98,8 +98,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -118,8 +118,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -139,8 +139,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -163,8 +163,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-1.3962334e-07
-x2=3.6005245e-07
+x1=-2.3473331e-07
+x2=4.3425726e-06
 subdivx=1
 
 
@@ -178,7 +178,7 @@ node=i(x1.x1.vcharge)}
 T {The system should be initialized in reset state,
 in which the loop capacitor is to be charged to 1.2V.
 
-The active low reset signal, which initially is at 0V, shall be set to 1.2V after 100ns.
+The active low reset signal, which initially is at 0V, shall be set to 1.2V after 300ns.
 
 Note that the graphs may be misleading in the event of harmonic lock,
 it might be better to test with an additional delay line, and use
@@ -206,7 +206,7 @@ value=0.00001
 footprint=1206
 device=resistor
 m=1}
-C {devices/vsource.sym} -1150 310 0 0 {name=V4 value="PWL(0ns 0 500ns 0 500.1ns 1.2)"}
+C {devices/vsource.sym} -1150 310 0 0 {name=V4 value="PWL(0ns 0 300ns 0 300.1ns 1.2)"}
 C {gnd.sym} -1150 340 0 0 {name=l71 lab=GND}
 C {lab_pin.sym} -1150 280 2 0 {name=p1 lab=DLL_RESETN}
 C {devices/vsource.sym} -1110 590 0 0 {name=V1 value="PULSE(0 1.2 5n 100p 100p 10ns 20ns)"}
@@ -252,7 +252,7 @@ value="tcleval(
   + v(x1:x1:up) v(x1:x1:down) i(x1:x1:vcharge) i(x1:x1:x3:vchargeup) i(x1:x1:x3:vchargedown)\\"
 \}]
 
-.param initialStep=5ps, tstop=3500ns, tstart=0ns, dtmax=50ps
+.param initialStep=5ps, tstop=3000ns, tstart=0ns, dtmax=50ps
 * .param initialStep=5ps, tstop=3000ns, tstart=0ns, dtmax=5ps
 
 .tran \{initialStep\} \{tstop\} \{tstart\} \{dtmax\}
@@ -298,7 +298,7 @@ value="tcleval(
   * 5p timestep seems insufficient *
   * but any lower than that fails to converge on my system at least with KLU solver *
   * thats why I used xyce *
-  tran 5p 2500n
+  tran 5p 3000n
 
   write [file rootname [file tail [xschem get current_name]]].raw
 
