@@ -36,7 +36,7 @@ There are many dependencies used to create this project.
 | [Ngspice](https://ngspice.sourceforge.io/)                | SPICE analog circuit simulator                             |
 | [Xyce](https://xyce.sandia.gov/)                          | SPICE-compatible high-performance analog circuit simulator |
 
-While most simulations have been written for Ngspice, Xyce was used for larger simulations.
+While most simulations have been written for Ngspice, Xyce was sometimes used.
 
 ### Automation script to create analog macro block
 
@@ -94,16 +94,23 @@ Other than the schematics of the actual analog macro, the following schematics a
 
 ### Manual task: Running analog simulation for entire design
 
-To verify the integration of the analog macro and digital blocks, an analog simulation can be run on the full design post-layout. This essentially tests the file used for submission to Tiny Tapeout. Very long to simulate.
+To verify the integration of the analog macro and digital blocks, an analog simulation can be run on the full design post-layout. This essentially tests the file used for submission to Tiny Tapeout. It took about 6 hours to simulate 3000ns at 10ps timestep.
 
 1. Either run the hardening locally, or download the `tt_submission` artifact from Github Actions. Copy `tt_um_hx2003_delay.gds` into `/tile_simulation` directory.
-2. Run `tt_tile_test_parasitic_extraction.ipynb` to generate the .pex.spice file for simulation.
-3. Launch Xschem by navigating to the downloaded project directory in your command terminal and enter the following (change the path as necessary):
+2. Run `tile_parasitic_extraction.ipynb` to generate the `tt_um_hx2003_delay.pex.spice` file for simulation.
+3. Check the the port declaration in `tt_um_hx2003_delay.sym` is in the same order as `tt_um_hx2003_delay.pex.spice`. If not, manually update it.
+4. Launch Xschem by navigating to the downloaded project directory in your command terminal and enter the following (change the path as necessary):
 
 ```
 export XSCHEM_USER_LIBRARY_PATH=/home/hx2003/Desktop/ttihp-delay/tile_simulation
-xschem tile_simulation/tile_simulatin_test.sch --rcfile $PDK_ROOT/ihp-sg13g2/libs.tech/xschem/xschemrc
+xschem tile_simulation/tile_test.sch --rcfile $PDK_ROOT/ihp-sg13g2/libs.tech/xschem/xschemrc
 ```
+
+5. Ctrl + Left Click the corresponding arrow to start simulation. (Now, for some reason Xyce simulator is getting stuck, so I used Ngspice instead).
+6. After simulation is complete, Ctrl + Left Click the corresponding arrow to load the waves.
+
+**What the test should do**
+The test initializes the design, and writes the tap values of 2, 6, 7, 18, and 31 to registers addresses 0, 1, 2, 3, 4 respectively. The graph should show that the channel 0, 1, 2, 3 and the reference clock output are delayed accordingly.
 
 ## Additional notes
 

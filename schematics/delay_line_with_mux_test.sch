@@ -105,12 +105,11 @@ ensure the output is stable first.
 
 DELAY_OUT is the delayed signal after passing through all delay cells,
 but not through the mux.} 550 -530 0 0 0.4 0.4 {}
-N 40 -530 80 -530 {lab=VSS}
 N 400 -340 400 -260 {lab=VDD}
 N 360 -260 360 -200 {lab=#net1}
 N 360 -200 400 -200 {lab=#net1}
 N 400 -230 400 -200 {lab=#net1}
-N 400 230 400 260 {lab=VSS}
+N 400 230 400 260 {lab=GND}
 N 360 100 360 170 {lab=#net2}
 N 270 -340 400 -340 {lab=VDD}
 N 560 -110 870 -110 {lab=#net1}
@@ -118,7 +117,6 @@ N 360 100 560 100 {lab=#net2}
 N 560 -70 560 100 {lab=#net2}
 N 560 -200 560 -110 {lab=#net1}
 N 400 -200 560 -200 {lab=#net1}
-N 140 -530 190 -530 {lab=GND}
 N 250 170 360 170 {lab=#net2}
 N 560 -70 870 -70 {lab=#net2}
 N 350 -90 870 -90 {lab=DELAY_IN}
@@ -130,17 +128,11 @@ N 620 -20 870 -20 {lab=#net5}
 N 720 20 870 20 {lab=#net6}
 N 770 40 870 40 {lab=#net7}
 N 820 60 870 60 {lab=#net8}
-N 250 230 400 230 {lab=VSS}
-N 400 170 400 230 {lab=VSS}
+N 250 230 400 230 {lab=GND}
+N 400 170 400 230 {lab=GND}
 C {devices/vsource.sym} 190 -560 0 0 {name=V2 value="PWL(0ns 0 0.1ns 1.2)"}
 C {gnd.sym} 190 -530 0 0 {name=l2 lab=GND}
 C {lab_pin.sym} 190 -590 2 0 {name=p13 lab=VDD}
-C {lab_pin.sym} 40 -530 0 0 {name=p4 lab=VSS}
-C {res.sym} 110 -530 1 0 {name=R1
-value=0.00001
-footprint=1206
-device=resistor
-m=1}
 C {lab_pin.sym} 270 -340 0 0 {name=p19 lab=VDD}
 C {devices/ammeter.sym} 400 -140 0 0 {name=Vmycc1
 l=0.2u}
@@ -163,7 +155,6 @@ spiceprefix=X
 C {devices/vsource.sym} 350 -10 0 0 {name=V3 value="PULSE(0 1.2 60n 100p 100p 20ns 100ns)"}
 C {devices/lab_pin.sym} 350 -90 0 0 {name=p20 sig_type=std_logic lab=DELAY_IN}
 C {lab_pin.sym} 870 -180 0 0 {name=p17 lab=VDD}
-C {lab_pin.sym} 870 -160 0 0 {name=p18 lab=VSS}
 C {devices/vsource.sym} 250 200 0 0 {name=V1 value=0.49}
 C {hx_delay_line_with_mux.sym} 980 -40 0 0 {name=x1}
 C {devices/lab_pin.sym} 1100 -100 2 0 {name=p2 sig_type=std_logic lab=MUX_OUT}
@@ -413,16 +404,9 @@ tclcommand="
 C {devices/lab_pin.sym} 1100 -80 2 0 {name=p3 sig_type=std_logic lab=DELAY_OUT}
 C {devices/vsource.sym} 670 30 0 0 {name=Vbit1 value=1.2}
 C {devices/vsource.sym} 720 50 0 0 {name=Vbit2 value=1.2}
-C {lab_pin.sym} 620 40 0 0 {name=p1 lab=VSS}
 C {devices/vsource.sym} 620 10 0 0 {name=Vbit0 value=1.2}
-C {lab_pin.sym} 670 60 0 0 {name=p5 lab=VSS}
-C {lab_pin.sym} 720 80 0 0 {name=p6 lab=VSS}
 C {devices/vsource.sym} 770 70 0 0 {name=Vbit3 value=1.2}
-C {lab_pin.sym} 770 100 0 0 {name=p7 lab=VSS}
 C {devices/vsource.sym} 820 90 0 0 {name=Vbit4 value=1.2}
-C {lab_pin.sym} 820 120 0 0 {name=p8 lab=VSS}
-C {lab_pin.sym} 350 20 0 0 {name=p9 lab=VSS}
-C {lab_pin.sym} 400 260 0 0 {name=p10 lab=VSS}
 C {devices/launcher.sym} 1370 -80 0 0 {name=h2
 descr="Ctrl + Left Click to Annotate and load waves for single sim" 
 tclcommand="
@@ -431,3 +415,11 @@ xschem raw_read $netlist_dir/[file rootname [file tail [xschem get current_name]
 xschem setprop rect 2 0 fullxzoom
 "
 }
+C {gnd.sym} 350 20 0 0 {name=l1 lab=GND}
+C {gnd.sym} 400 260 0 0 {name=l3 lab=GND}
+C {gnd.sym} 870 -160 0 0 {name=l4 lab=GND}
+C {gnd.sym} 620 40 0 0 {name=l5 lab=GND}
+C {gnd.sym} 670 60 0 0 {name=l6 lab=GND}
+C {gnd.sym} 720 80 0 0 {name=l7 lab=GND}
+C {gnd.sym} 770 100 0 0 {name=l8 lab=GND}
+C {gnd.sym} 820 120 0 0 {name=l9 lab=GND}

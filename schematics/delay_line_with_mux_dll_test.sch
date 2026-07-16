@@ -189,23 +189,15 @@ Be patient, Xyce simulation took 25 mins for pre-layout,
 } -1420 -230 0 0 0.6 0.6 {}
 T {Ctrl-Click to execute launcher} 10 110 0 0 0.3 0.3 {layer=11}
 T {Ctrl-Click below to toggle between using post-layout netlist (with parasitics) from .spice, versus using schematic from .sch} 0 10 0 0 0.3 0.3 {layer=11}
-N -1380 340 -1150 340 {lab=GND}
-N -1480 340 -1440 340 {lab=VSS}
 N -1110 540 -1110 560 {lab=REF_CLK}
 N -1110 540 -880 540 {lab=REF_CLK}
-N -880 630 -880 670 {lab=VSS}
-N -940 630 -880 630 {lab=VSS}
-N -880 610 -880 630 {lab=VSS}
+N -880 630 -880 670 {lab=GND}
+N -940 630 -880 630 {lab=GND}
+N -880 610 -880 630 {lab=GND}
 N -940 690 -880 690 {lab=VDD}
 C {devices/vsource.sym} -1330 310 0 0 {name=V2 value="PWL(0ns 0 0.1ns 1.2)"}
 C {gnd.sym} -1330 340 0 0 {name=l2 lab=GND}
 C {lab_pin.sym} -1330 280 2 0 {name=p13 lab=VDD}
-C {lab_pin.sym} -1480 340 0 0 {name=p4 lab=VSS}
-C {res.sym} -1410 340 1 0 {name=R1
-value=0.00001
-footprint=1206
-device=resistor
-m=1}
 C {devices/vsource.sym} -1150 310 0 0 {name=V4 value="PWL(0ns 0 300ns 0 300.1ns 1.2)"}
 C {gnd.sym} -1150 340 0 0 {name=l71 lab=GND}
 C {lab_pin.sym} -1150 280 2 0 {name=p1 lab=DLL_RESETN}
@@ -213,10 +205,7 @@ C {devices/vsource.sym} -1110 590 0 0 {name=V1 value="PULSE(0 1.2 5n 100p 100p 1
 C {hx_delay_line_with_mux_dll.sym} -770 600 0 0 {name=x1}
 C {lab_pin.sym} -880 560 0 0 {name=p6 lab=DLL_RESETN}
 C {lab_pin.sym} -880 460 0 0 {name=p2 lab=VDD}
-C {lab_pin.sym} -880 480 0 0 {name=p3 lab=VSS}
 C {lab_pin.sym} -940 690 0 0 {name=p5 lab=VDD}
-C {lab_pin.sym} -940 630 0 0 {name=p7 lab=VSS}
-C {lab_pin.sym} -1110 620 0 0 {name=p8 lab=VSS}
 C {lab_pin.sym} -650 540 2 0 {name=p9 lab=DELAY_VBIASP}
 C {lab_pin.sym} -650 560 2 0 {name=p10 lab=DELAY_VBIASN}
 C {lab_pin.sym} -650 610 2 0 {name=p11 lab=MUX_OUT}
@@ -434,3 +423,6 @@ tclcommand="
 "
 }
 C {lab_pin.sym} -1110 540 0 0 {name=p14 lab=REF_CLK}
+C {gnd.sym} -1110 620 0 0 {name=l1 lab=GND}
+C {gnd.sym} -940 630 0 0 {name=l3 lab=GND}
+C {gnd.sym} -880 480 0 0 {name=l4 lab=GND}

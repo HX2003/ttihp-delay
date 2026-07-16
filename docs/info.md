@@ -13,7 +13,7 @@ This project is a 4 Channel - 32 Tap Programmable Delay with Delay Locked Loop C
 
 ## How to use
 
-Provide a 50 MHz reference clock to the `ref_clk` pin (not `clk`), as well as any signal you want to delay on the channel input pins. You should observe a delayed version on the corresponding channel output pin. The total delay is a sum of delay caused by the delay line itself (0 to 19.375ns 0.625ns to 20ns), the delay line multiplexer (~0.6ns), and Tiny Tapeout’s mux infrastructure (10+ ns).
+Provide a 50 MHz reference clock to the `ref_clk` pin (not `clk`), as well as any signal you want to delay on the channel input pins. You should observe a delayed version on the corresponding channel output pin. The total delay is a sum of delay caused by the delay line itself (0 to 19.375ns), the delay line multiplexer (~0.6ns), and Tiny Tapeout’s mux infrastructure (10+ ns).
 
 
 | Top Level Pin | Specific Name  | Direction | Width  | Description                                   |
@@ -30,26 +30,36 @@ Provide a 50 MHz reference clock to the `ref_clk` pin (not `clk`), as well as an
 | uo[4]         | ref_clk_out    | Output    | 1 bit  | Delayed reference clock                      |
 | uo[7:5]       | -              | Output    | 3 bit  | Unused                                        |
 
-Initialization procedure:
+The initialization procedure for the DLL and the register control can be done independently or simultaneously.
 
-1. Ensure `rst_n`, `dll_rst_n` and `clk` are low for at least 1ms.
+### Initialization procedure for DLL:
+
+1. Ensure `dll_rst_n` is low for at least 1ms to be safe.
+2. Raise `dll_rst_n` high for at least 5ms to be safe.
+3. Keep `dll_rst_n` high. The DLL should be locked at this point.
+
+### Initialization procedure for registers:
+
+1. Ensure `rst_n` and `clk` are low for some time.
 2. Raise `clk` high.
 3. Make `clk` low.
-4. Raise `rst_n` and `dll_rst_n` high for at least 5ms.
-5. Keep `rst_n` and `dll_rst_n` high. The DLL should be locked at this point.
+4. Raise and keep `rst_n` high.
 
-To write a delay value to a register, set the 3 bit register address and the 5 bit delay tap amount to the correct value. Wait for a little, then raise `clk` high for some time, then make `clk` low.
+Once initialized, to write a delay value to a register, set the 3 bit register address and the 5 bit delay tap amount to the correct value. Wait for a little, then raise `clk` high for some time, then make `clk` low.
 
 
-| Register Address |      Register Name      |
-| :--------------: | :----------------------: |
-|        0        |        Channel 0        |
-|        1        |        Channel 1        |
-|        2        |        Channel 2        |
-|        3        |        Channel 3        |
-|        4        | External reference clock |
+| Register Address |       Register Name       |
+| :--------------: | :-----------------------: |
+|        0        |    Channel 0 Tap Value    |
+|        1        |    Channel 1 Tap Value    |
+|        2        |    Channel 2 Tap Value    |
+|        3        |    Channel 3 Tap Value    |
+|        4        | Reference Clock Tap Value |
+
+Note: Reference Clock Tap Value does not affect the DLL or the delay of the other channels.
 
 ## Overview of architecture
+
 This is mixed-signal design, with the `hx_delay_bank` analog macro block being layout by hand, and the digital register control logic written in verilog. Place-and-route for the digital block, as well as integration of the hand-crafted analog macro block is done automatically.
 
 The `hx_delay_bank` analog macro block consists of five identical delay lines, one of which is used within a Delay-Locked Loop (DLL). The DLL determines the control voltage required, so as to set the total delay of that delay line to exactly one clock period. This same control voltage is used to set the delay of the remaining four delay lines to one clock period as well (assuming the delay lines are well matched). The desired delay is selected by tapping the appropriate point along the delay line using a multiplexer.
@@ -101,12 +111,15 @@ The DLL tries to make the phase error between the `REF_CLK` and its delayed vers
 Both of these solutions require the system to start from a known state, and hence `DLL_RESET` is required. Note however, that if the DLL somehow locks to an unwanted state, it cannot recover on its own, more sophisticated designs may be able to handle this. A wide range of design ideas can be found in the literature, see [ ], [ ], [ ], and [ ].
 
 ## DLL: Phase detector design
+
 The phase detector is a variation of the conventional D flip flop design. To work around the stuck/false locking problem mentioned earlier, an extra flip flop is needed, thus bringing the total number of flip flops to 3. Standard cell library D flip flops (with reset) were used as they are well tested.
 
 ## DLL: Charge Pump 10uA Current Generator Design
+
 The design is a simple ‘Beta Multiplier’ circuit with a resistor which generates a 10uA current. It attains 10% variation in current from 1.0 to 1.2V for supply voltage VDD (although note the supply voltage is fixed at 1.2V, so no big deal). A somewhat large variation across temperature is expected for this type of design (it is Proportional to Absolute Temperature (PTAT)), I got a 40% variation in current from 25 degree C to 125 degree C, which is bad, but the design should still be workable as DLL are inherently stable, just that the lock time/bandwidth may vary.
 
 ## Register Control Logic Design
+
 The register control logic is rudimentary but functional; on the rising edge of system `clk`, the corresponding register is written with the values present on the data pins at that point in time. In the future, the delay line may be incorporated into a larger design which may include more robust interfaces like a standard SPI bus.
 
 ## Additional notes
