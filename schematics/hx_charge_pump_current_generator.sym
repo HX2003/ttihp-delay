@@ -6,7 +6,7 @@ if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_n
 \} else \{
     return "subcircuit"
 \}])"
-format="@name @@CURRENT_SINK @@VDD @@CURRENT_SOURCE @@VSS @symname"
+format="@name @@VDD @@VSS @@CURRENT_SINK @@CURRENT_SOURCE @symname"
 template="name=x1"}
 V {}
 S {}

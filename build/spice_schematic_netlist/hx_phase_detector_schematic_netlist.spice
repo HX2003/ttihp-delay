@@ -1,5 +1,5 @@
 ** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_phase_detector.sch
-.subckt hx_phase_detector UP_INV DOWN DOWN_INV DLL_RESETN DELAY_IN UP DELAY_OUT VSS VDD
+.subckt hx_phase_detector VSS VDD UP_INV DOWN DOWN_INV DLL_RESETN DELAY_IN UP DELAY_OUT
 *.PININFO VDD:I VSS:I UP:O DOWN:O UP_INV:O DLL_RESETN:I DOWN_INV:O DELAY_IN:I DELAY_OUT:I
 x200 UP UP_INV DELAY_IN net1 net4 VDD VSS sg13g2_dfrbp_1
 x201 DOWN DOWN_INV DELAY_OUT net3 net4 VDD VSS sg13g2_dfrbp_1

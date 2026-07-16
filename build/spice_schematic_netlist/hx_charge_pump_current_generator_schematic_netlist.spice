@@ -1,5 +1,5 @@
 ** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_charge_pump_current_generator.sch
-.subckt hx_charge_pump_current_generator CURRENT_SINK VDD CURRENT_SOURCE VSS
+.subckt hx_charge_pump_current_generator VDD VSS CURRENT_SINK CURRENT_SOURCE
 *.PININFO VDD:I VSS:I CURRENT_SOURCE:O CURRENT_SINK:O
 MM4002 net4 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
 MM4009 net5 net1 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=2

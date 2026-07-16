@@ -6,7 +6,7 @@ if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_n
 \} else \{
     return "subcircuit"
 \}])"
-format="@name @@MUX_ONEHOT_SEL0 @@MUX_ONEHOT_SEL1 @@MUX_ONEHOT_SEL2 @@MUX_ONEHOT_SEL3 @@MUX_OUT @@MUX_IN0 @@MUX_IN1 @@MUX_IN2 @@MUX_IN3 @@VDD @@VSS @symname"
+format="@name @@VSS @@VDD @@MUX_ONEHOT_SEL0 @@MUX_ONEHOT_SEL1 @@MUX_ONEHOT_SEL2 @@MUX_ONEHOT_SEL3 @@MUX_IN0 @@MUX_IN1 @@MUX_IN2 @@MUX_IN3 @@MUX_OUT @symname"
 template="name=x1"}
 V {}
 S {}
