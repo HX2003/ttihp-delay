@@ -6,7 +6,7 @@ if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_n
 \} else \{
     return "subcircuit"
 \}])"
-format="@name @@VSS @@VDD @@UP_INV @@DOWN @@DOWN_INV @@DLL_RESETN @@DELAY_IN @@UP @@DELAY_OUT @symname"
+format="@name @@UP_INV @@DOWN @@DOWN_INV @@DLL_RESETN @@DELAY_IN @@UP @@DELAY_OUT @@VSS @@VDD @symname"
 template="name=x1"}
 V {}
 S {}
