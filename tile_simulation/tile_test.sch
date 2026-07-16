@@ -5,7 +5,7 @@ V {}
 S {}
 F {}
 E {}
-B 2 10 -450 810 -50 {flags=graph
+B 2 -820 -450 -20 -50 {flags=graph
 y1=-1.0313656
 y2=1.7235349
 ypos1=0
@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -34,8 +34,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -56,8 +56,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -77,8 +77,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -94,7 +94,7 @@ test_signal_out0
 test_signal_out1
 test_signal_out2
 test_signal_out3"}
-B 2 -820 -450 -20 -50 {flags=graph
+B 2 10 -450 810 -50 {flags=graph
 y1=-0.97436758
 y2=1.6703368
 ypos1=0
@@ -102,8 +102,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -122,8 +122,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -143,8 +143,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -163,8 +163,8 @@ ypos2=3.1051657
 divy=5
 subdivy=1
 unity=1
-x1=2.8985114e-06
-x2=2.9035329e-06
+x1=5.6109089e-06
+x2=5.6459538e-06
 subdivx=1
 
 
@@ -187,6 +187,26 @@ stimulus_reg_val3
 stimulus_reg_val4"
 legend=1
 digital=1}
+B 2 -820 -880 -20 -480 {flags=graph
+y1=-0.97436758
+y2=1.6703368
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=5.6109089e-06
+x2=5.6459538e-06
+subdivx=1
+
+
+dataset=-1
+unitx=1
+logx=0
+logy=0
+divx=5
+color=21
+node=i(Vmainsupply)}
 T {The system should be initialized in reset state,
 in which the loop capacitor is to be charged to 1.2V.
 
@@ -197,7 +217,7 @@ T {10 MHz Signal 20% duty cycle} -800 410 0 0 0.4 0.4 {}
 T {The PWL statements are generated using stimulus.ipynb.} -2000 530 0 0 0.4 0.4 {}
 N -620 780 -620 840 {lab=TEST_SIGNAL_IN}
 N -620 900 -620 930 {lab=GND}
-C {devices/vsource.sym} -1330 310 0 0 {name=V2 value="PWL(0ns 0 0.1ns 1.2)"}
+C {devices/vsource.sym} -1330 310 0 0 {name=Vmainsupply value="PWL(0ns 0 0.1ns 1.2)"}
 C {lab_pin.sym} -1330 280 2 0 {name=p13 lab=VDD}
 C {devices/vsource.sym} -1150 310 0 0 {name=V4 value="PWL(0ns 0 300ns 0 300.1ns 1.2)"}
 C {lab_pin.sym} -1980 580 2 0 {name=p1 lab=STIMULUS_rst_n}
@@ -227,6 +247,7 @@ return $prefix$middle$suffix]
 + v(STIMULUS_reg_addr0) + v(STIMULUS_reg_addr1) + v(STIMULUS_reg_addr2)
 + v(STIMULUS_reg_val0) + v(STIMULUS_reg_val1) + v(STIMULUS_reg_val2)
 + v(STIMULUS_reg_val3) + v(STIMULUS_reg_val4)
++ i(Vmainsupply)
 
 .param initialStep=5ps, tstop=3000ns, tstart=0ns, dtmax=50ps
 * .param initialStep=5ps, tstop=3000ns, tstart=0ns, dtmax=5ps
@@ -268,6 +289,7 @@ return $prefix$middle$suffix]
   + v(STIMULUS_reg_addr0) + v(STIMULUS_reg_addr1) + v(STIMULUS_reg_addr2)
   + v(STIMULUS_reg_val0) + v(STIMULUS_reg_val1) + v(STIMULUS_reg_val2)
   + v(STIMULUS_reg_val3) + v(STIMULUS_reg_val4)
+  + i(Vmainsupply)
 
   * skip initial dc operating point calculations using uic
   * use 10p instead of 5p for faster simulation

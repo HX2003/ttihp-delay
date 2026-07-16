@@ -118,14 +118,14 @@ x5 VSS net3 net4 net1 net2 DELAY_OUT_TAP17 DELAY_OUT_TAP18 DELAY_OUT_TAP19 DELAY
 x6 VSS net3 net4 net1 net2 DELAY_OUT_TAP21 DELAY_OUT_TAP22 DELAY_OUT_TAP23 DELAY_OUT_TAP20 VDD net16 hx_mux_4to1_leaf
 x7 VSS net3 net4 net1 net2 DELAY_OUT_TAP25 DELAY_OUT_TAP26 DELAY_OUT_TAP27 DELAY_OUT_TAP24 VDD net17 hx_mux_4to1_leaf
 x8 VSS net3 net4 net1 net2 DELAY_OUT_TAP29 DELAY_OUT_TAP30 DELAY_OUT_TAP31 DELAY_OUT_TAP28 VDD net18 hx_mux_4to1_leaf
-x9 VSS VDD net11 net12 net13 net14 net5 net6 net7 net8 net21 hx_mux_4to1_intermediate
+x9 VSS VDD net11 net12 net13 net14 net21 net5 net6 net7 net8 hx_mux_4to1_intermediate
 x10 net1 net10 net9 VDD VSS sg13g2_and2_2
 x42 net10 MUX_SEL0 VDD VSS sg13g2_inv_1
 x11 net2 MUX_SEL0 net9 VDD VSS sg13g2_and2_2
 x12 net3 MUX_SEL1 net10 VDD VSS sg13g2_and2_2
 x13 net4 MUX_SEL0 MUX_SEL1 VDD VSS sg13g2_and2_2
 x14 net9 MUX_SEL1 VDD VSS sg13g2_inv_1
-x15 VSS VDD net11 net12 net13 net14 net15 net16 net17 net18 net22 hx_mux_4to1_intermediate
+x15 VSS VDD net11 net12 net13 net14 net22 net15 net16 net17 net18 hx_mux_4to1_intermediate
 x16 net11 net20 net19 VDD VSS sg13g2_and2_2
 x17 net20 MUX_SEL2 VDD VSS sg13g2_inv_1
 x18 net12 MUX_SEL2 net19 VDD VSS sg13g2_and2_2
@@ -207,8 +207,8 @@ MM28 net5 net10 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
 * expanding   symbol:  hx_mux_4to1_intermediate.sym # of pins=11
 ** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_intermediate.sym
 ** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_intermediate.sch
-.subckt hx_mux_4to1_intermediate VSS VDD MUX_ONEHOT_SEL0 MUX_ONEHOT_SEL1 MUX_ONEHOT_SEL2 MUX_ONEHOT_SEL3 MUX_IN0 MUX_IN1 MUX_IN2
-+ MUX_IN3 MUX_OUT
+.subckt hx_mux_4to1_intermediate VSS VDD MUX_ONEHOT_SEL0 MUX_ONEHOT_SEL1 MUX_ONEHOT_SEL2 MUX_ONEHOT_SEL3 MUX_OUT MUX_IN0 MUX_IN1
++ MUX_IN2 MUX_IN3
 *.PININFO VDD:I VSS:I MUX_IN0:I MUX_OUT:O MUX_ONEHOT_SEL0:I MUX_IN1:I MUX_IN2:I MUX_IN3:I MUX_ONEHOT_SEL1:I MUX_ONEHOT_SEL2:I
 *+ MUX_ONEHOT_SEL3:I
 MM17 net1 MUX_ONEHOT_SEL0 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
