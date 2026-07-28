@@ -1,0 +1,139 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type="tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "primitive"
+\} else \{
+    return "subcircuit"
+\}])"
+format="@name @@VSS @@VDD @@DELAY_OUT_LAST @@DELAY_OUT_TAP1 @@DELAY_OUT_TAP2 @@DELAY_OUT_TAP3 @@DELAY_OUT_TAP4 @@DELAY_OUT_TAP5 @@DELAY_OUT_TAP6 @@DELAY_OUT_TAP7 @@DELAY_OUT_TAP8 @@DELAY_OUT_TAP9 @@DELAY_OUT_TAP10 @@DELAY_OUT_TAP11 @@DELAY_OUT_TAP12 @@DELAY_OUT_TAP13 @@DELAY_OUT_TAP14 @@DELAY_OUT_TAP15 @@DELAY_OUT_TAP16 @@DELAY_OUT_TAP17 @@DELAY_OUT_TAP18 @@DELAY_OUT_TAP19 @@DELAY_OUT_TAP20 @@DELAY_OUT_TAP21 @@DELAY_OUT_TAP22 @@DELAY_OUT_TAP23 @@DELAY_OUT_TAP24 @@DELAY_OUT_TAP25 @@DELAY_OUT_TAP26 @@DELAY_OUT_TAP27 @@DELAY_OUT_TAP28 @@DELAY_OUT_TAP29 @@DELAY_OUT_TAP30 @@DELAY_OUT_TAP31 @@DELAY_IN @@DELAY_VBIASN @@DELAY_VBIASP @symname"
+template="name=x1"}
+V {}
+S {}
+F {}
+E {}
+L 4 -160 -340 -140 -340 {}
+L 4 -160 -320 -140 -320 {}
+L 4 -160 -260 -140 -260 {}
+L 4 -160 -220 -140 -220 {}
+L 4 -160 -240 -140 -240 {}
+L 4 160 -300 180 -300 {}
+L 4 160 -280 180 -280 {}
+L 4 160 -260 180 -260 {}
+L 4 160 -240 180 -240 {}
+L 4 160 -220 180 -220 {}
+L 4 160 -200 180 -200 {}
+L 4 160 -180 180 -180 {}
+L 4 160 -160 180 -160 {}
+L 4 160 -140 180 -140 {}
+L 4 160 -120 180 -120 {}
+L 4 160 -100 180 -100 {}
+L 4 160 -80 180 -80 {}
+L 4 160 -60 180 -60 {}
+L 4 160 -40 180 -40 {}
+L 4 160 -20 180 -20 {}
+L 4 160 0 180 0 {}
+L 4 160 20 180 20 {}
+L 4 160 40 180 40 {}
+L 4 160 60 180 60 {}
+L 4 160 80 180 80 {}
+L 4 160 100 180 100 {}
+L 4 160 120 180 120 {}
+L 4 160 140 180 140 {}
+L 4 160 160 180 160 {}
+L 4 160 180 180 180 {}
+L 4 160 200 180 200 {}
+L 4 160 220 180 220 {}
+L 4 160 240 180 240 {}
+L 4 160 260 180 260 {}
+L 4 160 280 180 280 {}
+L 4 160 300 180 300 {}
+L 4 160 330 180 330 {}
+B 5 -162.5 -342.5 -157.5 -337.5 {name=VDD dir=in}
+B 5 -162.5 -322.5 -157.5 -317.5 {name=VSS dir=in}
+B 5 -162.5 -262.5 -157.5 -257.5 {name=DELAY_VBIASP dir=in}
+B 5 -162.5 -222.5 -157.5 -217.5 {name=DELAY_VBIASN dir=in}
+B 5 -162.5 -242.5 -157.5 -237.5 {name=DELAY_IN dir=in}
+B 5 177.5 -302.5 182.5 -297.5 {name=DELAY_OUT_TAP1 dir=out}
+B 5 177.5 -282.5 182.5 -277.5 {name=DELAY_OUT_TAP2 dir=out}
+B 5 177.5 -262.5 182.5 -257.5 {name=DELAY_OUT_TAP3 dir=out}
+B 5 177.5 -242.5 182.5 -237.5 {name=DELAY_OUT_TAP4 dir=out}
+B 5 177.5 -222.5 182.5 -217.5 {name=DELAY_OUT_TAP5 dir=out}
+B 5 177.5 -202.5 182.5 -197.5 {name=DELAY_OUT_TAP6 dir=out}
+B 5 177.5 -182.5 182.5 -177.5 {name=DELAY_OUT_TAP7 dir=out}
+B 5 177.5 -162.5 182.5 -157.5 {name=DELAY_OUT_TAP8 dir=out}
+B 5 177.5 -142.5 182.5 -137.5 {name=DELAY_OUT_TAP9 dir=out}
+B 5 177.5 -122.5 182.5 -117.5 {name=DELAY_OUT_TAP10 dir=out}
+B 5 177.5 -102.5 182.5 -97.5 {name=DELAY_OUT_TAP11 dir=out}
+B 5 177.5 -82.5 182.5 -77.5 {name=DELAY_OUT_TAP12 dir=out}
+B 5 177.5 -62.5 182.5 -57.5 {name=DELAY_OUT_TAP13 dir=out}
+B 5 177.5 -42.5 182.5 -37.5 {name=DELAY_OUT_TAP14 dir=out}
+B 5 177.5 -22.5 182.5 -17.5 {name=DELAY_OUT_TAP15 dir=out}
+B 5 177.5 -2.5 182.5 2.5 {name=DELAY_OUT_TAP16 dir=out}
+B 5 177.5 17.5 182.5 22.5 {name=DELAY_OUT_TAP17 dir=out}
+B 5 177.5 37.5 182.5 42.5 {name=DELAY_OUT_TAP18 dir=out}
+B 5 177.5 57.5 182.5 62.5 {name=DELAY_OUT_TAP19 dir=out}
+B 5 177.5 77.5 182.5 82.5 {name=DELAY_OUT_TAP20 dir=out}
+B 5 177.5 97.5 182.5 102.5 {name=DELAY_OUT_TAP21 dir=out}
+B 5 177.5 117.5 182.5 122.5 {name=DELAY_OUT_TAP22 dir=out}
+B 5 177.5 137.5 182.5 142.5 {name=DELAY_OUT_TAP23 dir=out}
+B 5 177.5 157.5 182.5 162.5 {name=DELAY_OUT_TAP24 dir=out}
+B 5 177.5 177.5 182.5 182.5 {name=DELAY_OUT_TAP25 dir=out}
+B 5 177.5 197.5 182.5 202.5 {name=DELAY_OUT_TAP26 dir=out}
+B 5 177.5 217.5 182.5 222.5 {name=DELAY_OUT_TAP27 dir=out}
+B 5 177.5 237.5 182.5 242.5 {name=DELAY_OUT_TAP28 dir=out}
+B 5 177.5 257.5 182.5 262.5 {name=DELAY_OUT_TAP29 dir=out}
+B 5 177.5 277.5 182.5 282.5 {name=DELAY_OUT_TAP30 dir=out}
+B 5 177.5 297.5 182.5 302.5 {name=DELAY_OUT_TAP31 dir=out}
+B 5 177.5 327.5 182.5 332.5 {name=DELAY_OUT_LAST dir=out}
+P 4 5 160 -370 -140 -370 -140 340 160 340 160 -370 {}
+T {@symname} -138.5 344 0 0 0.3 0.3 {}
+T {@name} 125 -392 0 0 0.2 0.2 {}
+T {VDD} -135 -344 0 0 0.2 0.2 {}
+T {VSS} -135 -324 0 0 0.2 0.2 {}
+T {tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "Using post-layout netlist
+(with parasitics)"
+\} else \{
+    return ""
+\}])} -138.5 374 0 0 0.3 0.3 {layer=21
+weight=bold}
+T {DELAY_VBIASP} -135 -274 0 0 0.2 0.2 {}
+T {DELAY_VBIASN} -135 -234 0 0 0.2 0.2 {}
+T {DELAY_IN} -135 -254 0 0 0.2 0.2 {}
+T {DELAY LINE} -70 -10 0 0 0.4 0.4 {}
+T {DELAY_OUT_TAP1} 155 -314 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP2} 155 -294 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP3} 155 -274 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP4} 155 -254 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP5} 155 -234 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP6} 155 -214 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP7} 155 -194 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP8} 155 -174 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP9} 155 -154 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP10} 155 -134 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP11} 155 -114 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP12} 155 -94 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP13} 155 -74 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP14} 155 -54 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP15} 155 -34 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP16} 155 -14 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP17} 155 6 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP18} 155 26 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP19} 155 46 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP20} 155 66 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP21} 155 86 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP22} 155 106 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP23} 155 126 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP24} 155 146 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP25} 155 166 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP26} 155 186 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP27} 155 206 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP28} 155 226 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP29} 155 246 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP30} 155 266 0 1 0.2 0.2 {}
+T {DELAY_OUT_TAP31} 155 286 0 1 0.2 0.2 {}
+T {DELAY_OUT_LAST} 155 316 0 1 0.2 0.2 {}
+T {Taps 1, 3, 5, 7 ... are inverted} 10 -340 0 0 0.2 0.2 {}
+T {Tap 0 is just DELAY_IN so its omitted} -20 -360 0 0 0.2 0.2 {}

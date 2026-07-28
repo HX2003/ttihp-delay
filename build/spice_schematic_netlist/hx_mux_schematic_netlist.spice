@@ -1,0 +1,175 @@
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux.sch
+.subckt hx_mux VSS VDD DELAY_OUT_TAP0 DELAY_OUT_TAP1 DELAY_OUT_TAP2 DELAY_OUT_TAP3 DELAY_OUT_TAP4 DELAY_OUT_TAP5 DELAY_OUT_TAP6
++ DELAY_OUT_TAP7 DELAY_OUT_TAP8 DELAY_OUT_TAP9 DELAY_OUT_TAP10 DELAY_OUT_TAP11 DELAY_OUT_TAP12 DELAY_OUT_TAP13 DELAY_OUT_TAP14 DELAY_OUT_TAP15
++ DELAY_OUT_TAP16 DELAY_OUT_TAP17 DELAY_OUT_TAP18 DELAY_OUT_TAP19 DELAY_OUT_TAP20 DELAY_OUT_TAP21 DELAY_OUT_TAP22 DELAY_OUT_TAP23 DELAY_OUT_TAP24
++ DELAY_OUT_TAP25 DELAY_OUT_TAP26 DELAY_OUT_TAP27 DELAY_OUT_TAP28 DELAY_OUT_TAP29 DELAY_OUT_TAP30 DELAY_OUT_TAP31 MUX_SEL0 MUX_SEL1 MUX_OUT
++ MUX_SEL4 MUX_SEL2 MUX_SEL3
+*.PININFO VDD:I VSS:I DELAY_OUT_TAP0:I MUX_OUT:O DELAY_OUT_TAP1:I DELAY_OUT_TAP2:I DELAY_OUT_TAP3:I MUX_SEL0:I MUX_SEL1:I
+*+ MUX_SEL4:I DELAY_OUT_TAP4:I DELAY_OUT_TAP5:I DELAY_OUT_TAP6:I DELAY_OUT_TAP7:I DELAY_OUT_TAP8:I DELAY_OUT_TAP9:I DELAY_OUT_TAP11:I
+*+ DELAY_OUT_TAP10:I DELAY_OUT_TAP12:I DELAY_OUT_TAP13:I DELAY_OUT_TAP15:I DELAY_OUT_TAP14:I DELAY_OUT_TAP16:I DELAY_OUT_TAP17:I DELAY_OUT_TAP19:I
+*+ DELAY_OUT_TAP18:I DELAY_OUT_TAP20:I DELAY_OUT_TAP21:I DELAY_OUT_TAP23:I DELAY_OUT_TAP22:I DELAY_OUT_TAP24:I DELAY_OUT_TAP25:I DELAY_OUT_TAP27:I
+*+ DELAY_OUT_TAP26:I DELAY_OUT_TAP28:I DELAY_OUT_TAP29:I DELAY_OUT_TAP31:I DELAY_OUT_TAP30:I MUX_SEL2:I MUX_SEL3:I
+x1 VSS net3 net4 net1 net2 DELAY_OUT_TAP1 DELAY_OUT_TAP2 DELAY_OUT_TAP3 net23 VDD net5 hx_mux_4to1_leaf
+x2 VSS net3 net4 net1 net2 DELAY_OUT_TAP5 DELAY_OUT_TAP6 DELAY_OUT_TAP7 DELAY_OUT_TAP4 VDD net6 hx_mux_4to1_leaf
+x3 VSS net3 net4 net1 net2 DELAY_OUT_TAP9 DELAY_OUT_TAP10 DELAY_OUT_TAP11 DELAY_OUT_TAP8 VDD net7 hx_mux_4to1_leaf
+x4 VSS net3 net4 net1 net2 DELAY_OUT_TAP13 DELAY_OUT_TAP14 DELAY_OUT_TAP15 DELAY_OUT_TAP12 VDD net8 hx_mux_4to1_leaf
+x5 VSS net3 net4 net1 net2 DELAY_OUT_TAP17 DELAY_OUT_TAP18 DELAY_OUT_TAP19 DELAY_OUT_TAP16 VDD net15 hx_mux_4to1_leaf
+x6 VSS net3 net4 net1 net2 DELAY_OUT_TAP21 DELAY_OUT_TAP22 DELAY_OUT_TAP23 DELAY_OUT_TAP20 VDD net16 hx_mux_4to1_leaf
+x7 VSS net3 net4 net1 net2 DELAY_OUT_TAP25 DELAY_OUT_TAP26 DELAY_OUT_TAP27 DELAY_OUT_TAP24 VDD net17 hx_mux_4to1_leaf
+x8 VSS net3 net4 net1 net2 DELAY_OUT_TAP29 DELAY_OUT_TAP30 DELAY_OUT_TAP31 DELAY_OUT_TAP28 VDD net18 hx_mux_4to1_leaf
+x9 VSS VDD net11 net12 net13 net14 net21 net5 net6 net7 net8 hx_mux_4to1_intermediate
+x10 net1 net10 net9 VDD VSS sg13g2_and2_2
+x42 net10 MUX_SEL0 VDD VSS sg13g2_inv_1
+x11 net2 MUX_SEL0 net9 VDD VSS sg13g2_and2_2
+x12 net3 MUX_SEL1 net10 VDD VSS sg13g2_and2_2
+x13 net4 MUX_SEL0 MUX_SEL1 VDD VSS sg13g2_and2_2
+x14 net9 MUX_SEL1 VDD VSS sg13g2_inv_1
+x15 VSS VDD net11 net12 net13 net14 net22 net15 net16 net17 net18 hx_mux_4to1_intermediate
+x16 net11 net20 net19 VDD VSS sg13g2_and2_2
+x17 net20 MUX_SEL2 VDD VSS sg13g2_inv_1
+x18 net12 MUX_SEL2 net19 VDD VSS sg13g2_and2_2
+x19 net13 MUX_SEL3 net20 VDD VSS sg13g2_and2_2
+x20 net14 MUX_SEL2 MUX_SEL3 VDD VSS sg13g2_and2_2
+x21 net19 MUX_SEL3 VDD VSS sg13g2_inv_1
+x22 VSS VDD MUX_OUT MUX_SEL4 net22 net21 hx_mux_2to1_root
+MM7 net23 DELAY_OUT_TAP0 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM8 net23 DELAY_OUT_TAP0 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+.ends
+
+* expanding   symbol:  hx_mux_4to1_leaf.sym # of pins=11
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_leaf.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_leaf.sch
+.subckt hx_mux_4to1_leaf VSS MUX_ONEHOT_SEL2 MUX_ONEHOT_SEL3 MUX_ONEHOT_SEL0 MUX_ONEHOT_SEL1 MUX_IN1 MUX_IN2 MUX_IN3 MUX_IN0 VDD
++ MUX_OUT
+*.PININFO VDD:I VSS:I MUX_IN0:I MUX_OUT:O MUX_ONEHOT_SEL0:I MUX_IN1:I MUX_IN2:I MUX_IN3:I MUX_ONEHOT_SEL1:I MUX_ONEHOT_SEL2:I
+*+ MUX_ONEHOT_SEL3:I
+MM2 net1 MUX_IN0 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM1 net1 MUX_IN0 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM3 net7 net2 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM4 net7 net2 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM5 net2 MUX_IN1 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM6 net2 MUX_IN1 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM7 net3 MUX_IN2 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM8 net3 MUX_IN2 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM9 net5 net4 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM10 net5 net4 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM11 net4 MUX_IN3 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM12 net4 MUX_IN3 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM13 net6 MUX_ONEHOT_SEL0 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM14 net6 MUX_ONEHOT_SEL0 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM15 net1 MUX_ONEHOT_SEL0 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM16 net1 net6 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM17 net8 MUX_ONEHOT_SEL1 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM18 net8 MUX_ONEHOT_SEL1 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM19 net7 MUX_ONEHOT_SEL1 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM20 net7 net8 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM21 net9 MUX_ONEHOT_SEL2 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM22 net9 MUX_ONEHOT_SEL2 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM23 net3 MUX_ONEHOT_SEL2 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM24 net3 net9 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM25 net10 MUX_ONEHOT_SEL3 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM26 net10 MUX_ONEHOT_SEL3 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM27 net5 MUX_ONEHOT_SEL3 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM28 net5 net10 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+.ends
+
+
+* expanding   symbol:  hx_mux_4to1_intermediate.sym # of pins=11
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_intermediate.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_intermediate.sch
+.subckt hx_mux_4to1_intermediate VSS VDD MUX_ONEHOT_SEL0 MUX_ONEHOT_SEL1 MUX_ONEHOT_SEL2 MUX_ONEHOT_SEL3 MUX_OUT MUX_IN0 MUX_IN1
++ MUX_IN2 MUX_IN3
+*.PININFO VDD:I VSS:I MUX_IN0:I MUX_OUT:O MUX_ONEHOT_SEL0:I MUX_IN1:I MUX_IN2:I MUX_IN3:I MUX_ONEHOT_SEL1:I MUX_ONEHOT_SEL2:I
+*+ MUX_ONEHOT_SEL3:I
+MM17 net1 MUX_ONEHOT_SEL0 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM18 net1 MUX_ONEHOT_SEL0 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM19 MUX_IN0 MUX_ONEHOT_SEL0 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM20 MUX_IN0 net1 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM21 net2 MUX_ONEHOT_SEL1 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM22 net2 MUX_ONEHOT_SEL1 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM23 MUX_IN1 MUX_ONEHOT_SEL1 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM24 MUX_IN1 net2 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM25 net3 MUX_ONEHOT_SEL2 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM26 net3 MUX_ONEHOT_SEL2 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM27 MUX_IN2 MUX_ONEHOT_SEL2 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM28 MUX_IN2 net3 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM29 net4 MUX_ONEHOT_SEL3 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM30 net4 MUX_ONEHOT_SEL3 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM31 MUX_IN3 MUX_ONEHOT_SEL3 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM32 MUX_IN3 net4 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+x1 VDD VSS sg13g2_decap_8
+x2 VDD VSS sg13g2_decap_8
+x3 VDD VSS sg13g2_decap_8
+x4 VDD VSS sg13g2_decap_8
+x5 VDD VSS sg13g2_decap_8
+x6 VDD VSS sg13g2_decap_8
+x7 VDD VSS sg13g2_decap_8
+x8 VDD VSS sg13g2_decap_8
+x9 VDD VSS sg13g2_decap_8
+.ends
+
+
+* expanding   symbol:  sg13g2_and2_2.sym # of pins=3
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_and2_2.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_and2_2.sch
+.subckt sg13g2_and2_2 X A B VDD VSS
+
+*.PININFO A:I B:I X:O
+MM1 net1 A net2 VSS sg13_lv_nmos w=640.00n l=130.00n ng=1
+MM2 net2 B VSS VSS sg13_lv_nmos w=640.00n l=130.00n ng=1
+MM3 X net1 VSS VSS sg13_lv_nmos w=1.48u l=130.00n ng=2
+MM4 net1 B VDD VDD sg13_lv_pmos w=840.00n l=130.00n ng=1
+MM5 net1 A VDD VDD sg13_lv_pmos w=840.00n l=130.00n ng=1
+MM6 X net1 VDD VDD sg13_lv_pmos w=2.24u l=130.00n ng=2
+.ends
+
+
+* expanding   symbol:  sg13g2_inv_1.sym # of pins=2
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_inv_1.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_inv_1.sch
+.subckt sg13g2_inv_1 Y A VDD VSS
+
+*.PININFO Y:O A:I
+MM1 Y A VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM2 Y A VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+.ends
+
+
+* expanding   symbol:  hx_mux_2to1_root.sym # of pins=6
+** sym_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_2to1_root.sym
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_2to1_root.sch
+.subckt hx_mux_2to1_root VSS VDD MUX_OUT MUX_SEL MUX_IN1 MUX_IN0
+*.PININFO VDD:I VSS:I MUX_IN0:I MUX_OUT:O MUX_IN1:I MUX_SEL:I
+MM1 net1 MUX_SEL VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM2 net1 MUX_SEL VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM3 MUX_IN0 net1 net2 VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM4 MUX_IN0 MUX_SEL net2 VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM5 MUX_IN1 MUX_SEL net2 VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM6 MUX_IN1 net1 net2 VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+x14 MUX_OUT net2 VDD VSS sg13g2_buf_2
+.ends
+
+
+* expanding   symbol:  sg13g2_decap_8.sym # of pins=0
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_decap_8.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_decap_8.sch
+.subckt sg13g2_decap_8 VDD VSS
+
+
+MM1 VSS VDD VSS VSS sg13_lv_nmos w=840.00n l=1.000u ng=2
+MM2 VDD VSS VDD VDD sg13_lv_pmos w=2.000u l=1.000u ng=2
+.ends
+
+
+* expanding   symbol:  sg13g2_buf_2.sym # of pins=2
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_buf_2.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_buf_2.sch
+.subckt sg13g2_buf_2 X A VDD VSS
+
+*.PININFO A:I X:O
+MM1 net1 A VSS VSS sg13_lv_nmos w=640.00n l=130.00n ng=1
+MM2 X net1 VSS VSS sg13_lv_nmos w=1.48u l=130.00n ng=2
+MM3 net1 A VDD VDD sg13_lv_pmos w=1.000u l=130.00n ng=1
+MM4 X net1 VDD VDD sg13_lv_pmos w=2.24u l=130.00n ng=2
+.ends
+

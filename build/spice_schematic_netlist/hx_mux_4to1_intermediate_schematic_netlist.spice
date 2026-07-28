@@ -1,0 +1,42 @@
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_mux_4to1_intermediate.sch
+.subckt hx_mux_4to1_intermediate VSS VDD MUX_ONEHOT_SEL0 MUX_ONEHOT_SEL1 MUX_ONEHOT_SEL2 MUX_ONEHOT_SEL3 MUX_OUT MUX_IN0 MUX_IN1
++ MUX_IN2 MUX_IN3
+*.PININFO VDD:I VSS:I MUX_IN0:I MUX_OUT:O MUX_ONEHOT_SEL0:I MUX_IN1:I MUX_IN2:I MUX_IN3:I MUX_ONEHOT_SEL1:I MUX_ONEHOT_SEL2:I
+*+ MUX_ONEHOT_SEL3:I
+MM17 net1 MUX_ONEHOT_SEL0 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM18 net1 MUX_ONEHOT_SEL0 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM19 MUX_IN0 MUX_ONEHOT_SEL0 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM20 MUX_IN0 net1 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM21 net2 MUX_ONEHOT_SEL1 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM22 net2 MUX_ONEHOT_SEL1 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM23 MUX_IN1 MUX_ONEHOT_SEL1 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM24 MUX_IN1 net2 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM25 net3 MUX_ONEHOT_SEL2 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM26 net3 MUX_ONEHOT_SEL2 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM27 MUX_IN2 MUX_ONEHOT_SEL2 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM28 MUX_IN2 net3 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM29 net4 MUX_ONEHOT_SEL3 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM30 net4 MUX_ONEHOT_SEL3 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM31 MUX_IN3 MUX_ONEHOT_SEL3 MUX_OUT VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM32 MUX_IN3 net4 MUX_OUT VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+x1 VDD VSS sg13g2_decap_8
+x2 VDD VSS sg13g2_decap_8
+x3 VDD VSS sg13g2_decap_8
+x4 VDD VSS sg13g2_decap_8
+x5 VDD VSS sg13g2_decap_8
+x6 VDD VSS sg13g2_decap_8
+x7 VDD VSS sg13g2_decap_8
+x8 VDD VSS sg13g2_decap_8
+x9 VDD VSS sg13g2_decap_8
+.ends
+
+* expanding   symbol:  sg13g2_decap_8.sym # of pins=0
+** sym_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_decap_8.sym
+** sch_path: /home/hx2003/Desktop/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/sg13g2_stdcells/sg13g2_decap_8.sch
+.subckt sg13g2_decap_8 VDD VSS
+
+
+MM1 VSS VDD VSS VSS sg13_lv_nmos w=840.00n l=1.000u ng=2
+MM2 VDD VSS VDD VDD sg13_lv_pmos w=2.000u l=1.000u ng=2
+.ends
+

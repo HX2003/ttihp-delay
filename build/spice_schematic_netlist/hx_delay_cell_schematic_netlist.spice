@@ -1,0 +1,12 @@
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_delay_cell.sch
+.subckt hx_delay_cell VDD VSS DELAY_CELL_OUT_INV DELAY_CELL_OUT DELAY_CELL_IN DELAY_VBIASP DELAY_VBIASN
+*.PININFO VDD:I VSS:I DELAY_CELL_OUT_INV:O DELAY_VBIASN:I DELAY_VBIASP:I DELAY_CELL_IN:I DELAY_CELL_OUT:O
+MM1 net1 DELAY_CELL_IN net3 VSS sg13_lv_nmos w=0.74u l=0.2u ng=1
+MM2 net3 DELAY_VBIASN VSS VSS sg13_lv_nmos w=0.74u l=0.6u ng=1
+MM3 net2 DELAY_VBIASP VDD VDD sg13_lv_pmos w=1.12u l=0.6u ng=1
+MM4 DELAY_CELL_OUT net1 VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM5 net1 DELAY_CELL_IN net2 VDD sg13_lv_pmos w=1.12u l=0.2u ng=1
+MM6 DELAY_CELL_OUT net1 VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+MM7 DELAY_CELL_OUT_INV DELAY_CELL_OUT VSS VSS sg13_lv_nmos w=0.74u l=0.13u ng=1
+MM8 DELAY_CELL_OUT_INV DELAY_CELL_OUT VDD VDD sg13_lv_pmos w=1.12u l=0.13u ng=1
+.ends

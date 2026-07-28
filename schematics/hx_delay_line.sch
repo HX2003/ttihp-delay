@@ -1,0 +1,396 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {dash=3}
+V {}
+S {}
+F {}
+E {}
+N -8900 -80 -8300 -80 {lab=DELAY_VBIASP}
+N -9500 -200 -8900 -200 {lab=VDD}
+N -8320 -170 -7720 -170 {lab=VSS}
+N -9620 -10 -9500 -10 {lab=DELAY_IN}
+N -9500 -80 -9500 -50 {lab=DELAY_VBIASP}
+N -9620 -80 -9500 -80 {lab=DELAY_VBIASP}
+N -8900 60 -8300 60 {lab=DELAY_VBIASN}
+N -9500 -200 -9500 -130 {lab=VDD}
+N -9620 -200 -9500 -200 {lab=VDD}
+N -9520 -110 -9500 -110 {lab=VSS}
+N -9520 -170 -9520 -110 {lab=VSS}
+N -9620 -170 -9520 -170 {lab=VSS}
+N -9500 30 -9500 60 {lab=DELAY_VBIASN}
+N -9620 60 -9500 60 {lab=DELAY_VBIASN}
+N -9100 -10 -8900 -10 {lab=#net1}
+N -8900 30 -8900 60 {lab=DELAY_VBIASN}
+N -9500 60 -8900 60 {lab=DELAY_VBIASN}
+N -8900 -200 -8900 -130 {lab=VDD}
+N -8920 -110 -8900 -110 {lab=VSS}
+N -8920 -170 -8920 -110 {lab=VSS}
+N -9520 -170 -8920 -170 {lab=VSS}
+N -8300 -200 -7700 -200 {lab=VDD}
+N -7120 -170 -6520 -170 {lab=VSS}
+N -8300 -80 -8300 -50 {lab=DELAY_VBIASP}
+N -8300 -200 -8300 -130 {lab=VDD}
+N -8320 -110 -8300 -110 {lab=VSS}
+N -8320 -170 -8320 -110 {lab=VSS}
+N -8300 30 -8300 60 {lab=DELAY_VBIASN}
+N -7900 -10 -7700 -10 {lab=#net2}
+N -7700 30 -7700 60 {lab=DELAY_VBIASN}
+N -8300 60 -7700 60 {lab=DELAY_VBIASN}
+N -7700 -200 -7700 -130 {lab=VDD}
+N -7720 -110 -7700 -110 {lab=VSS}
+N -7720 -170 -7720 -110 {lab=VSS}
+N -7100 -200 -6500 -200 {lab=VDD}
+N -8900 -200 -8300 -200 {lab=VDD}
+N -8920 -170 -8320 -170 {lab=VSS}
+N -8500 -10 -8300 -10 {lab=#net3}
+N -6500 -80 -5900 -80 {lab=DELAY_VBIASP}
+N -5920 -170 -5320 -170 {lab=VSS}
+N -7100 -80 -7100 -50 {lab=DELAY_VBIASP}
+N -6500 60 -5900 60 {lab=DELAY_VBIASN}
+N -7100 -200 -7100 -130 {lab=VDD}
+N -7120 -110 -7100 -110 {lab=VSS}
+N -7120 -170 -7120 -110 {lab=VSS}
+N -7100 30 -7100 60 {lab=DELAY_VBIASN}
+N -6700 -10 -6500 -10 {lab=#net4}
+N -6500 30 -6500 60 {lab=DELAY_VBIASN}
+N -7100 60 -6500 60 {lab=DELAY_VBIASN}
+N -6500 -200 -6500 -130 {lab=VDD}
+N -6520 -110 -6500 -110 {lab=VSS}
+N -6520 -170 -6520 -110 {lab=VSS}
+N -5900 -200 -5300 -200 {lab=VDD}
+N -4720 -170 -4120 -170 {lab=VSS}
+N -5900 -80 -5900 -50 {lab=DELAY_VBIASP}
+N -5900 -200 -5900 -130 {lab=VDD}
+N -5920 -110 -5900 -110 {lab=VSS}
+N -5920 -170 -5920 -110 {lab=VSS}
+N -5900 30 -5900 60 {lab=DELAY_VBIASN}
+N -5500 -10 -5300 -10 {lab=#net5}
+N -5300 30 -5300 60 {lab=DELAY_VBIASN}
+N -5900 60 -5300 60 {lab=DELAY_VBIASN}
+N -5300 -200 -5300 -130 {lab=VDD}
+N -5320 -110 -5300 -110 {lab=VSS}
+N -5320 -170 -5320 -110 {lab=VSS}
+N -4700 -200 -4100 -200 {lab=VDD}
+N -6500 -200 -5900 -200 {lab=VDD}
+N -6520 -170 -5920 -170 {lab=VSS}
+N -7700 -80 -7100 -80 {lab=DELAY_VBIASP}
+N -7700 -200 -7100 -200 {lab=VDD}
+N -7720 -170 -7120 -170 {lab=VSS}
+N -7700 60 -7100 60 {lab=DELAY_VBIASN}
+N -4100 -80 -3500 -80 {lab=DELAY_VBIASP}
+N -3520 -170 -2920 -170 {lab=VSS}
+N -4700 -80 -4700 -50 {lab=DELAY_VBIASP}
+N -4100 60 -3500 60 {lab=DELAY_VBIASN}
+N -4700 -200 -4700 -130 {lab=VDD}
+N -4720 -110 -4700 -110 {lab=VSS}
+N -4720 -170 -4720 -110 {lab=VSS}
+N -4700 30 -4700 60 {lab=DELAY_VBIASN}
+N -4300 -10 -4100 -10 {lab=#net6}
+N -4100 30 -4100 60 {lab=DELAY_VBIASN}
+N -4700 60 -4100 60 {lab=DELAY_VBIASN}
+N -4100 -200 -4100 -130 {lab=VDD}
+N -4120 -110 -4100 -110 {lab=VSS}
+N -4120 -170 -4120 -110 {lab=VSS}
+N -3500 -200 -2900 -200 {lab=VDD}
+N -2320 -170 -1720 -170 {lab=VSS}
+N -3500 -80 -3500 -50 {lab=DELAY_VBIASP}
+N -3500 -200 -3500 -130 {lab=VDD}
+N -3520 -110 -3500 -110 {lab=VSS}
+N -3520 -170 -3520 -110 {lab=VSS}
+N -3500 30 -3500 60 {lab=DELAY_VBIASN}
+N -3100 -10 -2900 -10 {lab=#net7}
+N -2900 30 -2900 60 {lab=DELAY_VBIASN}
+N -3500 60 -2900 60 {lab=DELAY_VBIASN}
+N -2900 -200 -2900 -130 {lab=VDD}
+N -2920 -110 -2900 -110 {lab=VSS}
+N -2920 -170 -2920 -110 {lab=VSS}
+N -2300 -200 -1700 -200 {lab=VDD}
+N -4100 -200 -3500 -200 {lab=VDD}
+N -4120 -170 -3520 -170 {lab=VSS}
+N -1700 -80 -1100 -80 {lab=DELAY_VBIASP}
+N -1120 -170 -520 -170 {lab=VSS}
+N -2300 -80 -2300 -50 {lab=DELAY_VBIASP}
+N -1700 60 -1100 60 {lab=DELAY_VBIASN}
+N -2300 -200 -2300 -130 {lab=VDD}
+N -2320 -110 -2300 -110 {lab=VSS}
+N -2320 -170 -2320 -110 {lab=VSS}
+N -2300 30 -2300 60 {lab=DELAY_VBIASN}
+N -1900 -10 -1700 -10 {lab=#net8}
+N -1700 30 -1700 60 {lab=DELAY_VBIASN}
+N -2300 60 -1700 60 {lab=DELAY_VBIASN}
+N -1700 -200 -1700 -130 {lab=VDD}
+N -1720 -110 -1700 -110 {lab=VSS}
+N -1720 -170 -1720 -110 {lab=VSS}
+N -1100 -200 -500 -200 {lab=VDD}
+N 80 -170 680 -170 {lab=VSS}
+N -1100 -80 -1100 -50 {lab=DELAY_VBIASP}
+N -1100 -200 -1100 -130 {lab=VDD}
+N -1120 -110 -1100 -110 {lab=VSS}
+N -1120 -170 -1120 -110 {lab=VSS}
+N -1100 30 -1100 60 {lab=DELAY_VBIASN}
+N -700 -10 -500 -10 {lab=#net9}
+N -500 30 -500 60 {lab=DELAY_VBIASN}
+N -1100 60 -500 60 {lab=DELAY_VBIASN}
+N -500 -200 -500 -130 {lab=VDD}
+N -520 -110 -500 -110 {lab=VSS}
+N -520 -170 -520 -110 {lab=VSS}
+N 100 -200 700 -200 {lab=VDD}
+N -1700 -200 -1100 -200 {lab=VDD}
+N -1720 -170 -1120 -170 {lab=VSS}
+N -2900 -80 -2300 -80 {lab=DELAY_VBIASP}
+N -2900 -200 -2300 -200 {lab=VDD}
+N -2920 -170 -2320 -170 {lab=VSS}
+N -2900 60 -2300 60 {lab=DELAY_VBIASN}
+N -5300 -80 -4700 -80 {lab=DELAY_VBIASP}
+N -5300 -200 -4700 -200 {lab=VDD}
+N -5320 -170 -4720 -170 {lab=VSS}
+N -5300 60 -4700 60 {lab=DELAY_VBIASN}
+N 700 -80 1300 -80 {lab=DELAY_VBIASP}
+N 1280 -170 1880 -170 {lab=VSS}
+N 100 -80 100 -50 {lab=DELAY_VBIASP}
+N 700 60 1300 60 {lab=DELAY_VBIASN}
+N 100 -200 100 -130 {lab=VDD}
+N 80 -110 100 -110 {lab=VSS}
+N 80 -170 80 -110 {lab=VSS}
+N 100 30 100 60 {lab=DELAY_VBIASN}
+N 500 -10 700 -10 {lab=#net10}
+N 700 30 700 60 {lab=DELAY_VBIASN}
+N 100 60 700 60 {lab=DELAY_VBIASN}
+N 700 -200 700 -130 {lab=VDD}
+N 680 -110 700 -110 {lab=VSS}
+N 680 -170 680 -110 {lab=VSS}
+N 1300 -200 1900 -200 {lab=VDD}
+N 2480 -170 3080 -170 {lab=VSS}
+N 1300 -80 1300 -50 {lab=DELAY_VBIASP}
+N 1300 -200 1300 -130 {lab=VDD}
+N 1280 -110 1300 -110 {lab=VSS}
+N 1280 -170 1280 -110 {lab=VSS}
+N 1300 30 1300 60 {lab=DELAY_VBIASN}
+N 1700 -10 1900 -10 {lab=#net11}
+N 1900 30 1900 60 {lab=DELAY_VBIASN}
+N 1300 60 1900 60 {lab=DELAY_VBIASN}
+N 1900 -200 1900 -130 {lab=VDD}
+N 1880 -110 1900 -110 {lab=VSS}
+N 1880 -170 1880 -110 {lab=VSS}
+N 2500 -200 3100 -200 {lab=VDD}
+N 700 -200 1300 -200 {lab=VDD}
+N 680 -170 1280 -170 {lab=VSS}
+N 1100 -10 1300 -10 {lab=#net12}
+N 3100 -80 3700 -80 {lab=DELAY_VBIASP}
+N 3680 -170 4280 -170 {lab=VSS}
+N 2500 -80 2500 -50 {lab=DELAY_VBIASP}
+N 3100 60 3700 60 {lab=DELAY_VBIASN}
+N 2500 -200 2500 -130 {lab=VDD}
+N 2480 -110 2500 -110 {lab=VSS}
+N 2480 -170 2480 -110 {lab=VSS}
+N 2500 30 2500 60 {lab=DELAY_VBIASN}
+N 2900 -10 3100 -10 {lab=#net13}
+N 3100 30 3100 60 {lab=DELAY_VBIASN}
+N 2500 60 3100 60 {lab=DELAY_VBIASN}
+N 3100 -200 3100 -130 {lab=VDD}
+N 3080 -110 3100 -110 {lab=VSS}
+N 3080 -170 3080 -110 {lab=VSS}
+N 3700 -200 4300 -200 {lab=VDD}
+N 4880 -170 5480 -170 {lab=VSS}
+N 3700 -80 3700 -50 {lab=DELAY_VBIASP}
+N 3700 -200 3700 -130 {lab=VDD}
+N 3680 -110 3700 -110 {lab=VSS}
+N 3680 -170 3680 -110 {lab=VSS}
+N 3700 30 3700 60 {lab=DELAY_VBIASN}
+N 4100 -10 4300 -10 {lab=#net14}
+N 4300 30 4300 60 {lab=DELAY_VBIASN}
+N 3700 60 4300 60 {lab=DELAY_VBIASN}
+N 4300 -200 4300 -130 {lab=VDD}
+N 4280 -110 4300 -110 {lab=VSS}
+N 4280 -170 4280 -110 {lab=VSS}
+N 4900 -200 5500 -200 {lab=VDD}
+N 3100 -200 3700 -200 {lab=VDD}
+N 3080 -170 3680 -170 {lab=VSS}
+N 3500 -10 3700 -10 {lab=#net15}
+N 2300 -10 2500 -10 {lab=#net16}
+N 1900 -80 2500 -80 {lab=DELAY_VBIASP}
+N 1900 -200 2500 -200 {lab=VDD}
+N 1880 -170 2480 -170 {lab=VSS}
+N 1900 60 2500 60 {lab=DELAY_VBIASN}
+N 5500 -80 6100 -80 {lab=DELAY_VBIASP}
+N 6080 -170 6680 -170 {lab=VSS}
+N 4900 -80 4900 -50 {lab=DELAY_VBIASP}
+N 5500 60 6100 60 {lab=DELAY_VBIASN}
+N 4900 -200 4900 -130 {lab=VDD}
+N 4880 -110 4900 -110 {lab=VSS}
+N 4880 -170 4880 -110 {lab=VSS}
+N 4900 30 4900 60 {lab=DELAY_VBIASN}
+N 5300 -10 5500 -10 {lab=#net17}
+N 5500 30 5500 60 {lab=DELAY_VBIASN}
+N 4900 60 5500 60 {lab=DELAY_VBIASN}
+N 5500 -200 5500 -130 {lab=VDD}
+N 5480 -110 5500 -110 {lab=VSS}
+N 5480 -170 5480 -110 {lab=VSS}
+N 6100 -200 6700 -200 {lab=VDD}
+N 7280 -170 7880 -170 {lab=VSS}
+N 6100 -80 6100 -50 {lab=DELAY_VBIASP}
+N 6100 -200 6100 -130 {lab=VDD}
+N 6080 -110 6100 -110 {lab=VSS}
+N 6080 -170 6080 -110 {lab=VSS}
+N 6100 30 6100 60 {lab=DELAY_VBIASN}
+N 6500 -10 6700 -10 {lab=#net18}
+N 6700 30 6700 60 {lab=DELAY_VBIASN}
+N 6100 60 6700 60 {lab=DELAY_VBIASN}
+N 6700 -200 6700 -130 {lab=VDD}
+N 6680 -110 6700 -110 {lab=VSS}
+N 6680 -170 6680 -110 {lab=VSS}
+N 7300 -200 7900 -200 {lab=VDD}
+N 5500 -200 6100 -200 {lab=VDD}
+N 5480 -170 6080 -170 {lab=VSS}
+N 5900 -10 6100 -10 {lab=#net19}
+N 7900 -80 8500 -80 {lab=DELAY_VBIASP}
+N 8480 -170 9080 -170 {lab=VSS}
+N 7300 -80 7300 -50 {lab=DELAY_VBIASP}
+N 7900 60 8500 60 {lab=DELAY_VBIASN}
+N 7300 -200 7300 -130 {lab=VDD}
+N 7280 -110 7300 -110 {lab=VSS}
+N 7280 -170 7280 -110 {lab=VSS}
+N 7300 30 7300 60 {lab=DELAY_VBIASN}
+N 7700 -10 7900 -10 {lab=#net20}
+N 7900 30 7900 60 {lab=DELAY_VBIASN}
+N 7300 60 7900 60 {lab=DELAY_VBIASN}
+N 7900 -200 7900 -130 {lab=VDD}
+N 7880 -110 7900 -110 {lab=VSS}
+N 7880 -170 7880 -110 {lab=VSS}
+N 8500 -200 9100 -200 {lab=VDD}
+N 8500 -80 8500 -50 {lab=DELAY_VBIASP}
+N 8500 -200 8500 -130 {lab=VDD}
+N 8480 -110 8500 -110 {lab=VSS}
+N 8480 -170 8480 -110 {lab=VSS}
+N 8500 30 8500 60 {lab=DELAY_VBIASN}
+N 8900 -10 9100 -10 {lab=#net21}
+N 9100 30 9100 60 {lab=DELAY_VBIASN}
+N 8500 60 9100 60 {lab=DELAY_VBIASN}
+N 9100 -200 9100 -130 {lab=VDD}
+N 9080 -110 9100 -110 {lab=VSS}
+N 9080 -170 9080 -110 {lab=VSS}
+N 7900 -200 8500 -200 {lab=VDD}
+N 7880 -170 8480 -170 {lab=VSS}
+N 8300 -10 8500 -10 {lab=#net22}
+N 7100 -10 7300 -10 {lab=#net23}
+N 6700 -80 7300 -80 {lab=DELAY_VBIASP}
+N 6700 -200 7300 -200 {lab=VDD}
+N 6680 -170 7280 -170 {lab=VSS}
+N 6700 60 7300 60 {lab=DELAY_VBIASN}
+N 4700 -10 4900 -10 {lab=#net24}
+N 4300 -80 4900 -80 {lab=DELAY_VBIASP}
+N 4300 -200 4900 -200 {lab=VDD}
+N 4280 -170 4880 -170 {lab=VSS}
+N 4300 60 4900 60 {lab=DELAY_VBIASN}
+N -500 -80 100 -80 {lab=DELAY_VBIASP}
+N -500 -200 100 -200 {lab=VDD}
+N -520 -170 80 -170 {lab=VSS}
+N -500 60 100 60 {lab=DELAY_VBIASN}
+N 9100 -80 9100 -50 {lab=DELAY_VBIASP}
+N 8500 -80 9100 -80 {lab=DELAY_VBIASP}
+N -7700 -80 -7700 -50 {lab=DELAY_VBIASP}
+N -8300 -80 -7700 -80 {lab=DELAY_VBIASP}
+N -6500 -80 -6500 -50 {lab=DELAY_VBIASP}
+N -7100 -80 -6500 -80 {lab=DELAY_VBIASP}
+N -5300 -80 -5300 -50 {lab=DELAY_VBIASP}
+N -5900 -80 -5300 -80 {lab=DELAY_VBIASP}
+N -4100 -80 -4100 -50 {lab=DELAY_VBIASP}
+N -4700 -80 -4100 -80 {lab=DELAY_VBIASP}
+N -2900 -80 -2900 -50 {lab=DELAY_VBIASP}
+N -3500 -80 -2900 -80 {lab=DELAY_VBIASP}
+N -1700 -80 -1700 -50 {lab=DELAY_VBIASP}
+N -2300 -80 -1700 -80 {lab=DELAY_VBIASP}
+N -500 -80 -500 -50 {lab=DELAY_VBIASP}
+N -1100 -80 -500 -80 {lab=DELAY_VBIASP}
+N 700 -80 700 -50 {lab=DELAY_VBIASP}
+N 100 -80 700 -80 {lab=DELAY_VBIASP}
+N 1900 -80 1900 -50 {lab=DELAY_VBIASP}
+N 1300 -80 1900 -80 {lab=DELAY_VBIASP}
+N 3100 -80 3100 -50 {lab=DELAY_VBIASP}
+N 2500 -80 3100 -80 {lab=DELAY_VBIASP}
+N 4300 -80 4300 -50 {lab=DELAY_VBIASP}
+N 3700 -80 4300 -80 {lab=DELAY_VBIASP}
+N 5500 -80 5500 -50 {lab=DELAY_VBIASP}
+N 4900 -80 5500 -80 {lab=DELAY_VBIASP}
+N 6700 -80 6700 -50 {lab=DELAY_VBIASP}
+N 6100 -80 6700 -80 {lab=DELAY_VBIASP}
+N 7900 -80 7900 -50 {lab=DELAY_VBIASP}
+N 7300 -80 7900 -80 {lab=DELAY_VBIASP}
+N -8900 -80 -8900 -50 {lab=DELAY_VBIASP}
+N -9500 -80 -8900 -80 {lab=DELAY_VBIASP}
+N -7300 -10 -7100 -10 {lab=#net25}
+N -6100 -10 -5900 -10 {lab=#net26}
+N -4900 -10 -4700 -10 {lab=#net27}
+N -3700 -10 -3500 -10 {lab=#net28}
+N -1300 -10 -1100 -10 {lab=#net29}
+N -100 -10 100 -10 {lab=#net30}
+N -2500 -10 -2300 -10 {lab=#net31}
+C {ipin.sym} -9620 -200 0 0 {name=p3 lab=VDD}
+C {ipin.sym} -9620 -170 0 0 {name=p4 lab=VSS}
+C {ipin.sym} -9620 60 0 0 {name=p1 lab=DELAY_VBIASN}
+C {ipin.sym} -9620 -80 0 0 {name=p7 lab=DELAY_VBIASP}
+C {ipin.sym} -9620 -10 0 0 {name=p2 lab=DELAY_IN}
+C {hx_delay_cell.sym} -9290 -10 0 0 {name=x0}
+C {hx_delay_cell.sym} -8690 -10 0 0 {name=x1}
+C {opin.sym} -9100 -50 0 0 {name=p5 lab=DELAY_OUT_TAP1}
+C {opin.sym} -8500 -50 0 0 {name=p8 lab=DELAY_OUT_TAP2}
+C {hx_delay_cell.sym} -8090 -10 0 0 {name=x2}
+C {hx_delay_cell.sym} -7490 -10 0 0 {name=x3}
+C {opin.sym} -7900 -50 0 0 {name=p9 lab=DELAY_OUT_TAP3}
+C {opin.sym} -7300 -50 0 0 {name=p10 lab=DELAY_OUT_TAP4}
+C {hx_delay_cell.sym} -6890 -10 0 0 {name=x4}
+C {hx_delay_cell.sym} -6290 -10 0 0 {name=x5}
+C {opin.sym} -6700 -50 0 0 {name=p11 lab=DELAY_OUT_TAP5}
+C {opin.sym} -6100 -50 0 0 {name=p12 lab=DELAY_OUT_TAP6}
+C {hx_delay_cell.sym} -5690 -10 0 0 {name=x6}
+C {hx_delay_cell.sym} -5090 -10 0 0 {name=x7}
+C {opin.sym} -5500 -50 0 0 {name=p13 lab=DELAY_OUT_TAP7}
+C {opin.sym} -4900 -50 0 0 {name=p14 lab=DELAY_OUT_TAP8}
+C {hx_delay_cell.sym} -4490 -10 0 0 {name=x8}
+C {hx_delay_cell.sym} -3890 -10 0 0 {name=x9}
+C {opin.sym} -4300 -50 0 0 {name=p15 lab=DELAY_OUT_TAP9}
+C {opin.sym} -3700 -50 0 0 {name=p16 lab=DELAY_OUT_TAP10}
+C {hx_delay_cell.sym} -3290 -10 0 0 {name=x10}
+C {hx_delay_cell.sym} -2690 -10 0 0 {name=x11}
+C {opin.sym} -3100 -50 0 0 {name=p17 lab=DELAY_OUT_TAP11}
+C {opin.sym} -2500 -50 0 0 {name=p18 lab=DELAY_OUT_TAP12}
+C {hx_delay_cell.sym} -2090 -10 0 0 {name=x12}
+C {hx_delay_cell.sym} -1490 -10 0 0 {name=x13}
+C {opin.sym} -1900 -50 0 0 {name=p19 lab=DELAY_OUT_TAP13}
+C {opin.sym} -1300 -50 0 0 {name=p20 lab=DELAY_OUT_TAP14}
+C {hx_delay_cell.sym} -890 -10 0 0 {name=x14}
+C {hx_delay_cell.sym} -290 -10 0 0 {name=x15}
+C {opin.sym} -700 -50 0 0 {name=p21 lab=DELAY_OUT_TAP15}
+C {opin.sym} -100 -50 0 0 {name=p22 lab=DELAY_OUT_TAP16}
+C {hx_delay_cell.sym} 310 -10 0 0 {name=x16}
+C {hx_delay_cell.sym} 910 -10 0 0 {name=x17}
+C {opin.sym} 500 -50 0 0 {name=p23 lab=DELAY_OUT_TAP17}
+C {opin.sym} 1100 -50 0 0 {name=p24 lab=DELAY_OUT_TAP18}
+C {hx_delay_cell.sym} 1510 -10 0 0 {name=x18}
+C {hx_delay_cell.sym} 2110 -10 0 0 {name=x19}
+C {opin.sym} 1700 -50 0 0 {name=p25 lab=DELAY_OUT_TAP19}
+C {opin.sym} 2300 -50 0 0 {name=p26 lab=DELAY_OUT_TAP20}
+C {hx_delay_cell.sym} 2710 -10 0 0 {name=x20}
+C {hx_delay_cell.sym} 3310 -10 0 0 {name=x21}
+C {opin.sym} 2900 -50 0 0 {name=p27 lab=DELAY_OUT_TAP21}
+C {opin.sym} 3500 -50 0 0 {name=p28 lab=DELAY_OUT_TAP22}
+C {hx_delay_cell.sym} 3910 -10 0 0 {name=x22}
+C {hx_delay_cell.sym} 4510 -10 0 0 {name=x23}
+C {opin.sym} 4100 -50 0 0 {name=p29 lab=DELAY_OUT_TAP23}
+C {opin.sym} 4700 -50 0 0 {name=p30 lab=DELAY_OUT_TAP24}
+C {hx_delay_cell.sym} 5110 -10 0 0 {name=x24}
+C {hx_delay_cell.sym} 5710 -10 0 0 {name=x25}
+C {opin.sym} 5300 -50 0 0 {name=p31 lab=DELAY_OUT_TAP25}
+C {opin.sym} 5900 -50 0 0 {name=p32 lab=DELAY_OUT_TAP26}
+C {hx_delay_cell.sym} 6310 -10 0 0 {name=x26}
+C {hx_delay_cell.sym} 6910 -10 0 0 {name=x27}
+C {opin.sym} 6500 -50 0 0 {name=p33 lab=DELAY_OUT_TAP27}
+C {opin.sym} 7100 -50 0 0 {name=p34 lab=DELAY_OUT_TAP28}
+C {hx_delay_cell.sym} 7510 -10 0 0 {name=x28}
+C {hx_delay_cell.sym} 8110 -10 0 0 {name=x29}
+C {opin.sym} 7700 -50 0 0 {name=p35 lab=DELAY_OUT_TAP29}
+C {opin.sym} 8300 -50 0 0 {name=p36 lab=DELAY_OUT_TAP30}
+C {hx_delay_cell.sym} 8710 -10 0 0 {name=x30}
+C {hx_delay_cell.sym} 9310 -10 0 0 {name=x31}
+C {opin.sym} 8900 -50 0 0 {name=p37 lab=DELAY_OUT_TAP31}
+C {opin.sym} 9500 -10 0 0 {name=p38 lab=DELAY_OUT_LAST}

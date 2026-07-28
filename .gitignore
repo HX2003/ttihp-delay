@@ -11,3 +11,8 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+
+build/temp_magic
+build/temp_pex
+tile_simulation/temp_pex
+simulations

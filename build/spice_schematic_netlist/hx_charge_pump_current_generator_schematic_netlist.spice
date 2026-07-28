@@ -1,0 +1,20 @@
+** sch_path: /home/hx2003/Desktop/ttihp-delay/schematics/hx_charge_pump_current_generator.sch
+.subckt hx_charge_pump_current_generator VDD VSS CURRENT_SINK CURRENT_SOURCE
+*.PININFO VDD:I VSS:I CURRENT_SOURCE:O CURRENT_SINK:O
+MM4002 net4 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4009 net5 net1 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+MM4008 net1 net1 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+MM4003 CURRENT_SOURCE node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4000 node0 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4001 node1 node1 VDD VDD sg13_lv_pmos w=4u l=1u ng=2 m=2
+MM4004 node0 node0 VSS VSS sg13_lv_nmos w=4u l=1u ng=2
+MM4005 node1 node0 net2 VSS sg13_lv_nmos w=4u l=1u ng=2 m=4
+RR2 net2 VSS 8.3404k $SUB=sub! $[rppd] w=1e-6 l=32e-6 b=0
+MM4102 net3 net3 VDD VDD sg13_lv_pmos w=0.36u l=2u ng=1
+MM4100 node1 net3 node0 VSS sg13_lv_nmos w=4u l=1u ng=2
+MM4101 net3 node0 VSS VSS sg13_lv_nmos w=4u l=1u ng=2 m=4
+RR4 VSS sub! ptap1 A=6.084e-13 P=3.12e-06
+MM4006 net4 net4 net1 VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+MM4007 CURRENT_SINK net4 net5 VSS sg13_lv_nmos w=4u l=1u ng=2 m=2
+.ends
+.GLOBAL sub!

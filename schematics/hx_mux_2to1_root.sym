@@ -1,0 +1,47 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type="tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "primitive"
+\} else \{
+    return "subcircuit"
+\}])"
+format="@name @@VSS @@VDD @@MUX_OUT @@MUX_SEL @@MUX_IN1 @@MUX_IN0 @symname"
+template="name=x1"}
+V {}
+S {}
+F {}
+E {}
+L 4 -130 -90 -110 -90 {}
+L 4 -130 -70 -110 -70 {}
+L 4 -130 -10 -40 -10 {}
+L 4 -130 10 -40 10 {}
+L 4 -10 0 10 0 {}
+L 4 50 0 130 0 {}
+B 5 -132.5 -92.5 -127.5 -87.5 {name=VDD dir=in}
+B 5 -132.5 -72.5 -127.5 -67.5 {name=VSS dir=in}
+B 5 -132.5 -12.5 -127.5 -7.5 {name=MUX_IN0 (input) dir=in}
+B 5 -132.5 7.5 -127.5 12.5 {name=MUX_IN1 dir=in}
+B 5 -132.5 57.5 -127.5 62.5 {name=MUX_SEL dir=in}
+B 5 127.5 -2.5 132.5 2.5 {name=MUX_OUT dir=out}
+P 4 5 110 -110 -110 -110 -110 80 110 80 110 -110 {}
+P 4 5 -40 30 -40 -30 -10 -20 -10 20 -40 30 {fill=true}
+P 4 3 -130 60 -25 60 -25 20 {}
+P 4 4 10 20 10 -20 50 0 10 20 {}
+T {@symname} -108.5 84 0 0 0.3 0.3 {}
+T {@name} 75 -132 0 0 0.2 0.2 {}
+T {VDD} -105 -94 0 0 0.2 0.2 {}
+T {VSS} -105 -74 0 0 0.2 0.2 {}
+T {tcleval([
+if \{[info exists tcl_var_use_post_layout_netlist] && $tcl_var_use_post_layout_netlist == 1\} \{
+    return "Using post-layout netlist
+(with parasitics)"
+\} else \{
+    return ""
+\}])} -108.5 104 0 0 0.3 0.3 {layer=21
+weight=bold}
+T {MUX 2 to 1 Root} -80 -80 0 0 0.4 0.4 {}
+T {MUX_IN0} -105 -24 0 0 0.2 0.2 {}
+T {MUX_IN1} -105 -4 0 0 0.2 0.2 {}
+T {MUX_SEL} -105 46 0 0 0.2 0.2 {}
+T {MUX_OUT} 105 -14 0 1 0.2 0.2 {}
