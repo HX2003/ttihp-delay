@@ -3,10 +3,12 @@
 # The default macro PDN grid attempts to connect from
 # PDN_VERTICAL_LAYER to PDN_HORIZONTAL_LAYER
 # which on SG13G2, is from
-# Metal4 to TopMetal1
+# TopMetal1 to TopMetal2
 #
 # This custom script connects from
-# Metal3 to TopMetal1 instead
+# Metal3 to PDN_VERTICAL_LAYER instead
+# which on SG13G2, is from
+# Metal3 to TopMetal1
 
 # Copyright 2025 LibreLane Contributors
 #
