@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
+x1=-3.0099017e-07
+x2=4.5118657e-06
 subdivx=1
 
 
@@ -27,28 +27,6 @@ node=vdd
 divx=5
 hilight_wave=0}
 B 2 10 -880 810 -480 {flags=graph
-y1=-0.32531444
-y2=1.6675244
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
-subdivx=1
-
-
-dataset=-1
-unitx=1
-logx=0
-logy=0
-divx=5
-color="4 7"
-node="x1.x1.up
-x1.x1.down"
-fullxzoom=#}
-B 2 10 -1320 810 -920 {flags=graph
 y1=-0.27153964
 y2=1.2589606
 ypos1=0
@@ -56,8 +34,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
+x1=-3.0099017e-07
+x2=4.5118657e-06
 subdivx=1
 
 
@@ -69,7 +47,7 @@ divx=5
 color="7 8"
 node="ref_clk
 ref_clk_out"}
-B 2 10 -1760 810 -1360 {flags=graph
+B 2 10 -1320 810 -920 {flags=graph
 y1=-1.122674
 y2=2.5333655
 ypos1=0
@@ -77,8 +55,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
+x1=-3.0099017e-07
+x2=4.5118657e-06
 subdivx=1
 
 
@@ -102,8 +80,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
+x1=-3.0099017e-07
+x2=4.5118657e-06
 subdivx=1
 
 
@@ -114,47 +92,6 @@ logy=0
 divx=5
 color=15
 node=dll_rst_n}
-B 2 840 -960 1640 -560 {flags=graph
-y1=-1.8946247e-05
-y2=2.4418072e-05
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
-subdivx=1
-
-
-dataset=-1
-unitx=1
-logx=0
-logy=0
-divx=5
-color="4 7"
-node="i(x1.x1.x3.vchargeup)
-i(x1.x1.x3.vchargedown)"}
-B 2 840 -1400 1640 -1000 {flags=graph
-y1=-5.5319154e-05
-y2=0.00012368115
-ypos1=0
-ypos2=2
-divy=5
-subdivy=1
-unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
-subdivx=1
-
-
-dataset=-1
-unitx=1
-logx=0
-logy=0
-divx=5
-color=4
-node=i(x1.x1.vcharge)}
 B 2 840 -530 1870 -50 {flags=graph
 y1=0.0705946
 y2=2.8254951
@@ -163,8 +100,8 @@ ypos2=3.1051657
 divy=5
 subdivy=1
 unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
+x1=-3.0099017e-07
+x2=4.5118657e-06
 subdivx=1
 
 
@@ -195,8 +132,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=5.6109089e-06
-x2=5.6459538e-06
+x1=-3.0099017e-07
+x2=4.5118657e-06
 subdivx=1
 
 
