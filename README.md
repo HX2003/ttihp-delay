@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# 4 Channel - 32 Tap Programmable Delay with Delay Locked Loop Calibration for TinyTapeout using IHP SG13CMOS5L Process 
+# 4 Channel - 32 Tap Programmable Delay with Delay Locked Loop Calibration for TinyTapeout using IHP SG13G2 Process 
 
 - [Read the documentation for project](docs/info.md)
 - [Read how to setup and build the project](docs/build.md)

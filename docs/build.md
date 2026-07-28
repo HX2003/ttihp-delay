@@ -4,8 +4,6 @@ This is mixed-signal design, with the `hx_delay_bank` analog macro block being l
 
 Caution ⚠️: The IHP Open PDK is in active development, and the PDK's directory structure is expected to change, so scripts/commands may need to be updated.
 
-Caution ⚠️: The design was characterized for SG13G2 not SG13CMOS5L, as the latter was just newly introduced. Based on the process specification documents provided, they should be similar, though slight differences in parasitics are expected due to the loss of metal layers in the latter.
-
 ## Project Structure
 
 

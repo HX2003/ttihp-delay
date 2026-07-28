@@ -68,15 +68,15 @@ Here is the hierarchy for the analog macro block:
 
 ```
 hx_delay_bank
-  hx_delay_line_with_mux (5x total)
-    hx_delay_line ✓
-      hx_delay_cell (32x total) ✓
+  hx_delay_line_with_mux (5x total) ✓
+    hx_delay_line
+      hx_delay_cell (32x total)
       hx_delay_cell_left_endcap
       hx_delay_cell_right_endcap
-    hx_mux ✓
+    hx_mux
       hx_mux_predecoder
-      hx_mux_4to1_leaf (8x total) ✓
-      hx_mux_4to1_intermediate (2x total) ✓
+      hx_mux_4to1_leaf (8x total)
+      hx_mux_4to1_intermediate (2x total)
       hx_mux_2to1_root ✓
   hx_delay_line_with_mux_dll
     hx_dll_controller

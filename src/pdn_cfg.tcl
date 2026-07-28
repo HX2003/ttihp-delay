@@ -2,11 +2,11 @@
 # https://github.com/librelane/librelane/blob/3.0.5/librelane/scripts/openroad/common/pdn_cfg.tcl
 # The default macro PDN grid attempts to connect from
 # PDN_VERTICAL_LAYER to PDN_HORIZONTAL_LAYER
-# which on SG13CMOS5L, is from
+# which on SG13G2, is from
 # Metal4 to TopMetal1
 #
 # This custom script connects from
-# Metal3 to Metal4 instead
+# Metal3 to TopMetal1 instead
 
 # Copyright 2025 LibreLane Contributors
 #
