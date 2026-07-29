@@ -7,788 +7,788 @@
 + DELAY_OUT_TAP20 DELAY_OUT_TAP21 DELAY_OUT_TAP22 DELAY_OUT_TAP23 DELAY_OUT_TAP24
 + DELAY_OUT_TAP25 DELAY_OUT_TAP26 DELAY_OUT_TAP27 DELAY_OUT_TAP28 DELAY_OUT_TAP29
 + DELAY_OUT_TAP30 DELAY_OUT_TAP31 DELAY_IN DELAY_VBIASN DELAY_VBIASP
-X0 VDD.t30 DELAY_VBIASP.t3 a_25131_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X1 VSS.t38 a_5263_1842# DELAY_OUT_TAP3 VSS.t56 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X2 VDD.t11 DELAY_VBIASP.t31 a_3851_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X0 VDD.t44 DELAY_VBIASP.t3 a_25131_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X1 VSS.t9 a_5263_1842# DELAY_OUT_TAP3 VSS.t48 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X2 VDD.t24 DELAY_VBIASP.t31 a_3851_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
 X3 a_27411_2470# a_27173_1842# a_27303_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X4 a_9171_1842# a_8933_1842# a_9063_1842# VSS.t60 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X5 a_18053_1842# DELAY_OUT_TAP19 VSS.t112 VSS.t111 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X6 a_15013_1842# DELAY_OUT_TAP15 VDD.t69 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X7 VDD.t7 DELAY_VBIASP.t15 a_16011_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X8 VSS.t62 a_7543_1842# DELAY_OUT_TAP6 VSS.t61 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X9 VDD.t13 DELAY_VBIASP.t28 a_6131_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X4 a_9171_1842# a_8933_1842# a_9063_1842# VSS.t52 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X5 a_18053_1842# DELAY_OUT_TAP19 VSS.t45 VSS.t109 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X6 a_15013_1842# DELAY_OUT_TAP15 VDD.t8 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X7 VDD.t37 DELAY_VBIASP.t15 a_16011_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X8 VSS.t25 a_7543_1842# DELAY_OUT_TAP6 VSS.t62 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X9 VDD.t26 DELAY_VBIASP.t28 a_6131_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
 X10 VDD.t71 a_25783_1842# DELAY_OUT_TAP30 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X11 a_14491_1842# a_14253_1842# a_14383_1842# VSS.t26 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X11 a_14491_1842# a_14253_1842# a_14383_1842# VSS.t33 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
 X12 a_8411_2470# a_8173_1842# a_8303_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X13 a_17293_1842# DELAY_OUT_TAP18 VDD.t70 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X14 VSS.t48 VSS.t44 VSS.t44 VSS.t46 sg13_lv_nmos ad=0.1406p pd=1.12u as=0 ps=0 w=0.74u l=0.13u
-X15 VDD.t92 a_17423_1842# DELAY_OUT_TAP19 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X16 a_21093_1842# DELAY_OUT_TAP23 VDD.t83 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X13 a_17293_1842# DELAY_OUT_TAP18 VDD.t91 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X14 VSS.t72 VSS.t68 VSS.t68 VSS.t70 sg13_lv_nmos ad=0.1406p pd=1.12u as=0 ps=0 w=0.74u l=0.13u
+X15 VDD.t51 a_17423_1842# DELAY_OUT_TAP19 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X16 a_21093_1842# DELAY_OUT_TAP23 VDD.t63 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
 X17 a_22851_2470# a_22613_1842# a_22743_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X18 VSS.t73 a_12863_1842# DELAY_OUT_TAP13 VSS.t72 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X19 VDD.t38 a_6783_1842# DELAY_OUT_TAP5 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X20 VDD.t5 DELAY_VBIASP.t21 a_11451_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X21 VDD.t64 a_21223_1842# DELAY_OUT_TAP24 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X22 a_12733_1842# DELAY_OUT_TAP12 VDD.t1 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X18 VSS.t36 a_12863_1842# DELAY_OUT_TAP13 VSS.t105 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X19 VDD.t7 a_6783_1842# DELAY_OUT_TAP5 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X20 VDD.t19 DELAY_VBIASP.t21 a_11451_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X21 VDD.t62 a_21223_1842# DELAY_OUT_TAP24 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X22 a_12733_1842# DELAY_OUT_TAP12 VDD.t5 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
 X23 a_13731_2470# a_13493_1842# a_13623_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
 X24 a_3851_2470# DELAY_IN a_3743_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X25 VSS.t118 DELAY_VBIASN.t12 a_18291_1842# VSS.t131 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X26 VDD.t42 a_23503_1842# DELAY_OUT_TAP27 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X27 VDD.t33 DELAY_VBIASP.t1 a_26651_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X28 VSS.t83 DELAY_VBIASN.t7 a_22091_1842# VSS.t148 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X29 a_19573_1842# DELAY_OUT_TAP21 VSS.t41 VSS.t110 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X30 VDD.t39 a_4503_1842# DELAY_OUT_TAP2 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X31 DELAY_OUT_LAST a_27737_1842# VDD.t101 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X32 VSS.t70 a_9063_1842# DELAY_OUT_TAP8 VSS.t69 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X33 a_23373_1842# DELAY_OUT_TAP26 VSS.t93 VSS.t92 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X34 VDD.t16 DELAY_VBIASP.t26 a_7651_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X35 VSS.t20 DELAY_VBIASN.t18 a_13731_1842# VSS.t146 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X25 VSS.t27 DELAY_VBIASN.t12 a_18291_1842# VSS.t141 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X26 VDD.t70 a_23503_1842# DELAY_OUT_TAP27 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X27 VDD.t45 DELAY_VBIASP.t1 a_26651_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X28 VSS.t103 DELAY_VBIASN.t7 a_22091_1842# VSS.t149 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X29 a_19573_1842# DELAY_OUT_TAP21 VSS.t80 VSS.t106 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X30 VDD.t49 a_4503_1842# DELAY_OUT_TAP2 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X31 DELAY_OUT_LAST a_27737_1842# VDD.t12 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X32 VSS.t59 a_9063_1842# DELAY_OUT_TAP8 VSS.t58 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X33 a_23373_1842# DELAY_OUT_TAP26 VSS.t100 VSS.t99 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X34 VDD.t30 DELAY_VBIASP.t26 a_7651_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X35 VSS.t7 DELAY_VBIASN.t18 a_13731_1842# VSS.t135 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X36 a_9931_2470# a_9693_1842# a_9823_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
 X37 a_11451_2470# a_11213_1842# a_11343_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X38 a_18813_1842# DELAY_OUT_TAP20 VDD.t96 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X39 a_16011_1842# a_15773_1842# a_15903_1842# VSS.t25 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X40 a_8933_1842# DELAY_OUT_TAP7 VDD.t86 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X41 VDD.t66 a_9823_1842# DELAY_OUT_TAP9 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X42 a_22613_1842# DELAY_OUT_TAP25 VDD.t72 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X43 a_4373_1842# DELAY_OUT_TAP1 VSS.t7 VSS.t33 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X44 VSS.t75 a_14383_1842# DELAY_OUT_TAP15 VSS.t74 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X45 a_18291_1842# a_18053_1842# a_18183_1842# VSS.t170 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X38 a_18813_1842# DELAY_OUT_TAP20 VDD.t11 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X39 a_16011_1842# a_15773_1842# a_15903_1842# VSS.t19 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X40 a_8933_1842# DELAY_OUT_TAP7 VDD.t58 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X41 VDD.t55 a_9823_1842# DELAY_OUT_TAP9 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X42 a_22613_1842# DELAY_OUT_TAP25 VDD.t74 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X43 a_4373_1842# DELAY_OUT_TAP1 VSS.t23 VSS.t22 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X44 VSS.t21 a_14383_1842# DELAY_OUT_TAP15 VSS.t20 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X45 a_18291_1842# a_18053_1842# a_18183_1842# VSS.t168 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
 X46 a_26651_2470# a_26413_1842# a_26543_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X47 a_22091_1842# a_21853_1842# a_21983_1842# VSS.t84 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X48 VSS.t78 a_16663_1842# DELAY_OUT_TAP18 VSS.t77 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X49 VDD.t3 DELAY_VBIASP.t16 a_15251_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X50 VSS.t10 DELAY_VBIASN.t10 a_19811_1842# VSS.t150 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X51 VDD.t82 a_25023_1842# DELAY_OUT_TAP29 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X52 VSS.t28 DELAY_VBIASN.t5 a_23611_1842# VSS.t127 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X47 a_22091_1842# a_21853_1842# a_21983_1842# VSS.t156 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X48 VSS.t111 a_16663_1842# DELAY_OUT_TAP18 VSS.t171 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X49 VDD.t35 DELAY_VBIASP.t16 a_15251_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X50 VSS.t89 DELAY_VBIASN.t10 a_19811_1842# VSS.t147 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X51 VDD.t95 a_25023_1842# DELAY_OUT_TAP29 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X52 VSS.t96 DELAY_VBIASN.t5 a_23611_1842# VSS.t152 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X53 a_17531_2470# a_17293_1842# a_17423_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
 X54 a_7651_2470# a_7413_1842# a_7543_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X55 a_16533_1842# DELAY_OUT_TAP17 VDD.t37 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X56 a_20333_1842# DELAY_OUT_TAP22 VDD.t36 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X55 a_16533_1842# DELAY_OUT_TAP17 VDD.t48 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X56 a_20333_1842# DELAY_OUT_TAP22 VDD.t64 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
 X57 a_21331_2470# a_21093_1842# a_21223_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X58 a_24893_1842# DELAY_OUT_TAP28 VSS.t101 VSS.t100 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X59 VSS.t2 a_12103_1842# DELAY_OUT_TAP12 VSS.t1 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X60 VDD.t44 a_6023_1842# DELAY_OUT_TAP4 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X61 VSS.t18 DELAY_VBIASN.t30 a_4611_1842# VSS.t125 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X62 a_11213_1842# DELAY_OUT_TAP10 VDD.t41 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X58 a_24893_1842# DELAY_OUT_TAP28 VSS.t14 VSS.t120 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X59 VSS.t11 a_12103_1842# DELAY_OUT_TAP12 VSS.t55 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X60 VDD.t2 a_6023_1842# DELAY_OUT_TAP4 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X61 VSS.t41 DELAY_VBIASN.t30 a_4611_1842# VSS.t131 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X62 a_11213_1842# DELAY_OUT_TAP10 VDD.t1 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
 X63 a_12971_2470# a_12733_1842# a_12863_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X64 VDD.t46 a_11343_1842# DELAY_OUT_TAP11 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X65 a_5893_1842# DELAY_OUT_TAP3 VSS.t38 VSS.t37 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X66 a_27173_1842# DELAY_OUT_TAP31 VSS.t30 VSS.t120 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X67 VSS.t112 DELAY_VBIASN.t13 a_17531_1842# VSS.t136 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X68 VSS.t160 a_27303_1842# a_27737_1842# VSS.t169 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X69 VSS.t64 DELAY_VBIASN.t8 a_21331_1842# VSS.t149 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X64 VDD.t60 a_11343_1842# DELAY_OUT_TAP11 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X65 a_5893_1842# DELAY_OUT_TAP3 VSS.t9 VSS.t8 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X66 a_27173_1842# DELAY_OUT_TAP31 VSS.t122 VSS.t121 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X67 VSS.t45 DELAY_VBIASN.t13 a_17531_1842# VSS.t144 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X68 VSS.t29 a_27303_1842# a_27737_1842# VSS.t28 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X69 VSS.t83 DELAY_VBIASN.t8 a_21331_1842# VSS.t146 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X70 a_15251_2470# a_15013_1842# a_15143_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X71 VSS.t51 VSS.t53 VSS.t53 VSS.t54 sg13_lv_nmos ad=0.1406p pd=1.12u as=0 ps=0 w=0.74u l=0.2u
-X72 a_19811_1842# a_19573_1842# a_19703_1842# VSS.t81 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X73 a_8173_1842# DELAY_OUT_TAP6 VSS.t62 VSS.t87 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X74 a_23611_1842# a_23373_1842# a_23503_1842# VSS.t21 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X75 VDD.t40 a_13623_1842# DELAY_OUT_TAP14 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X71 VSS.t75 VSS.t77 VSS.t77 VSS.t78 sg13_lv_nmos ad=0.1406p pd=1.12u as=0 ps=0 w=0.74u l=0.2u
+X72 a_19811_1842# a_19573_1842# a_19703_1842# VSS.t170 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X73 a_8173_1842# DELAY_OUT_TAP6 VSS.t25 VSS.t24 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X74 a_23611_1842# a_23373_1842# a_23503_1842# VSS.t157 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X75 VDD.t3 a_13623_1842# DELAY_OUT_TAP14 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
 X76 a_26413_1842# DELAY_OUT_TAP30 VDD.t71 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X77 VSS.t104 a_8303_1842# DELAY_OUT_TAP7 VSS.t103 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X78 VSS.t118 a_18183_1842# DELAY_OUT_TAP20 VSS.t171 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X79 VSS.t2 DELAY_VBIASN.t20 a_12211_1842# VSS.t123 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X80 VDD.t22 DELAY_VBIASP.t14 a_16771_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X81 VSS.t83 a_21983_1842# DELAY_OUT_TAP25 VSS.t82 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X82 VDD.t27 DELAY_VBIASP.t9 a_20571_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X83 a_4611_1842# a_4373_1842# a_4503_1842# VSS.t65 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X84 a_13493_1842# DELAY_OUT_TAP13 VSS.t73 VSS.t88 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X85 a_7413_1842# DELAY_OUT_TAP5 VDD.t38 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X86 VDD.t23 DELAY_VBIASP.t11 a_19051_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X87 a_21853_1842# DELAY_OUT_TAP24 VDD.t64 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X88 VSS.t134 DELAY_VBIASN.t0 a_27411_1842# VSS.t133 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X77 VSS.t61 a_8303_1842# DELAY_OUT_TAP7 VSS.t60 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X78 VSS.t27 a_18183_1842# DELAY_OUT_TAP20 VSS.t26 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X79 VSS.t11 DELAY_VBIASN.t20 a_12211_1842# VSS.t126 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X80 VDD.t21 DELAY_VBIASP.t14 a_16771_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X81 VSS.t103 a_21983_1842# DELAY_OUT_TAP25 VSS.t172 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X82 VDD.t42 DELAY_VBIASP.t9 a_20571_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X83 a_4611_1842# a_4373_1842# a_4503_1842# VSS.t18 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X84 a_13493_1842# DELAY_OUT_TAP13 VSS.t36 VSS.t35 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X85 a_7413_1842# DELAY_OUT_TAP5 VDD.t7 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X86 VDD.t17 DELAY_VBIASP.t11 a_19051_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X87 a_21853_1842# DELAY_OUT_TAP24 VDD.t62 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X88 VSS.t151 DELAY_VBIASN.t0 a_27411_1842# VSS.t150 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X89 a_25131_2470# a_24893_1842# a_25023_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X90 VSS.t14 a_15903_1842# DELAY_OUT_TAP17 VSS.t13 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X91 a_24133_1842# DELAY_OUT_TAP27 VDD.t42 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X92 VSS.t68 DELAY_VBIASN.t23 a_9931_1842# VSS.t129 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X93 VSS.t104 DELAY_VBIASN.t25 a_8411_1842# VSS.t140 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X94 VSS.t10 a_19703_1842# DELAY_OUT_TAP22 VSS.t9 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X90 VSS.t38 a_15903_1842# DELAY_OUT_TAP17 VSS.t37 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X91 a_24133_1842# DELAY_OUT_TAP27 VDD.t70 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X92 VSS.t50 DELAY_VBIASN.t23 a_9931_1842# VSS.t127 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X93 VSS.t61 DELAY_VBIASN.t25 a_8411_1842# VSS.t133 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X94 VSS.t89 a_19703_1842# DELAY_OUT_TAP22 VSS.t88 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
 X95 a_16771_2470# a_16533_1842# a_16663_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X96 VSS.t93 DELAY_VBIASN.t6 a_22851_1842# VSS.t135 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X97 a_12211_1842# a_11973_1842# a_12103_1842# VSS.t3 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X96 VSS.t100 DELAY_VBIASN.t6 a_22851_1842# VSS.t143 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X97 a_12211_1842# a_11973_1842# a_12103_1842# VSS.t107 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
 X98 a_6131_2470# a_5893_1842# a_6023_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X99 a_5133_1842# DELAY_OUT_TAP2 VDD.t39 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X100 VDD.t2 a_15143_1842# DELAY_OUT_TAP16 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X99 a_5133_1842# DELAY_OUT_TAP2 VDD.t49 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X100 VDD.t14 a_15143_1842# DELAY_OUT_TAP16 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
 X101 a_20571_2470# a_20333_1842# a_20463_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X102 a_9693_1842# DELAY_OUT_TAP8 VSS.t70 VSS.t107 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X103 VSS.t24 a_10583_1842# DELAY_OUT_TAP10 VSS.t23 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X104 VSS.t7 DELAY_VBIASN.t31 a_3851_1842# VSS.t138 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X105 VSS.t97 DELAY_VBIASN.t3 a_25131_1842# VSS.t152 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X102 a_9693_1842# DELAY_OUT_TAP8 VSS.t59 VSS.t93 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X103 VSS.t2 a_10583_1842# DELAY_OUT_TAP10 VSS.t1 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X104 VSS.t23 DELAY_VBIASN.t31 a_3851_1842# VSS.t130 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X105 VSS.t116 DELAY_VBIASN.t3 a_25131_1842# VSS.t142 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X106 a_19051_2470# a_18813_1842# a_18943_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X107 a_10453_1842# DELAY_OUT_TAP9 VDD.t66 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X108 a_27411_1842# a_27173_1842# a_27303_1842# VSS.t165 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X109 a_15013_1842# DELAY_OUT_TAP15 VSS.t75 VSS.t91 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X110 VSS.t80 a_25783_1842# DELAY_OUT_TAP30 VSS.t167 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X111 VSS.t14 DELAY_VBIASN.t15 a_16011_1842# VSS.t144 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X112 VDD.t32 DELAY_VBIASP.t4 a_24371_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X113 VSS.t32 DELAY_VBIASN.t28 a_6131_1842# VSS.t137 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X114 VDD.t49 VDD.t47 VDD.t48 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0 ps=0 w=1.12u l=0.13u
-X115 a_8411_1842# a_8173_1842# a_8303_1842# VSS.t71 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X116 a_22851_1842# a_22613_1842# a_22743_1842# VSS.t163 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X117 a_17293_1842# DELAY_OUT_TAP18 VSS.t78 VSS.t113 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X118 a_25653_1842# DELAY_OUT_TAP29 VDD.t82 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X119 VSS.t16 a_6783_1842# DELAY_OUT_TAP5 VSS.t55 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X120 a_21093_1842# DELAY_OUT_TAP23 VSS.t99 VSS.t98 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X121 VSS.t112 a_17423_1842# DELAY_OUT_TAP19 VSS.t172 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X122 VDD.t14 DELAY_VBIASP.t29 a_5371_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X123 VSS.t64 a_21223_1842# DELAY_OUT_TAP24 VSS.t85 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X124 VSS.t35 DELAY_VBIASN.t21 a_11451_1842# VSS.t143 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X125 a_3851_1842# DELAY_IN a_3743_1842# VSS.t86 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X126 a_13731_1842# a_13493_1842# a_13623_1842# VSS.t36 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X127 a_12733_1842# DELAY_OUT_TAP12 VSS.t2 VSS.t89 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X128 a_6653_1842# DELAY_OUT_TAP4 VDD.t44 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X129 VSS.t28 a_23503_1842# DELAY_OUT_TAP27 VSS.t27 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X130 VDD.t10 DELAY_VBIASP.t22 a_10691_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X131 VDD.t83 a_20463_1842# DELAY_OUT_TAP23 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X132 VSS.t30 DELAY_VBIASN.t1 a_26651_1842# VSS.t132 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X107 a_10453_1842# DELAY_OUT_TAP9 VDD.t55 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X108 a_27411_1842# a_27173_1842# a_27303_1842# VSS.t164 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X109 a_15013_1842# DELAY_OUT_TAP15 VSS.t21 VSS.t113 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X110 VSS.t98 a_25783_1842# DELAY_OUT_TAP30 VSS.t162 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X111 VSS.t38 DELAY_VBIASN.t15 a_16011_1842# VSS.t124 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X112 VDD.t18 DELAY_VBIASP.t4 a_24371_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X113 VSS.t4 DELAY_VBIASN.t28 a_6131_1842# VSS.t128 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X114 VDD.t80 VDD.t78 VDD.t79 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0 ps=0 w=1.12u l=0.13u
+X115 a_8411_1842# a_8173_1842# a_8303_1842# VSS.t53 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X116 a_22851_1842# a_22613_1842# a_22743_1842# VSS.t117 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X117 a_17293_1842# DELAY_OUT_TAP18 VSS.t111 VSS.t110 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X118 a_25653_1842# DELAY_OUT_TAP29 VDD.t95 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X119 VSS.t16 a_6783_1842# DELAY_OUT_TAP5 VSS.t30 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X120 a_21093_1842# DELAY_OUT_TAP23 VSS.t86 VSS.t101 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X121 VSS.t45 a_17423_1842# DELAY_OUT_TAP19 VSS.t44 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X122 VDD.t23 DELAY_VBIASP.t29 a_5371_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X123 VSS.t83 a_21223_1842# DELAY_OUT_TAP24 VSS.t82 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X124 VSS.t65 DELAY_VBIASN.t21 a_11451_1842# VSS.t139 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X125 a_3851_1842# DELAY_IN a_3743_1842# VSS.t42 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X126 a_13731_1842# a_13493_1842# a_13623_1842# VSS.t5 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X127 a_12733_1842# DELAY_OUT_TAP12 VSS.t11 VSS.t10 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X128 a_6653_1842# DELAY_OUT_TAP4 VDD.t2 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X129 VSS.t96 a_23503_1842# DELAY_OUT_TAP27 VSS.t163 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X130 VDD.t33 DELAY_VBIASP.t22 a_10691_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X131 VDD.t63 a_20463_1842# DELAY_OUT_TAP23 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X132 VSS.t122 DELAY_VBIASN.t1 a_26651_1842# VSS.t155 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X133 a_24371_2470# a_24133_1842# a_24263_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X134 a_11973_1842# DELAY_OUT_TAP11 VDD.t46 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X135 VDD.t9 DELAY_VBIASP.t19 a_12971_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X136 VDD.t60 a_18943_1842# DELAY_OUT_TAP21 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X137 VSS.t18 a_4503_1842# DELAY_OUT_TAP2 VSS.t66 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X138 DELAY_OUT_LAST a_27737_1842# VSS.t160 VSS.t159 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X139 VDD.t79 a_22743_1842# DELAY_OUT_TAP26 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X140 VSS.t62 DELAY_VBIASN.t26 a_7651_1842# VSS.t121 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X141 VDD.t34 DELAY_VBIASP.t2 a_25891_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X134 a_11973_1842# DELAY_OUT_TAP11 VDD.t60 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X135 VDD.t20 DELAY_VBIASP.t19 a_12971_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X136 VDD.t61 a_18943_1842# DELAY_OUT_TAP21 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X137 VSS.t41 a_4503_1842# DELAY_OUT_TAP2 VSS.t43 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X138 DELAY_OUT_LAST a_27737_1842# VSS.t29 VSS.t166 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X139 VDD.t72 a_22743_1842# DELAY_OUT_TAP26 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X140 VSS.t25 DELAY_VBIASN.t26 a_7651_1842# VSS.t125 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X141 VDD.t16 DELAY_VBIASP.t2 a_25891_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
 X142 a_11451_1842# a_11213_1842# a_11343_1842# VSS.t12 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
 X143 a_5371_2470# a_5133_1842# a_5263_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X144 a_14253_1842# DELAY_OUT_TAP14 VDD.t40 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X145 a_9931_1842# a_9693_1842# a_9823_1842# VSS.t59 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X146 a_18813_1842# DELAY_OUT_TAP20 VSS.t118 VSS.t117 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X147 a_8933_1842# DELAY_OUT_TAP7 VSS.t104 VSS.t108 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X148 a_22613_1842# DELAY_OUT_TAP25 VSS.t83 VSS.t102 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X149 VSS.t68 a_9823_1842# DELAY_OUT_TAP9 VSS.t67 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X150 VDD.t35 a_3743_1842# DELAY_OUT_TAP1 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X151 VDD.t17 DELAY_VBIASP.t27 a_6891_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X144 a_14253_1842# DELAY_OUT_TAP14 VDD.t3 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X145 a_9931_1842# a_9693_1842# a_9823_1842# VSS.t51 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X146 a_18813_1842# DELAY_OUT_TAP20 VSS.t27 VSS.t108 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X147 a_8933_1842# DELAY_OUT_TAP7 VSS.t61 VSS.t94 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X148 a_22613_1842# DELAY_OUT_TAP25 VSS.t103 VSS.t102 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X149 VSS.t50 a_9823_1842# DELAY_OUT_TAP9 VSS.t49 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X150 VDD.t9 a_3743_1842# DELAY_OUT_TAP1 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X151 VDD.t29 DELAY_VBIASP.t27 a_6891_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
 X152 a_10691_2470# a_10453_1842# a_10583_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X153 a_26651_1842# a_26413_1842# a_26543_1842# VSS.t22 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X154 VSS.t5 DELAY_VBIASN.t16 a_15251_1842# VSS.t126 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X155 VDD.t19 DELAY_VBIASP.t24 a_9171_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X156 VSS.t97 a_25023_1842# DELAY_OUT_TAP29 VSS.t161 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X157 a_17531_1842# a_17293_1842# a_17423_1842# VSS.t154 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X158 a_7651_1842# a_7413_1842# a_7543_1842# VSS.t58 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X159 a_21331_1842# a_21093_1842# a_21223_1842# VSS.t115 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X160 a_16533_1842# DELAY_OUT_TAP17 VSS.t14 VSS.t114 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X153 a_26651_1842# a_26413_1842# a_26543_1842# VSS.t169 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X154 VSS.t32 DELAY_VBIASN.t16 a_15251_1842# VSS.t136 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X155 VDD.t32 DELAY_VBIASP.t24 a_9171_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X156 VSS.t116 a_25023_1842# DELAY_OUT_TAP29 VSS.t159 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X157 a_17531_1842# a_17293_1842# a_17423_1842# VSS.t173 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X158 a_7651_1842# a_7413_1842# a_7543_1842# VSS.t0 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X159 a_21331_1842# a_21093_1842# a_21223_1842# VSS.t84 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X160 a_16533_1842# DELAY_OUT_TAP17 VSS.t38 VSS.t112 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
 X161 a_25891_2470# a_25653_1842# a_25783_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X162 VSS.t32 a_6023_1842# DELAY_OUT_TAP4 VSS.t39 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X163 a_20333_1842# DELAY_OUT_TAP22 VSS.t10 VSS.t94 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X164 VDD.t6 DELAY_VBIASP.t17 a_14491_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X165 VDD.t84 a_24263_1842# DELAY_OUT_TAP28 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X162 VSS.t4 a_6023_1842# DELAY_OUT_TAP4 VSS.t47 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X163 a_20333_1842# DELAY_OUT_TAP22 VSS.t89 VSS.t114 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X164 VDD.t36 DELAY_VBIASP.t17 a_14491_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X165 VDD.t6 a_24263_1842# DELAY_OUT_TAP28 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
 X166 a_6891_2470# a_6653_1842# a_6783_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X167 a_15773_1842# DELAY_OUT_TAP16 VDD.t2 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X168 VDD.t54 VDD.t52 VDD.t53 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0 ps=0 w=1.12u l=0.6u
-X169 a_12971_1842# a_12733_1842# a_12863_1842# VSS.t8 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X170 a_11213_1842# DELAY_OUT_TAP10 VSS.t24 VSS.t116 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X171 VDD.t43 a_26543_1842# DELAY_OUT_TAP31 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X172 VSS.t35 a_11343_1842# DELAY_OUT_TAP11 VSS.t34 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X173 VDD.t58 a_5263_1842# DELAY_OUT_TAP3 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X174 a_15251_1842# a_15013_1842# a_15143_1842# VSS.t76 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X167 a_15773_1842# DELAY_OUT_TAP16 VDD.t14 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X168 VDD.t85 VDD.t83 VDD.t84 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0 ps=0 w=1.12u l=0.6u
+X169 a_12971_1842# a_12733_1842# a_12863_1842# VSS.t63 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X170 a_11213_1842# DELAY_OUT_TAP10 VSS.t2 VSS.t91 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X171 VDD.t99 a_26543_1842# DELAY_OUT_TAP31 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X172 VSS.t65 a_11343_1842# DELAY_OUT_TAP11 VSS.t64 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X173 VDD.t4 a_5263_1842# DELAY_OUT_TAP3 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X174 a_15251_1842# a_15013_1842# a_15143_1842# VSS.t39 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
 X175 a_9171_2470# a_8933_1842# a_9063_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X176 a_18053_1842# DELAY_OUT_TAP19 VDD.t92 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X177 VSS.t20 a_13623_1842# DELAY_OUT_TAP14 VSS.t19 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X178 VDD.t63 a_7543_1842# DELAY_OUT_TAP6 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X179 a_26413_1842# DELAY_OUT_TAP30 VSS.t80 VSS.t79 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X180 VSS.t78 DELAY_VBIASN.t14 a_16771_1842# VSS.t130 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X176 a_18053_1842# DELAY_OUT_TAP19 VDD.t51 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X177 VSS.t7 a_13623_1842# DELAY_OUT_TAP14 VSS.t6 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X178 VDD.t10 a_7543_1842# DELAY_OUT_TAP6 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X179 a_26413_1842# DELAY_OUT_TAP30 VSS.t98 VSS.t97 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X180 VSS.t111 DELAY_VBIASN.t14 a_16771_1842# VSS.t145 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X181 a_14491_2470# a_14253_1842# a_14383_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X182 VSS.t99 DELAY_VBIASN.t9 a_20571_1842# VSS.t151 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X183 VDD.t49 VDD.t50 VDD.t51 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0 ps=0 w=1.12u l=0.13u
-X184 VDD.t68 a_12863_1842# DELAY_OUT_TAP13 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X182 VSS.t86 DELAY_VBIASN.t9 a_20571_1842# VSS.t148 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X183 VDD.t80 VDD.t81 VDD.t82 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0 ps=0 w=1.12u l=0.13u
+X184 VDD.t47 a_12863_1842# DELAY_OUT_TAP13 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
 X185 a_7413_1842# DELAY_OUT_TAP5 VSS.t16 VSS.t15 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X186 a_21853_1842# DELAY_OUT_TAP24 VSS.t64 VSS.t63 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X187 VSS.t41 DELAY_VBIASN.t11 a_19051_1842# VSS.t147 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X188 a_25131_1842# a_24893_1842# a_25023_1842# VSS.t155 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X189 VDD.t24 DELAY_VBIASP.t12 a_18291_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X190 a_24133_1842# DELAY_OUT_TAP27 VSS.t28 VSS.t95 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X191 VDD.t25 DELAY_VBIASP.t7 a_22091_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X192 a_16771_1842# a_16533_1842# a_16663_1842# VSS.t168 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X193 a_19573_1842# DELAY_OUT_TAP21 VDD.t60 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X194 a_6131_1842# a_5893_1842# a_6023_1842# VSS.t0 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X195 a_20571_1842# a_20333_1842# a_20463_1842# VSS.t11 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X196 a_23373_1842# DELAY_OUT_TAP26 VDD.t79 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X197 a_5133_1842# DELAY_OUT_TAP2 VSS.t18 VSS.t17 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X198 VSS.t5 a_15143_1842# DELAY_OUT_TAP16 VSS.t4 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X199 VDD.t67 a_9063_1842# DELAY_OUT_TAP8 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X200 VDD.t8 DELAY_VBIASP.t18 a_13731_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X201 a_19051_1842# a_18813_1842# a_18943_1842# VSS.t173 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X186 a_21853_1842# DELAY_OUT_TAP24 VSS.t83 VSS.t104 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X187 VSS.t80 DELAY_VBIASN.t11 a_19051_1842# VSS.t140 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X188 a_25131_1842# a_24893_1842# a_25023_1842# VSS.t17 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X189 VDD.t38 DELAY_VBIASP.t12 a_18291_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X190 a_24133_1842# DELAY_OUT_TAP27 VSS.t96 VSS.t95 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X191 VDD.t39 DELAY_VBIASP.t7 a_22091_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X192 a_16771_1842# a_16533_1842# a_16663_1842# VSS.t81 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X193 a_19573_1842# DELAY_OUT_TAP21 VDD.t61 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X194 a_6131_1842# a_5893_1842# a_6023_1842# VSS.t57 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X195 a_20571_1842# a_20333_1842# a_20463_1842# VSS.t87 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X196 a_23373_1842# DELAY_OUT_TAP26 VDD.t72 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X197 a_5133_1842# DELAY_OUT_TAP2 VSS.t41 VSS.t40 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X198 VSS.t32 a_15143_1842# DELAY_OUT_TAP16 VSS.t31 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X199 VDD.t57 a_9063_1842# DELAY_OUT_TAP8 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X200 VDD.t34 DELAY_VBIASP.t18 a_13731_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X201 a_19051_1842# a_18813_1842# a_18943_1842# VSS.t34 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
 X202 a_16011_2470# a_15773_1842# a_15903_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X203 a_10453_1842# DELAY_OUT_TAP9 VSS.t68 VSS.t105 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X204 a_4373_1842# DELAY_OUT_TAP1 VDD.t35 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X205 VDD.t69 a_14383_1842# DELAY_OUT_TAP15 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X206 VSS.t101 DELAY_VBIASN.t4 a_24371_1842# VSS.t124 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X203 a_10453_1842# DELAY_OUT_TAP9 VSS.t50 VSS.t92 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X204 a_4373_1842# DELAY_OUT_TAP1 VDD.t9 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X205 VDD.t8 a_14383_1842# DELAY_OUT_TAP15 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X206 VSS.t14 DELAY_VBIASN.t4 a_24371_1842# VSS.t153 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X207 a_18291_2470# a_18053_1842# a_18183_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
 X208 a_22091_2470# a_21853_1842# a_21983_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X209 VSS.t45 VSS.t42 VSS.t44 VSS.t43 sg13_lv_nmos ad=0.2516p pd=2.16u as=0 ps=0 w=0.74u l=0.13u
-X210 VDD.t70 a_16663_1842# DELAY_OUT_TAP18 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X211 VDD.t26 DELAY_VBIASP.t10 a_19811_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X212 a_25653_1842# DELAY_OUT_TAP29 VSS.t97 VSS.t96 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X213 VSS.t38 DELAY_VBIASN.t29 a_5371_1842# VSS.t139 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X214 VDD.t31 DELAY_VBIASP.t5 a_23611_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X215 VDD.t1 a_12103_1842# DELAY_OUT_TAP12 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X216 a_24893_1842# DELAY_OUT_TAP28 VDD.t84 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X217 a_6653_1842# DELAY_OUT_TAP4 VSS.t32 VSS.t31 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X218 VSS.t99 a_20463_1842# DELAY_OUT_TAP23 VSS.t156 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X219 VSS.t24 DELAY_VBIASN.t22 a_10691_1842# VSS.t142 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X220 VDD.t15 DELAY_VBIASP.t30 a_4611_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X221 a_24371_1842# a_24133_1842# a_24263_1842# VSS.t157 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X222 VSS.t41 a_18943_1842# DELAY_OUT_TAP21 VSS.t40 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X223 a_11973_1842# DELAY_OUT_TAP11 VSS.t35 VSS.t90 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X224 a_5893_1842# DELAY_OUT_TAP3 VDD.t58 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X225 VDD.t21 DELAY_VBIASP.t13 a_17531_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X226 a_27173_1842# DELAY_OUT_TAP31 VDD.t43 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X227 VSS.t73 DELAY_VBIASN.t19 a_12971_1842# VSS.t128 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X228 VDD.t101 a_27303_1842# a_27737_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X229 VSS.t80 DELAY_VBIASN.t2 a_25891_1842# VSS.t153 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X230 VSS.t93 a_22743_1842# DELAY_OUT_TAP26 VSS.t164 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X209 VSS.t69 VSS.t66 VSS.t68 VSS.t67 sg13_lv_nmos ad=0.2516p pd=2.16u as=0 ps=0 w=0.74u l=0.13u
+X210 VDD.t91 a_16663_1842# DELAY_OUT_TAP18 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X211 VDD.t41 DELAY_VBIASP.t10 a_19811_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X212 a_25653_1842# DELAY_OUT_TAP29 VSS.t116 VSS.t115 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X213 VSS.t9 DELAY_VBIASN.t29 a_5371_1842# VSS.t129 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X214 VDD.t43 DELAY_VBIASP.t5 a_23611_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X215 VDD.t5 a_12103_1842# DELAY_OUT_TAP12 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X216 a_24893_1842# DELAY_OUT_TAP28 VDD.t6 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X217 a_6653_1842# DELAY_OUT_TAP4 VSS.t4 VSS.t3 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X218 VSS.t86 a_20463_1842# DELAY_OUT_TAP23 VSS.t85 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X219 VSS.t2 DELAY_VBIASN.t22 a_10691_1842# VSS.t123 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X220 VDD.t28 DELAY_VBIASP.t30 a_4611_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X221 a_24371_1842# a_24133_1842# a_24263_1842# VSS.t165 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X222 VSS.t80 a_18943_1842# DELAY_OUT_TAP21 VSS.t79 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X223 a_11973_1842# DELAY_OUT_TAP11 VSS.t65 VSS.t90 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X224 a_5893_1842# DELAY_OUT_TAP3 VDD.t4 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X225 VDD.t22 DELAY_VBIASP.t13 a_17531_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X226 a_27173_1842# DELAY_OUT_TAP31 VDD.t99 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X227 VSS.t36 DELAY_VBIASN.t19 a_12971_1842# VSS.t138 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X228 VDD.t12 a_27303_1842# a_27737_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X229 VSS.t98 DELAY_VBIASN.t2 a_25891_1842# VSS.t154 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X230 VSS.t100 a_22743_1842# DELAY_OUT_TAP26 VSS.t161 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
 X231 a_19811_2470# a_19573_1842# a_19703_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X232 VDD.t28 DELAY_VBIASP.t8 a_21331_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X233 VDD.t57 VDD.t55 VDD.t54 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0 ps=0 w=1.12u l=0.2u
-X234 a_5371_1842# a_5133_1842# a_5263_1842# VSS.t57 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X235 a_14253_1842# DELAY_OUT_TAP14 VSS.t20 VSS.t109 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X236 a_8173_1842# DELAY_OUT_TAP6 VDD.t63 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X237 VDD.t96 a_18183_1842# DELAY_OUT_TAP20 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X232 VDD.t40 DELAY_VBIASP.t8 a_21331_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X233 VDD.t88 VDD.t86 VDD.t85 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0 ps=0 w=1.12u l=0.2u
+X234 a_5371_1842# a_5133_1842# a_5263_1842# VSS.t167 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X235 a_14253_1842# DELAY_OUT_TAP14 VSS.t7 VSS.t118 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X236 a_8173_1842# DELAY_OUT_TAP6 VDD.t10 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X237 VDD.t11 a_18183_1842# DELAY_OUT_TAP20 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
 X238 a_23611_2470# a_23373_1842# a_23503_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X239 VSS.t7 a_3743_1842# DELAY_OUT_TAP1 VSS.t6 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X240 VDD.t86 a_8303_1842# DELAY_OUT_TAP7 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X241 VDD.t20 DELAY_VBIASP.t20 a_12211_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X242 VDD.t72 a_21983_1842# DELAY_OUT_TAP25 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X243 VSS.t16 DELAY_VBIASN.t27 a_6891_1842# VSS.t122 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X239 VSS.t23 a_3743_1842# DELAY_OUT_TAP1 VSS.t46 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X240 VDD.t58 a_8303_1842# DELAY_OUT_TAP7 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X241 VDD.t15 DELAY_VBIASP.t20 a_12211_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X242 VDD.t74 a_21983_1842# DELAY_OUT_TAP25 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X243 VSS.t16 DELAY_VBIASN.t27 a_6891_1842# VSS.t132 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
 X244 a_4611_2470# a_4373_1842# a_4503_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X245 a_13493_1842# DELAY_OUT_TAP13 VDD.t68 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X246 a_10691_1842# a_10453_1842# a_10583_1842# VSS.t106 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X247 VDD.t29 DELAY_VBIASP.t0 a_27411_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X248 VSS.t70 DELAY_VBIASN.t24 a_9171_1842# VSS.t141 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X249 a_25891_1842# a_25653_1842# a_25783_1842# VSS.t162 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X250 VDD.t12 DELAY_VBIASP.t23 a_9931_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X251 VDD.t37 a_15903_1842# DELAY_OUT_TAP17 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X252 VSS.t75 DELAY_VBIASN.t17 a_14491_1842# VSS.t145 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
-X253 VDD.t18 DELAY_VBIASP.t25 a_8411_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X254 VDD.t36 a_19703_1842# DELAY_OUT_TAP22 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X255 VSS.t101 a_24263_1842# DELAY_OUT_TAP28 VSS.t158 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X245 a_13493_1842# DELAY_OUT_TAP13 VDD.t47 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X246 a_10691_1842# a_10453_1842# a_10583_1842# VSS.t54 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X247 VDD.t46 DELAY_VBIASP.t0 a_27411_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X248 VSS.t59 DELAY_VBIASN.t24 a_9171_1842# VSS.t134 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X249 a_25891_1842# a_25653_1842# a_25783_1842# VSS.t160 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X250 VDD.t25 DELAY_VBIASP.t23 a_9931_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X251 VDD.t48 a_15903_1842# DELAY_OUT_TAP17 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X252 VSS.t21 DELAY_VBIASN.t17 a_14491_1842# VSS.t137 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.6u
+X253 VDD.t31 DELAY_VBIASP.t25 a_8411_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X254 VDD.t64 a_19703_1842# DELAY_OUT_TAP22 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X255 VSS.t14 a_24263_1842# DELAY_OUT_TAP28 VSS.t13 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
 X256 a_12211_2470# a_11973_1842# a_12103_1842# VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.2u
-X257 VDD.t4 DELAY_VBIASP.t6 a_22851_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
-X258 a_6891_1842# a_6653_1842# a_6783_1842# VSS.t166 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
-X259 VSS.t52 VSS.t49 VSS.t51 VSS.t50 sg13_lv_nmos ad=0.2516p pd=2.16u as=0 ps=0 w=0.74u l=0.6u
-X260 a_15773_1842# DELAY_OUT_TAP16 VSS.t5 VSS.t119 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X261 a_9693_1842# DELAY_OUT_TAP8 VDD.t67 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X262 VDD.t41 a_10583_1842# DELAY_OUT_TAP10 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X263 VSS.t30 a_26543_1842# DELAY_OUT_TAP31 VSS.t29 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-C0 a_5263_1842# DELAY_VBIASN 0.07258f
-C1 DELAY_OUT_TAP8 DELAY_VBIASP 0.04137f
-C2 a_18183_1842# a_18291_2470# 0.01697f
-C3 DELAY_VBIASP a_10583_1842# 0.06627f
-C4 a_18813_1842# a_18943_1842# 0.70845f
-C5 a_17293_1842# DELAY_VBIASN 0.10601f
-C6 VDD DELAY_OUT_TAP8 0.72899f
-C7 VDD a_10583_1842# 0.49633f
-C8 a_5893_1842# a_6023_1842# 0.70845f
-C9 a_15903_1842# a_16011_2470# 0.01697f
-C10 a_9823_1842# DELAY_VBIASN 0.07258f
-C11 DELAY_OUT_TAP15 a_15013_1842# 0.70708f
-C12 a_11343_1842# a_11451_1842# 0.01163f
-C13 a_25653_1842# DELAY_VBIASN 0.10601f
-C14 VDD a_7651_2470# 0.01806f
-C15 a_18183_1842# DELAY_VBIASN 0.07258f
-C16 a_7413_1842# DELAY_OUT_TAP6 0.0114f
-C17 DELAY_OUT_TAP24 a_21223_1842# 0.69646f
-C18 a_22613_1842# DELAY_VBIASP 0.11222f
-C19 a_9823_1842# DELAY_OUT_TAP9 0.69646f
-C20 a_9063_1842# DELAY_VBIASP 0.06627f
-C21 a_14253_1842# a_14383_1842# 0.70845f
-C22 a_12733_1842# DELAY_OUT_TAP13 0.0114f
-C23 VDD a_22613_1842# 0.4916f
-C24 DELAY_OUT_TAP4 DELAY_VBIASP 0.04137f
-C25 a_24133_1842# DELAY_VBIASN 0.10601f
-C26 a_12971_2470# a_12863_1842# 0.01697f
-C27 VDD a_9063_1842# 0.49633f
-C28 DELAY_OUT_TAP9 DELAY_VBIASN 0.04353f
-C29 DELAY_VBIASP DELAY_OUT_TAP16 0.04137f
-C30 VDD DELAY_OUT_TAP4 0.72899f
-C31 a_6783_1842# DELAY_VBIASP 0.06627f
-C32 DELAY_VBIASP a_27173_1842# 0.11222f
-C33 a_19703_1842# DELAY_VBIASN 0.07258f
-C34 a_15143_1842# DELAY_OUT_TAP16 0.69646f
-C35 DELAY_OUT_TAP10 a_10583_1842# 0.69646f
-C36 VDD DELAY_OUT_TAP16 0.72899f
-C37 DELAY_OUT_TAP23 a_20463_1842# 0.69646f
-C38 a_6783_1842# VDD 0.49633f
-C39 a_17293_1842# DELAY_OUT_TAP19 0.0114f
-C40 VDD a_6131_2470# 0.01806f
-C41 a_21093_1842# DELAY_VBIASP 0.11222f
-C42 DELAY_VBIASP a_20333_1842# 0.11222f
-C43 VDD a_27173_1842# 0.4916f
-C44 a_18813_1842# DELAY_VBIASN 0.10601f
-C45 a_5133_1842# a_5263_1842# 0.70845f
-C46 a_14383_1842# a_14491_2470# 0.01697f
-C47 VDD a_20333_1842# 0.4916f
-C48 DELAY_OUT_TAP3 a_5893_1842# 0.70708f
-C49 a_21093_1842# VDD 0.4916f
-C50 VDD a_3851_2470# 0.01866f
-C51 DELAY_OUT_TAP22 DELAY_VBIASN 0.04353f
-C52 a_22743_1842# DELAY_VBIASN 0.07258f
-C53 DELAY_OUT_TAP19 DELAY_VBIASN 0.04353f
-C54 DELAY_IN DELAY_VBIASP 0.0738f
-C55 DELAY_OUT_TAP27 a_23373_1842# 0.0114f
-C56 DELAY_OUT_TAP5 DELAY_VBIASN 0.04353f
-C57 DELAY_VBIASP a_6023_1842# 0.06627f
-C58 a_20571_1842# a_20463_1842# 0.01163f
-C59 VDD DELAY_IN 0.45518f
-C60 a_8173_1842# a_8303_1842# 0.70845f
-C61 DELAY_OUT_TAP17 DELAY_VBIASN 0.04353f
-C62 a_15773_1842# a_15903_1842# 0.70845f
-C63 DELAY_OUT_TAP2 a_4503_1842# 0.69646f
-C64 VDD a_6023_1842# 0.49633f
-C65 a_5133_1842# DELAY_VBIASN 0.10601f
-C66 a_27737_1842# DELAY_VBIASN 0.04176f
-C67 a_12971_1842# a_12863_1842# 0.01163f
-C68 a_9693_1842# a_9823_1842# 0.70845f
-C69 DELAY_OUT_TAP22 a_19703_1842# 0.69646f
-C70 DELAY_VBIASP a_15013_1842# 0.11222f
-C71 a_11451_2470# VDD 0.01806f
-C72 DELAY_VBIASN a_20463_1842# 0.07258f
-C73 a_4373_1842# DELAY_OUT_TAP1 0.70708f
-C74 a_3743_1842# DELAY_VBIASN 0.0649f
-C75 a_21223_1842# DELAY_VBIASN 0.07258f
-C76 a_15013_1842# a_15143_1842# 0.70845f
-C77 VDD a_15013_1842# 0.4916f
-C78 a_18053_1842# a_18183_1842# 0.70845f
-C79 a_9693_1842# DELAY_VBIASN 0.10601f
-C80 a_8173_1842# DELAY_OUT_TAP6 0.70708f
-C81 a_12733_1842# DELAY_VBIASN 0.10601f
-C82 DELAY_OUT_TAP11 a_11343_1842# 0.69646f
-C83 a_18053_1842# DELAY_VBIASN 0.10601f
-C84 a_8303_1842# DELAY_VBIASP 0.06627f
-C85 DELAY_OUT_LAST DELAY_VBIASN 0.04786f
-C86 DELAY_OUT_TAP24 a_21093_1842# 0.0114f
-C87 a_9693_1842# DELAY_OUT_TAP9 0.0114f
-C88 a_8933_1842# DELAY_VBIASP 0.11222f
-C89 a_19811_1842# a_19703_1842# 0.01163f
-C90 VDD a_8303_1842# 0.49633f
-C91 a_26413_1842# a_26543_1842# 0.70845f
-C92 a_14383_1842# DELAY_OUT_TAP15 0.69646f
-C93 a_16663_1842# DELAY_OUT_TAP18 0.69646f
-C94 VDD a_8933_1842# 0.4916f
-C95 DELAY_OUT_TAP8 DELAY_VBIASN 0.04353f
-C96 a_10583_1842# DELAY_VBIASN 0.07258f
-C97 a_21223_1842# a_21331_2470# 0.01697f
-C98 DELAY_OUT_TAP3 DELAY_VBIASP 0.04137f
-C99 a_3851_1842# a_3743_1842# 0.01163f
-C100 DELAY_VBIASP DELAY_OUT_TAP21 0.04137f
-C101 a_6653_1842# DELAY_VBIASP 0.11222f
-C102 DELAY_VBIASP a_26543_1842# 0.06627f
-C103 DELAY_VBIASP DELAY_OUT_TAP6 0.04137f
-C104 DELAY_VBIASP a_21853_1842# 0.11222f
-C105 a_9063_1842# a_9171_2470# 0.01697f
-C106 a_21093_1842# DELAY_OUT_TAP23 0.70708f
-C107 DELAY_OUT_TAP3 VDD 0.72899f
-C108 DELAY_OUT_TAP23 a_20333_1842# 0.0114f
-C109 DELAY_VBIASP DELAY_OUT_TAP12 0.04137f
-C110 VDD DELAY_OUT_TAP21 0.72899f
-C111 a_6653_1842# VDD 0.4916f
-C112 VDD a_26543_1842# 0.49633f
-C113 DELAY_VBIASP DELAY_OUT_TAP1 0.04137f
-C114 VDD DELAY_OUT_TAP6 0.72899f
-C115 VDD a_21853_1842# 0.4916f
-C116 DELAY_VBIASP a_27303_1842# 0.06629f
-C117 DELAY_VBIASP a_11343_1842# 0.06627f
-C118 a_7413_1842# a_7543_1842# 0.70845f
-C119 VDD DELAY_OUT_TAP12 0.72899f
-C120 VDD DELAY_OUT_TAP1 0.72899f
-C121 VDD a_12971_2470# 0.01806f
-C122 VDD a_26651_2470# 0.01806f
-C123 VDD a_27303_1842# 0.49714f
-C124 VDD a_11343_1842# 0.49633f
-C125 a_18053_1842# DELAY_OUT_TAP19 0.70708f
-C126 a_22613_1842# DELAY_VBIASN 0.10601f
-C127 DELAY_VBIASP a_12103_1842# 0.06627f
-C128 a_9063_1842# DELAY_VBIASN 0.07258f
-C129 VDD a_5371_2470# 0.01806f
-C130 DELAY_OUT_TAP26 a_23373_1842# 0.70708f
-C131 a_8303_1842# DELAY_OUT_TAP7 0.69646f
-C132 a_23373_1842# a_23503_1842# 0.70845f
-C133 DELAY_OUT_TAP4 DELAY_VBIASN 0.04353f
-C134 VDD a_12103_1842# 0.49633f
-C135 a_21331_1842# a_21223_1842# 0.01163f
-C136 a_14383_1842# a_14491_1842# 0.01163f
-C137 DELAY_OUT_TAP16 DELAY_VBIASN 0.04353f
-C138 a_8933_1842# DELAY_OUT_TAP7 0.70708f
-C139 DELAY_OUT_TAP2 a_4373_1842# 0.0114f
-C140 a_6783_1842# DELAY_VBIASN 0.07258f
-C141 a_27173_1842# DELAY_VBIASN 0.10602f
-C142 a_27737_1842# DELAY_OUT_LAST 0.70955f
-C143 DELAY_OUT_TAP27 DELAY_VBIASP 0.04137f
-C144 a_10691_2470# VDD 0.01806f
-C145 DELAY_VBIASN a_20333_1842# 0.10601f
-C146 a_21093_1842# DELAY_VBIASN 0.10601f
-C147 VDD DELAY_OUT_TAP27 0.72899f
-C148 a_21853_1842# a_21983_1842# 0.70845f
-C149 VDD a_23611_2470# 0.01806f
-C150 a_17423_1842# a_17531_2470# 0.01697f
-C151 DELAY_OUT_TAP24 a_21853_1842# 0.70708f
-C152 DELAY_OUT_TAP11 a_11213_1842# 0.0114f
-C153 a_22613_1842# a_22743_1842# 0.70845f
-C154 DELAY_OUT_TAP25 DELAY_VBIASP 0.04137f
-C155 DELAY_IN DELAY_VBIASN 0.06969f
-C156 a_14383_1842# DELAY_VBIASP 0.06627f
-C157 a_24263_1842# a_24371_2470# 0.01697f
-C158 a_9693_1842# DELAY_OUT_TAP8 0.70708f
-C159 DELAY_VBIASN a_6023_1842# 0.07258f
-C160 DELAY_OUT_TAP11 a_11973_1842# 0.70708f
-C161 a_18943_1842# DELAY_OUT_TAP21 0.69646f
-C162 DELAY_OUT_TAP25 VDD 0.72899f
-C163 a_14383_1842# VDD 0.49633f
-C164 a_12211_1842# a_12103_1842# 0.01163f
-C165 a_14253_1842# DELAY_OUT_TAP15 0.0114f
-C166 a_16533_1842# DELAY_OUT_TAP18 0.0114f
-C167 DELAY_OUT_TAP2 DELAY_VBIASP 0.04137f
-C168 a_15013_1842# DELAY_VBIASN 0.10601f
-C169 DELAY_VBIASP DELAY_OUT_TAP20 0.04137f
-C170 a_25131_2470# a_25023_1842# 0.01697f
-C171 DELAY_OUT_TAP31 a_26413_1842# 0.0114f
-C172 DELAY_OUT_TAP22 a_20333_1842# 0.70708f
-C173 a_6783_1842# DELAY_OUT_TAP5 0.69646f
-C174 DELAY_OUT_TAP2 VDD 0.72899f
-C175 a_15903_1842# DELAY_VBIASP 0.06627f
-C176 VDD DELAY_OUT_TAP20 0.72899f
-C177 DELAY_OUT_TAP31 DELAY_VBIASP 0.04137f
-C178 a_4503_1842# a_4611_1842# 0.01163f
-C179 DELAY_OUT_TAP3 a_5263_1842# 0.69646f
-C180 DELAY_VBIASP a_11213_1842# 0.11222f
-C181 a_19051_1842# a_18943_1842# 0.01163f
-C182 VDD a_15903_1842# 0.49633f
-C183 a_6783_1842# a_6891_2470# 0.01697f
-C184 DELAY_VBIASP a_19573_1842# 0.11222f
-C185 VDD a_12211_2470# 0.01806f
-C186 a_8303_1842# DELAY_VBIASN 0.07258f
-C187 VDD DELAY_OUT_TAP31 0.72899f
-C188 a_24263_1842# DELAY_OUT_TAP28 0.69646f
-C189 VDD a_25891_2470# 0.01806f
-C190 a_27173_1842# a_27737_1842# 0.0114f
-C191 VDD a_11213_1842# 0.4916f
-C192 DELAY_VBIASP a_11973_1842# 0.11222f
-C193 VDD a_19573_1842# 0.4916f
-C194 a_8933_1842# DELAY_VBIASN 0.10601f
-C195 DELAY_OUT_TAP25 a_21983_1842# 0.69646f
-C196 VDD a_11973_1842# 0.4916f
-C197 a_17423_1842# DELAY_VBIASP 0.06627f
-C198 VDD a_16011_2470# 0.01806f
-C199 a_5263_1842# a_5371_2470# 0.01697f
-C200 a_27411_2470# VDD 0.01806f
-C201 a_21093_1842# a_21223_1842# 0.70845f
-C202 a_20333_1842# a_20463_1842# 0.70845f
-C203 VDD a_9931_2470# 0.01806f
-C204 a_3743_1842# a_3851_2470# 0.01697f
-C205 a_7543_1842# DELAY_VBIASP 0.06627f
-C206 DELAY_OUT_TAP3 DELAY_VBIASN 0.04353f
-C207 DELAY_OUT_TAP29 a_25023_1842# 0.69646f
-C208 DELAY_OUT_TAP21 DELAY_VBIASN 0.04353f
-C209 DELAY_VBIASP DELAY_OUT_TAP18 0.04137f
-C210 VDD a_19051_2470# 0.01806f
-C211 a_26543_1842# DELAY_VBIASN 0.07258f
-C212 a_17423_1842# VDD 0.49633f
-C213 DELAY_OUT_TAP8 a_9063_1842# 0.69646f
-C214 a_6653_1842# DELAY_VBIASN 0.10601f
-C215 a_15143_1842# a_15251_1842# 0.01163f
-C216 DELAY_OUT_TAP6 DELAY_VBIASN 0.04353f
-C217 a_21853_1842# DELAY_VBIASN 0.10601f
-C218 a_25783_1842# a_25891_2470# 0.01697f
-C219 DELAY_OUT_TAP26 DELAY_VBIASP 0.04137f
-C220 a_8303_1842# a_8411_2470# 0.01697f
-C221 VDD a_7543_1842# 0.49633f
-C222 DELAY_VBIASP a_23503_1842# 0.06627f
-C223 DELAY_VBIASN DELAY_OUT_TAP12 0.04353f
-C224 VDD DELAY_OUT_TAP18 0.72899f
-C225 DELAY_OUT_TAP1 DELAY_VBIASN 0.04353f
-C226 VDD DELAY_OUT_TAP26 0.72899f
-C227 a_11343_1842# DELAY_VBIASN 0.07258f
-C228 a_3743_1842# DELAY_IN 0.53924f
-C229 a_27303_1842# DELAY_VBIASN 0.07259f
-C230 VDD a_23503_1842# 0.49633f
-C231 a_16533_1842# a_16663_1842# 0.70845f
-C232 a_4373_1842# a_4503_1842# 0.70845f
-C233 a_7543_1842# a_7651_1842# 0.01163f
-C234 DELAY_OUT_TAP10 a_11213_1842# 0.70708f
-C235 a_24263_1842# DELAY_VBIASP 0.06627f
-C236 a_9823_1842# a_9931_1842# 0.01163f
-C237 VDD a_20571_2470# 0.01806f
-C238 a_12103_1842# DELAY_VBIASN 0.07258f
-C239 a_14253_1842# DELAY_VBIASP 0.11222f
-C240 a_24263_1842# VDD 0.49633f
-C241 a_18813_1842# DELAY_OUT_TAP21 0.0114f
-C242 a_14253_1842# VDD 0.4916f
-C243 VDD a_25131_2470# 0.01806f
-C244 a_14253_1842# DELAY_OUT_TAP14 0.70708f
-C245 a_13493_1842# a_13623_1842# 0.70845f
-C246 DELAY_OUT_TAP27 DELAY_VBIASN 0.04353f
-C247 a_15773_1842# DELAY_VBIASP 0.11222f
-C248 a_6653_1842# DELAY_OUT_TAP5 0.0114f
-C249 a_24133_1842# DELAY_OUT_TAP27 0.70708f
-C250 DELAY_VBIASP a_10453_1842# 0.11222f
-C251 DELAY_OUT_TAP3 a_5133_1842# 0.0114f
-C252 VDD a_15773_1842# 0.4916f
-C253 a_4503_1842# DELAY_VBIASP 0.06627f
-C254 a_16663_1842# DELAY_VBIASP 0.06627f
-C255 VDD a_10453_1842# 0.4916f
-C256 DELAY_OUT_TAP25 DELAY_VBIASN 0.04353f
-C257 a_19051_2470# a_18943_1842# 0.01697f
-C258 VDD a_14491_2470# 0.01806f
-C259 DELAY_VBIASP DELAY_OUT_TAP29 0.04137f
-C260 a_14383_1842# DELAY_VBIASN 0.07258f
-C261 a_22743_1842# a_22851_1842# 0.01163f
-C262 VDD a_4503_1842# 0.49633f
-C263 VDD a_16663_1842# 0.49633f
-C264 a_4503_1842# a_4611_2470# 0.01697f
-C265 VDD DELAY_OUT_TAP29 0.72899f
-C266 DELAY_VBIASP a_13623_1842# 0.06627f
-C267 a_27303_1842# a_27737_1842# 0.69646f
-C268 a_15251_2470# a_15143_1842# 0.01697f
-C269 VDD a_15251_2470# 0.01806f
-C270 a_18183_1842# DELAY_OUT_TAP20 0.69646f
-C271 a_3743_1842# DELAY_OUT_TAP1 0.69646f
-C272 DELAY_OUT_TAP4 a_6023_1842# 0.69646f
-C273 VDD a_13623_1842# 0.49633f
-C274 a_7413_1842# DELAY_VBIASP 0.11222f
-C275 DELAY_OUT_TAP2 DELAY_VBIASN 0.04353f
-C276 DELAY_OUT_TAP29 a_24893_1842# 0.0114f
-C277 DELAY_OUT_TAP14 a_13623_1842# 0.69646f
-C278 DELAY_OUT_TAP20 DELAY_VBIASN 0.04353f
-C279 a_12733_1842# DELAY_OUT_TAP12 0.70708f
-C280 DELAY_OUT_TAP8 a_8933_1842# 0.0114f
-C281 a_16663_1842# a_16771_2470# 0.01697f
-C282 DELAY_VBIASP a_12863_1842# 0.06627f
-C283 VDD a_7413_1842# 0.4916f
-C284 a_15903_1842# DELAY_VBIASN 0.07258f
-C285 a_6131_2470# a_6023_1842# 0.01697f
-C286 DELAY_VBIASP a_23373_1842# 0.11222f
-C287 DELAY_OUT_TAP31 DELAY_VBIASN 0.04353f
-C288 VDD a_12863_1842# 0.49633f
-C289 a_11213_1842# DELAY_VBIASN 0.10601f
-C290 VDD a_23373_1842# 0.4916f
-C291 a_17293_1842# a_17423_1842# 0.70845f
-C292 a_15013_1842# DELAY_OUT_TAP16 0.0114f
-C293 a_19573_1842# DELAY_VBIASN 0.10601f
-C294 DELAY_OUT_TAP10 a_10453_1842# 0.0114f
-C295 a_9823_1842# a_9931_2470# 0.01697f
-C296 a_18183_1842# a_18291_1842# 0.01163f
-C297 a_16771_1842# a_16663_1842# 0.01163f
-C298 a_17293_1842# DELAY_OUT_TAP18 0.70708f
-C299 VDD a_19811_2470# 0.01806f
-C300 a_11973_1842# DELAY_VBIASN 0.10601f
-C301 a_5263_1842# a_5371_1842# 0.01163f
-C302 a_8933_1842# a_9063_1842# 0.70845f
-C303 a_17423_1842# DELAY_VBIASN 0.07258f
-C304 a_18813_1842# DELAY_OUT_TAP20 0.70708f
-C305 DELAY_VBIASP DELAY_OUT_TAP15 0.04137f
-C306 a_27303_1842# a_27411_1842# 0.01163f
-C307 VDD a_24371_2470# 0.01806f
-C308 a_7543_1842# DELAY_VBIASN 0.07258f
-C309 DELAY_OUT_TAP18 DELAY_VBIASN 0.04353f
-C310 a_19573_1842# a_19703_1842# 0.70845f
-C311 DELAY_VBIASP a_25023_1842# 0.06627f
-C312 VDD DELAY_OUT_TAP15 0.72899f
-C313 a_22091_1842# a_21983_1842# 0.01163f
-C314 a_13731_1842# a_13623_1842# 0.01163f
-C315 DELAY_OUT_TAP26 DELAY_VBIASN 0.04353f
-C316 DELAY_VBIASP a_5893_1842# 0.11222f
-C317 DELAY_VBIASN a_23503_1842# 0.07258f
-C318 VDD a_25023_1842# 0.49633f
-C319 VDD a_5893_1842# 0.4916f
-C320 a_6653_1842# DELAY_OUT_TAP4 0.70708f
-C321 a_10691_2470# a_10583_1842# 0.01697f
-C322 VDD a_17531_2470# 0.01806f
-C323 DELAY_OUT_TAP22 a_19573_1842# 0.0114f
-C324 DELAY_OUT_TAP2 a_5133_1842# 0.70708f
-C325 a_24893_1842# a_25023_1842# 0.70845f
-C326 a_12863_1842# DELAY_OUT_TAP13 0.69646f
-C327 a_24263_1842# DELAY_VBIASN 0.07258f
-C328 a_6653_1842# a_6783_1842# 0.70845f
-C329 a_15903_1842# DELAY_OUT_TAP17 0.69646f
-C330 a_4373_1842# DELAY_VBIASP 0.11222f
-C331 a_16533_1842# DELAY_VBIASP 0.11222f
-C332 DELAY_VBIASP DELAY_OUT_TAP28 0.04137f
-C333 a_14253_1842# DELAY_VBIASN 0.10601f
-C334 DELAY_OUT_TAP11 DELAY_VBIASP 0.04137f
-C335 VDD a_16533_1842# 0.4916f
-C336 VDD a_4373_1842# 0.4916f
-C337 a_24133_1842# a_24263_1842# 0.70845f
-C338 VDD DELAY_OUT_TAP28 0.72899f
-C339 a_27303_1842# a_27173_1842# 0.70845f
-C340 DELAY_VBIASP a_13493_1842# 0.11222f
-C341 a_8173_1842# DELAY_VBIASP 0.11222f
-C342 VDD DELAY_OUT_TAP11 0.72899f
-C343 a_17423_1842# DELAY_OUT_TAP19 0.69646f
-C344 a_18053_1842# DELAY_OUT_TAP20 0.0114f
-C345 a_25783_1842# a_25891_1842# 0.01163f
-C346 VDD a_13493_1842# 0.4916f
-C347 a_22743_1842# DELAY_OUT_TAP26 0.69646f
-C348 DELAY_OUT_TAP28 a_24893_1842# 0.70708f
-C349 DELAY_OUT_TAP14 a_13493_1842# 0.0114f
-C350 VDD a_8173_1842# 0.4916f
-C351 a_15773_1842# DELAY_VBIASN 0.10601f
-C352 a_10453_1842# DELAY_VBIASN 0.10601f
-C353 DELAY_IN DELAY_OUT_TAP1 0.01139f
-C354 a_26651_1842# a_26543_1842# 0.01163f
-C355 DELAY_VBIASP a_26413_1842# 0.11222f
-C356 a_25653_1842# DELAY_OUT_TAP29 0.70708f
-C357 a_4503_1842# DELAY_VBIASN 0.07258f
-C358 a_16663_1842# DELAY_VBIASN 0.07258f
-C359 DELAY_OUT_TAP29 DELAY_VBIASN 0.04353f
-C360 DELAY_OUT_TAP25 a_22613_1842# 0.70708f
-C361 VDD a_26413_1842# 0.4916f
-C362 DELAY_OUT_TAP9 a_10453_1842# 0.70708f
-C363 a_11451_2470# a_11343_1842# 0.01697f
-C364 a_13623_1842# DELAY_VBIASN 0.07258f
-C365 DELAY_VBIASP a_15143_1842# 0.06627f
-C366 VDD DELAY_VBIASP 13.2523f
-C367 a_24263_1842# a_24371_1842# 0.01163f
-C368 DELAY_VBIASP DELAY_OUT_TAP14 0.04137f
-C369 VDD a_15143_1842# 0.49633f
-C370 a_7413_1842# DELAY_VBIASN 0.10601f
-C371 VDD a_4611_2470# 0.01806f
-C372 a_20571_2470# a_20463_1842# 0.01697f
-C373 DELAY_VBIASP a_24893_1842# 0.11222f
-C374 VDD DELAY_OUT_TAP14 0.72899f
-C375 a_8173_1842# DELAY_OUT_TAP7 0.0114f
-C376 a_12863_1842# DELAY_VBIASN 0.07258f
-C377 a_13493_1842# DELAY_OUT_TAP13 0.70708f
-C378 DELAY_VBIASN a_23373_1842# 0.10601f
-C379 VDD a_24893_1842# 0.4916f
-C380 a_25131_1842# a_25023_1842# 0.01163f
-C381 a_25783_1842# DELAY_VBIASP 0.06627f
-C382 VDD a_16771_2470# 0.01806f
-C383 a_15773_1842# DELAY_OUT_TAP17 0.0114f
-C384 a_7543_1842# a_7651_2470# 0.01697f
-C385 a_25783_1842# VDD 0.49633f
-C386 VDD a_22851_2470# 0.01806f
-C387 DELAY_OUT_TAP10 DELAY_VBIASP 0.04137f
-C388 a_26543_1842# a_26651_2470# 0.01697f
-C389 a_8303_1842# a_8411_1842# 0.01163f
-C390 DELAY_OUT_TAP15 DELAY_VBIASN 0.04353f
-C391 DELAY_VBIASP a_21983_1842# 0.06627f
-C392 DELAY_VBIASP DELAY_OUT_TAP7 0.04137f
-C393 DELAY_OUT_TAP31 a_27173_1842# 0.70708f
-C394 a_9063_1842# a_9171_1842# 0.01163f
-C395 DELAY_VBIASP DELAY_OUT_TAP13 0.04137f
-C396 a_13623_1842# a_13731_2470# 0.01697f
-C397 DELAY_OUT_TAP24 DELAY_VBIASP 0.04137f
-C398 VDD DELAY_OUT_TAP10 0.72899f
-C399 a_19703_1842# a_19811_2470# 0.01697f
-C400 a_25023_1842# DELAY_VBIASN 0.07258f
-C401 VDD DELAY_OUT_TAP7 0.72899f
-C402 VDD a_21983_1842# 0.49633f
-C403 DELAY_VBIASN a_5893_1842# 0.10601f
-C404 a_22613_1842# DELAY_OUT_TAP26 0.0114f
-C405 VDD DELAY_OUT_TAP13 0.72899f
-C406 DELAY_OUT_TAP24 VDD 0.72899f
-C407 a_7413_1842# DELAY_OUT_TAP5 0.70708f
-C408 a_12103_1842# DELAY_OUT_TAP12 0.69646f
-C409 DELAY_VBIASP a_18943_1842# 0.06627f
-C410 DELAY_OUT_TAP30 a_26413_1842# 0.70708f
-C411 VDD a_22091_2470# 0.01806f
-C412 a_16533_1842# DELAY_VBIASN 0.10601f
-C413 DELAY_VBIASP DELAY_OUT_TAP23 0.04137f
-C414 a_4373_1842# DELAY_VBIASN 0.10601f
-C415 VDD a_18943_1842# 0.49633f
-C416 a_6783_1842# a_6891_1842# 0.01163f
-C417 DELAY_OUT_TAP28 DELAY_VBIASN 0.04353f
-C418 DELAY_OUT_TAP30 DELAY_VBIASP 0.04137f
-C419 DELAY_OUT_TAP11 DELAY_VBIASN 0.04353f
-C420 VDD DELAY_OUT_TAP23 0.72899f
-C421 a_10453_1842# a_10583_1842# 0.70845f
-C422 a_13493_1842# DELAY_VBIASN 0.10601f
-C423 a_8173_1842# DELAY_VBIASN 0.10601f
-C424 a_24133_1842# DELAY_OUT_TAP28 0.0114f
-C425 VDD DELAY_OUT_TAP30 0.72899f
-C426 DELAY_VBIASP a_5263_1842# 0.06627f
-C427 a_12733_1842# a_12863_1842# 0.70845f
-C428 DELAY_OUT_TAP25 a_21853_1842# 0.0114f
-C429 VDD a_5263_1842# 0.49633f
-C430 a_17293_1842# DELAY_VBIASP 0.11222f
-C431 a_23611_1842# a_23503_1842# 0.01163f
-C432 VDD a_9171_2470# 0.01806f
-C433 a_9823_1842# DELAY_VBIASP 0.06627f
-C434 VDD a_18291_2470# 0.01806f
-C435 a_26413_1842# DELAY_VBIASN 0.10601f
-C436 a_17293_1842# VDD 0.4916f
-C437 a_25653_1842# DELAY_VBIASP 0.11222f
-C438 a_25783_1842# DELAY_OUT_TAP30 0.69646f
-C439 a_18183_1842# DELAY_VBIASP 0.06627f
-C440 a_21983_1842# a_22091_2470# 0.01697f
-C441 a_9823_1842# VDD 0.49633f
-C442 DELAY_VBIASP DELAY_VBIASN 3.50557f
-C443 a_25653_1842# VDD 0.4916f
-C444 a_15773_1842# DELAY_OUT_TAP16 0.70708f
-C445 a_18183_1842# VDD 0.49633f
-C446 a_15143_1842# DELAY_VBIASN 0.07258f
-C447 VDD DELAY_VBIASN 0.85759f
-C448 DELAY_OUT_TAP31 a_26543_1842# 0.69646f
-C449 DELAY_OUT_TAP14 DELAY_VBIASN 0.04353f
-C450 a_24133_1842# DELAY_VBIASP 0.11222f
-C451 a_16533_1842# DELAY_OUT_TAP17 0.70708f
-C452 DELAY_OUT_TAP21 a_19573_1842# 0.70708f
-C453 DELAY_OUT_TAP9 DELAY_VBIASP 0.04137f
-C454 a_24893_1842# DELAY_VBIASN 0.10601f
-C455 a_24133_1842# VDD 0.4916f
-C456 a_11213_1842# a_11343_1842# 0.70845f
-C457 VDD DELAY_OUT_TAP9 0.72899f
-C458 DELAY_VBIASP a_19703_1842# 0.06627f
-C459 a_25653_1842# a_25783_1842# 0.70845f
-C460 a_11973_1842# DELAY_OUT_TAP12 0.0114f
-C461 a_12103_1842# a_12211_2470# 0.01697f
-C462 VDD a_19703_1842# 0.49633f
-C463 a_25783_1842# DELAY_VBIASN 0.07258f
-C464 VDD a_8411_2470# 0.01806f
-C465 DELAY_VBIASP a_18813_1842# 0.11222f
-C466 a_27411_2470# a_27303_1842# 0.01697f
-C467 a_15903_1842# a_16011_1842# 0.01163f
-C468 a_7543_1842# DELAY_OUT_TAP6 0.69646f
-C469 DELAY_VBIASP DELAY_OUT_TAP22 0.04137f
-C470 VDD a_21331_2470# 0.01806f
-C471 a_22743_1842# DELAY_VBIASP 0.06627f
-C472 VDD a_18813_1842# 0.4916f
-C473 a_11973_1842# a_12103_1842# 0.70845f
-C474 DELAY_VBIASP DELAY_OUT_TAP19 0.04137f
-C475 DELAY_OUT_TAP10 DELAY_VBIASN 0.04353f
-C476 VDD DELAY_OUT_TAP22 0.72899f
-C477 VDD a_22743_1842# 0.49633f
-C478 DELAY_OUT_TAP7 DELAY_VBIASN 0.04353f
-C479 DELAY_OUT_TAP5 DELAY_VBIASP 0.04137f
-C480 a_21983_1842# DELAY_VBIASN 0.07258f
-C481 DELAY_VBIASN DELAY_OUT_TAP13 0.04353f
-C482 VDD DELAY_OUT_TAP19 0.72899f
-C483 DELAY_OUT_TAP24 DELAY_VBIASN 0.04353f
-C484 VDD a_13731_2470# 0.01806f
-C485 DELAY_VBIASP DELAY_OUT_TAP17 0.04137f
-C486 VDD DELAY_OUT_TAP5 0.72899f
-C487 DELAY_VBIASP a_5133_1842# 0.11222f
-C488 a_10583_1842# a_10691_1842# 0.01163f
-C489 DELAY_VBIASP a_27737_1842# 0.04001f
-C490 VDD DELAY_OUT_TAP17 0.72899f
-C491 VDD a_5133_1842# 0.4916f
-C492 VDD a_6891_2470# 0.01806f
-C493 a_3743_1842# DELAY_VBIASP 0.05992f
-C494 a_21223_1842# DELAY_VBIASP 0.06627f
-C495 DELAY_VBIASP a_20463_1842# 0.06627f
-C496 VDD a_27737_1842# 0.75775f
-C497 DELAY_OUT_TAP4 a_5893_1842# 0.0114f
-C498 a_18943_1842# DELAY_VBIASN 0.07258f
-C499 a_6131_1842# a_6023_1842# 0.01163f
-C500 a_9693_1842# DELAY_VBIASP 0.11222f
-C501 a_22743_1842# a_22851_2470# 0.01697f
-C502 a_3743_1842# VDD 0.61241f
-C503 a_21223_1842# VDD 0.49633f
-C504 VDD a_20463_1842# 0.49633f
-C505 DELAY_VBIASP a_12733_1842# 0.11222f
-C506 a_25653_1842# DELAY_OUT_TAP30 0.0114f
-C507 DELAY_OUT_TAP23 DELAY_VBIASN 0.04353f
-C508 a_18053_1842# DELAY_VBIASP 0.11222f
-C509 a_9693_1842# VDD 0.4916f
-C510 a_17423_1842# a_17531_1842# 0.01163f
-C511 DELAY_VBIASP DELAY_OUT_LAST 0.21225f
-C512 DELAY_OUT_TAP30 DELAY_VBIASN 0.04353f
-C513 DELAY_OUT_TAP27 a_23503_1842# 0.69646f
-C514 VDD a_12733_1842# 0.4916f
-C515 a_18053_1842# VDD 0.4916f
-C516 a_23611_2470# a_23503_1842# 0.01697f
-C517 VDD DELAY_OUT_LAST 0.45735f
+X257 VDD.t27 DELAY_VBIASP.t6 a_22851_2470# VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.6u
+X258 a_6891_1842# a_6653_1842# a_6783_1842# VSS.t56 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.2u
+X259 VSS.t76 VSS.t73 VSS.t75 VSS.t74 sg13_lv_nmos ad=0.2516p pd=2.16u as=0 ps=0 w=0.74u l=0.6u
+X260 a_15773_1842# DELAY_OUT_TAP16 VSS.t32 VSS.t119 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X261 a_9693_1842# DELAY_OUT_TAP8 VDD.t57 VDD.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X262 VDD.t1 a_10583_1842# DELAY_OUT_TAP10 VDD.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X263 VSS.t122 a_26543_1842# DELAY_OUT_TAP31 VSS.t158 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+C0 a_9823_1842# a_9931_2470# 0.01697f
+C1 VDD DELAY_OUT_TAP2 0.72899f
+C2 VDD DELAY_OUT_TAP12 0.72899f
+C3 DELAY_VBIASP DELAY_OUT_TAP24 0.04137f
+C4 a_9063_1842# VDD 0.49633f
+C5 a_9823_1842# DELAY_OUT_TAP9 0.69646f
+C6 DELAY_VBIASP a_14253_1842# 0.11222f
+C7 a_6891_2470# a_6783_1842# 0.01697f
+C8 DELAY_VBIASN a_5263_1842# 0.07258f
+C9 a_5893_1842# DELAY_OUT_TAP4 0.0114f
+C10 DELAY_OUT_TAP26 a_22743_1842# 0.69646f
+C11 VDD DELAY_OUT_TAP23 0.72899f
+C12 DELAY_VBIASN DELAY_OUT_TAP14 0.04353f
+C13 DELAY_OUT_TAP28 DELAY_VBIASP 0.04137f
+C14 a_3851_1842# a_3743_1842# 0.01163f
+C15 a_25653_1842# VDD 0.4916f
+C16 VDD a_11451_2470# 0.01806f
+C17 a_21983_1842# a_22091_2470# 0.01697f
+C18 a_21853_1842# DELAY_OUT_TAP24 0.70708f
+C19 a_22091_2470# VDD 0.01806f
+C20 a_17293_1842# a_17423_1842# 0.70845f
+C21 a_15251_1842# a_15143_1842# 0.01163f
+C22 DELAY_VBIASP a_24133_1842# 0.11222f
+C23 a_12733_1842# VDD 0.4916f
+C24 a_9823_1842# VDD 0.49633f
+C25 DELAY_OUT_LAST VDD 0.45735f
+C26 DELAY_VBIASP DELAY_OUT_TAP29 0.04137f
+C27 DELAY_VBIASP a_15773_1842# 0.11222f
+C28 DELAY_OUT_TAP15 a_14383_1842# 0.69646f
+C29 DELAY_OUT_TAP22 a_20333_1842# 0.70708f
+C30 a_27411_2470# VDD 0.01806f
+C31 VDD a_15143_1842# 0.49633f
+C32 DELAY_VBIASP a_26413_1842# 0.11222f
+C33 a_11343_1842# VDD 0.49633f
+C34 DELAY_VBIASP a_8933_1842# 0.11222f
+C35 DELAY_VBIASP a_22743_1842# 0.06627f
+C36 a_16533_1842# DELAY_OUT_TAP18 0.0114f
+C37 DELAY_VBIASP a_6653_1842# 0.11222f
+C38 a_9171_1842# a_9063_1842# 0.01163f
+C39 a_20571_2470# VDD 0.01806f
+C40 a_18291_2470# VDD 0.01806f
+C41 a_15013_1842# VDD 0.4916f
+C42 DELAY_OUT_TAP26 VDD 0.72899f
+C43 a_8303_1842# VDD 0.49633f
+C44 a_6023_1842# VDD 0.49633f
+C45 a_4611_2470# a_4503_1842# 0.01697f
+C46 a_18943_1842# DELAY_OUT_TAP21 0.69646f
+C47 DELAY_VBIASN DELAY_OUT_TAP18 0.04353f
+C48 a_13731_2470# VDD 0.01806f
+C49 a_26413_1842# DELAY_OUT_TAP30 0.70708f
+C50 a_18813_1842# DELAY_OUT_TAP20 0.70708f
+C51 a_25023_1842# DELAY_OUT_TAP29 0.69646f
+C52 DELAY_VBIASP DELAY_OUT_TAP9 0.04137f
+C53 a_18813_1842# VDD 0.4916f
+C54 DELAY_VBIASN a_4503_1842# 0.07258f
+C55 a_25783_1842# a_25653_1842# 0.70845f
+C56 a_14383_1842# a_14253_1842# 0.70845f
+C57 DELAY_VBIASP DELAY_OUT_TAP3 0.04137f
+C58 DELAY_OUT_TAP14 a_13493_1842# 0.0114f
+C59 DELAY_VBIASN DELAY_OUT_TAP7 0.04353f
+C60 DELAY_VBIASN a_16533_1842# 0.10601f
+C61 DELAY_VBIASP DELAY_OUT_TAP20 0.04137f
+C62 a_13731_2470# a_13623_1842# 0.01697f
+C63 DELAY_VBIASP a_21983_1842# 0.06627f
+C64 a_26413_1842# DELAY_OUT_TAP31 0.0114f
+C65 DELAY_VBIASP VDD 13.2523f
+C66 a_8173_1842# DELAY_OUT_TAP7 0.0114f
+C67 a_9823_1842# a_9931_1842# 0.01163f
+C68 DELAY_VBIASP a_16663_1842# 0.06627f
+C69 DELAY_VBIASN DELAY_OUT_TAP16 0.04353f
+C70 DELAY_IN VDD 0.45518f
+C71 a_21853_1842# a_21983_1842# 0.70845f
+C72 DELAY_OUT_TAP5 a_6653_1842# 0.0114f
+C73 a_21853_1842# VDD 0.4916f
+C74 VDD DELAY_OUT_TAP1 0.72899f
+C75 DELAY_VBIASN a_27173_1842# 0.10602f
+C76 VDD a_4373_1842# 0.4916f
+C77 a_8173_1842# DELAY_VBIASN 0.10601f
+C78 VDD DELAY_OUT_TAP30 0.72899f
+C79 DELAY_VBIASP a_13623_1842# 0.06627f
+C80 DELAY_VBIASP a_18053_1842# 0.11222f
+C81 a_5893_1842# DELAY_OUT_TAP3 0.70708f
+C82 DELAY_VBIASN DELAY_OUT_TAP13 0.04353f
+C83 VDD a_3743_1842# 0.61241f
+C84 a_10583_1842# DELAY_VBIASN 0.07258f
+C85 DELAY_OUT_TAP27 DELAY_VBIASP 0.04137f
+C86 a_25023_1842# VDD 0.49633f
+C87 VDD a_17423_1842# 0.49633f
+C88 a_12211_1842# a_12103_1842# 0.01163f
+C89 a_22613_1842# a_22743_1842# 0.70845f
+C90 a_21223_1842# DELAY_OUT_TAP24 0.69646f
+C91 DELAY_VBIASN a_19703_1842# 0.07258f
+C92 DELAY_VBIASP a_23503_1842# 0.06627f
+C93 a_10691_2470# VDD 0.01806f
+C94 a_5893_1842# VDD 0.4916f
+C95 a_27737_1842# a_27303_1842# 0.69646f
+C96 a_12103_1842# VDD 0.49633f
+C97 DELAY_VBIASP DELAY_OUT_TAP6 0.04137f
+C98 a_11451_1842# a_11343_1842# 0.01163f
+C99 DELAY_OUT_TAP31 VDD 0.72899f
+C100 a_26651_2470# VDD 0.01806f
+C101 DELAY_OUT_TAP5 VDD 0.72899f
+C102 a_9171_2470# VDD 0.01806f
+C103 DELAY_VBIASP a_25783_1842# 0.06627f
+C104 DELAY_VBIASP a_19573_1842# 0.11222f
+C105 a_19051_2470# VDD 0.01806f
+C106 DELAY_VBIASN a_24893_1842# 0.10601f
+C107 a_21093_1842# DELAY_OUT_TAP23 0.70708f
+C108 a_17531_2470# VDD 0.01806f
+C109 a_14253_1842# DELAY_OUT_TAP14 0.70708f
+C110 DELAY_VBIASN DELAY_OUT_TAP11 0.04353f
+C111 a_14383_1842# VDD 0.49633f
+C112 a_24371_2470# VDD 0.01806f
+C113 DELAY_OUT_TAP25 a_21983_1842# 0.69646f
+C114 a_8933_1842# DELAY_OUT_TAP8 0.0114f
+C115 DELAY_VBIASP DELAY_OUT_TAP22 0.04137f
+C116 DELAY_OUT_TAP25 VDD 0.72899f
+C117 DELAY_VBIASN a_13493_1842# 0.10601f
+C118 a_22613_1842# VDD 0.4916f
+C119 a_12971_2470# VDD 0.01806f
+C120 a_25783_1842# DELAY_OUT_TAP30 0.69646f
+C121 a_18183_1842# DELAY_OUT_TAP20 0.69646f
+C122 a_19811_1842# a_19703_1842# 0.01163f
+C123 DELAY_VBIASN a_23373_1842# 0.10601f
+C124 a_5133_1842# DELAY_OUT_TAP3 0.0114f
+C125 a_18183_1842# VDD 0.49633f
+C126 DELAY_OUT_TAP13 a_13493_1842# 0.70708f
+C127 DELAY_OUT_TAP18 a_17293_1842# 0.70708f
+C128 DELAY_VBIASN a_15903_1842# 0.07258f
+C129 DELAY_VBIASP DELAY_OUT_TAP19 0.04137f
+C130 a_5133_1842# VDD 0.4916f
+C131 DELAY_VBIASN DELAY_OUT_TAP10 0.04353f
+C132 a_27411_2470# a_27303_1842# 0.01697f
+C133 VDD DELAY_OUT_TAP8 0.72899f
+C134 a_18183_1842# a_18053_1842# 0.70845f
+C135 DELAY_VBIASN DELAY_OUT_TAP4 0.04353f
+C136 DELAY_VBIASN DELAY_OUT_TAP15 0.04353f
+C137 DELAY_VBIASP DELAY_OUT_TAP17 0.04137f
+C138 a_21223_1842# VDD 0.49633f
+C139 a_7543_1842# DELAY_VBIASN 0.07258f
+C140 a_25783_1842# a_25891_1842# 0.01163f
+C141 a_9823_1842# a_9693_1842# 0.70845f
+C142 a_10583_1842# DELAY_OUT_TAP10 0.69646f
+C143 a_20463_1842# a_20333_1842# 0.70845f
+C144 a_11973_1842# DELAY_OUT_TAP12 0.0114f
+C145 a_5263_1842# DELAY_OUT_TAP3 0.69646f
+C146 DELAY_VBIASN a_17293_1842# 0.10601f
+C147 DELAY_OUT_TAP19 a_17423_1842# 0.69646f
+C148 DELAY_VBIASP a_21093_1842# 0.11222f
+C149 DELAY_VBIASP a_7413_1842# 0.11222f
+C150 a_18813_1842# a_18943_1842# 0.70845f
+C151 a_5263_1842# VDD 0.49633f
+C152 DELAY_VBIASN DELAY_OUT_TAP24 0.04353f
+C153 VDD DELAY_OUT_TAP14 0.72899f
+C154 DELAY_VBIASN a_14253_1842# 0.10601f
+C155 a_17531_1842# a_17423_1842# 0.01163f
+C156 a_14383_1842# a_14491_1842# 0.01163f
+C157 a_18813_1842# DELAY_OUT_TAP21 0.0114f
+C158 DELAY_VBIASP a_27303_1842# 0.06629f
+C159 DELAY_OUT_TAP28 DELAY_VBIASN 0.04353f
+C160 a_12733_1842# a_12863_1842# 0.70845f
+C161 a_8411_2470# VDD 0.01806f
+C162 DELAY_VBIASP a_26543_1842# 0.06627f
+C163 DELAY_VBIASP a_18943_1842# 0.06627f
+C164 DELAY_VBIASN a_24133_1842# 0.10601f
+C165 a_20463_1842# DELAY_OUT_TAP23 0.69646f
+C166 a_13623_1842# DELAY_OUT_TAP14 0.69646f
+C167 a_8933_1842# DELAY_OUT_TAP7 0.70708f
+C168 DELAY_VBIASP DELAY_OUT_TAP21 0.04137f
+C169 DELAY_VBIASN a_15773_1842# 0.10601f
+C170 a_20333_1842# DELAY_OUT_TAP23 0.0114f
+C171 DELAY_VBIASN DELAY_OUT_TAP29 0.04353f
+C172 DELAY_OUT_TAP16 a_15773_1842# 0.70708f
+C173 DELAY_VBIASP a_9693_1842# 0.11222f
+C174 DELAY_VBIASN a_26413_1842# 0.10601f
+C175 DELAY_VBIASN a_22743_1842# 0.07258f
+C176 DELAY_VBIASN a_8933_1842# 0.10601f
+C177 DELAY_VBIASN a_6653_1842# 0.10601f
+C178 DELAY_OUT_TAP18 VDD 0.72899f
+C179 DELAY_OUT_TAP5 a_7413_1842# 0.70708f
+C180 DELAY_OUT_TAP18 a_16663_1842# 0.69646f
+C181 a_11213_1842# a_11343_1842# 0.70845f
+C182 DELAY_OUT_LAST a_27737_1842# 0.70955f
+C183 VDD a_6131_2470# 0.01806f
+C184 a_4503_1842# VDD 0.49633f
+C185 a_20571_2470# a_20463_1842# 0.01697f
+C186 a_10453_1842# DELAY_VBIASP 0.11222f
+C187 DELAY_VBIASN DELAY_OUT_TAP9 0.04353f
+C188 a_10583_1842# a_10691_1842# 0.01163f
+C189 DELAY_VBIASP a_24263_1842# 0.06627f
+C190 DELAY_OUT_TAP31 a_26543_1842# 0.69646f
+C191 DELAY_OUT_TAP28 a_24893_1842# 0.70708f
+C192 VDD DELAY_OUT_TAP7 0.72899f
+C193 DELAY_VBIASN DELAY_OUT_TAP3 0.04353f
+C194 DELAY_VBIASP a_12863_1842# 0.06627f
+C195 a_4611_2470# VDD 0.01806f
+C196 a_16533_1842# VDD 0.4916f
+C197 a_26651_2470# a_26543_1842# 0.01697f
+C198 DELAY_VBIASP a_11973_1842# 0.11222f
+C199 a_12733_1842# DELAY_OUT_TAP12 0.70708f
+C200 a_15251_2470# a_15143_1842# 0.01697f
+C201 a_16533_1842# a_16663_1842# 0.70845f
+C202 a_19051_2470# a_18943_1842# 0.01697f
+C203 DELAY_VBIASN DELAY_OUT_TAP20 0.04353f
+C204 DELAY_VBIASN a_21983_1842# 0.07258f
+C205 DELAY_VBIASN VDD 0.85759f
+C206 a_24893_1842# DELAY_OUT_TAP29 0.0114f
+C207 DELAY_OUT_TAP16 VDD 0.72899f
+C208 DELAY_VBIASN a_16663_1842# 0.07258f
+C209 a_12103_1842# a_12211_2470# 0.01697f
+C210 VDD a_27173_1842# 0.4916f
+C211 a_8173_1842# VDD 0.4916f
+C212 a_11213_1842# DELAY_VBIASP 0.11222f
+C213 DELAY_VBIASP a_20463_1842# 0.06627f
+C214 DELAY_VBIASP a_6783_1842# 0.06627f
+C215 VDD DELAY_OUT_TAP13 0.72899f
+C216 DELAY_VBIASP a_20333_1842# 0.11222f
+C217 a_11343_1842# a_11451_2470# 0.01697f
+C218 a_10583_1842# VDD 0.49633f
+C219 DELAY_VBIASN a_13623_1842# 0.07258f
+C220 DELAY_VBIASN a_18053_1842# 0.10601f
+C221 DELAY_OUT_TAP15 a_14253_1842# 0.0114f
+C222 a_12971_1842# a_12863_1842# 0.01163f
+C223 DELAY_VBIASP a_27737_1842# 0.04001f
+C224 VDD a_19703_1842# 0.49633f
+C225 a_21223_1842# a_21093_1842# 0.70845f
+C226 DELAY_OUT_TAP27 DELAY_VBIASN 0.04353f
+C227 a_11973_1842# a_12103_1842# 0.70845f
+C228 a_26651_1842# a_26543_1842# 0.01163f
+C229 a_25131_2470# a_25023_1842# 0.01697f
+C230 a_15903_1842# a_15773_1842# 0.70845f
+C231 a_6891_1842# a_6783_1842# 0.01163f
+C232 a_5263_1842# a_5371_2470# 0.01697f
+C233 DELAY_VBIASN a_23503_1842# 0.07258f
+C234 a_24371_2470# a_24263_1842# 0.01697f
+C235 DELAY_VBIASN DELAY_OUT_TAP6 0.04353f
+C236 a_14491_2470# VDD 0.01806f
+C237 DELAY_VBIASP DELAY_OUT_TAP2 0.04137f
+C238 DELAY_VBIASP DELAY_OUT_TAP12 0.04137f
+C239 a_7543_1842# a_7651_2470# 0.01697f
+C240 a_15013_1842# a_15143_1842# 0.70845f
+C241 a_24893_1842# VDD 0.4916f
+C242 DELAY_VBIASP a_9063_1842# 0.06627f
+C243 DELAY_VBIASN a_25783_1842# 0.07258f
+C244 a_8173_1842# DELAY_OUT_TAP6 0.70708f
+C245 VDD DELAY_OUT_TAP11 0.72899f
+C246 DELAY_VBIASN a_19573_1842# 0.10601f
+C247 a_9693_1842# DELAY_OUT_TAP8 0.70708f
+C248 DELAY_VBIASP DELAY_OUT_TAP23 0.04137f
+C249 a_6653_1842# DELAY_OUT_TAP4 0.70708f
+C250 VDD a_13493_1842# 0.4916f
+C251 a_22851_1842# a_22743_1842# 0.01163f
+C252 a_12971_2470# a_12863_1842# 0.01697f
+C253 a_4373_1842# DELAY_OUT_TAP2 0.0114f
+C254 DELAY_VBIASP a_25653_1842# 0.11222f
+C255 DELAY_VBIASN DELAY_OUT_TAP22 0.04353f
+C256 DELAY_OUT_TAP5 a_6783_1842# 0.69646f
+C257 VDD a_23373_1842# 0.4916f
+C258 DELAY_VBIASP a_12733_1842# 0.11222f
+C259 a_9823_1842# DELAY_VBIASP 0.06627f
+C260 DELAY_VBIASP DELAY_OUT_LAST 0.21225f
+C261 a_19811_2470# a_19703_1842# 0.01697f
+C262 DELAY_OUT_TAP28 a_24133_1842# 0.0114f
+C263 a_13623_1842# a_13493_1842# 0.70845f
+C264 a_25653_1842# DELAY_OUT_TAP30 0.0114f
+C265 a_19573_1842# a_19703_1842# 0.70845f
+C266 a_3851_2470# VDD 0.01866f
+C267 DELAY_VBIASP a_15143_1842# 0.06627f
+C268 a_15903_1842# VDD 0.49633f
+C269 DELAY_VBIASP a_11343_1842# 0.06627f
+C270 a_12103_1842# DELAY_OUT_TAP12 0.69646f
+C271 VDD DELAY_OUT_TAP10 0.72899f
+C272 DELAY_OUT_TAP22 a_19703_1842# 0.69646f
+C273 DELAY_VBIASN DELAY_OUT_TAP19 0.04353f
+C274 DELAY_VBIASP a_15013_1842# 0.11222f
+C275 VDD DELAY_OUT_TAP4 0.72899f
+C276 DELAY_OUT_TAP26 DELAY_VBIASP 0.04137f
+C277 DELAY_VBIASP a_8303_1842# 0.06627f
+C278 DELAY_VBIASP a_6023_1842# 0.06627f
+C279 a_16533_1842# DELAY_OUT_TAP17 0.70708f
+C280 DELAY_OUT_TAP15 VDD 0.72899f
+C281 DELAY_OUT_TAP27 a_23373_1842# 0.0114f
+C282 a_15903_1842# a_16011_2470# 0.01697f
+C283 a_9171_2470# a_9063_1842# 0.01697f
+C284 a_21223_1842# a_21331_2470# 0.01697f
+C285 a_7543_1842# VDD 0.49633f
+C286 DELAY_VBIASN DELAY_OUT_TAP17 0.04353f
+C287 a_23503_1842# a_23373_1842# 0.70845f
+C288 DELAY_VBIASP a_18813_1842# 0.11222f
+C289 VDD a_17293_1842# 0.4916f
+C290 a_16771_2470# VDD 0.01806f
+C291 VDD DELAY_OUT_TAP24 0.72899f
+C292 a_16771_2470# a_16663_1842# 0.01697f
+C293 DELAY_VBIASN a_21093_1842# 0.10601f
+C294 DELAY_VBIASN a_7413_1842# 0.10601f
+C295 VDD a_14253_1842# 0.4916f
+C296 a_20463_1842# a_20571_1842# 0.01163f
+C297 a_5893_1842# a_6023_1842# 0.70845f
+C298 DELAY_OUT_TAP28 VDD 0.72899f
+C299 a_5133_1842# DELAY_OUT_TAP2 0.70708f
+C300 DELAY_IN DELAY_VBIASP 0.0738f
+C301 DELAY_VBIASP a_21853_1842# 0.11222f
+C302 DELAY_VBIASP DELAY_OUT_TAP1 0.04137f
+C303 DELAY_VBIASN a_27303_1842# 0.07259f
+C304 a_8411_1842# a_8303_1842# 0.01163f
+C305 DELAY_VBIASP a_4373_1842# 0.11222f
+C306 VDD a_24133_1842# 0.4916f
+C307 DELAY_VBIASP DELAY_OUT_TAP30 0.04137f
+C308 a_7543_1842# DELAY_OUT_TAP6 0.69646f
+C309 VDD a_7651_2470# 0.01806f
+C310 DELAY_VBIASN a_26543_1842# 0.07258f
+C311 a_27303_1842# a_27173_1842# 0.70845f
+C312 DELAY_IN DELAY_OUT_TAP1 0.01139f
+C313 DELAY_VBIASN a_18943_1842# 0.07258f
+C314 a_9063_1842# DELAY_OUT_TAP8 0.69646f
+C315 DELAY_VBIASP a_3743_1842# 0.05992f
+C316 VDD a_15773_1842# 0.4916f
+C317 VDD DELAY_OUT_TAP29 0.72899f
+C318 DELAY_VBIASP a_25023_1842# 0.06627f
+C319 a_4373_1842# DELAY_OUT_TAP1 0.70708f
+C320 DELAY_VBIASP a_17423_1842# 0.06627f
+C321 DELAY_VBIASN DELAY_OUT_TAP21 0.04353f
+C322 a_26413_1842# VDD 0.4916f
+C323 a_6131_1842# a_6023_1842# 0.01163f
+C324 DELAY_OUT_TAP26 a_22613_1842# 0.0114f
+C325 DELAY_IN a_3743_1842# 0.53924f
+C326 a_5893_1842# DELAY_VBIASP 0.11222f
+C327 VDD a_22743_1842# 0.49633f
+C328 a_8933_1842# VDD 0.4916f
+C329 DELAY_VBIASN a_9693_1842# 0.10601f
+C330 a_6653_1842# VDD 0.4916f
+C331 DELAY_VBIASP a_12103_1842# 0.06627f
+C332 a_3743_1842# DELAY_OUT_TAP1 0.69646f
+C333 a_18291_2470# a_18183_1842# 0.01697f
+C334 DELAY_VBIASP DELAY_OUT_TAP31 0.04137f
+C335 a_9931_2470# VDD 0.01806f
+C336 DELAY_OUT_TAP27 a_24133_1842# 0.70708f
+C337 DELAY_VBIASP DELAY_OUT_TAP5 0.04137f
+C338 VDD DELAY_OUT_TAP9 0.72899f
+C339 DELAY_VBIASP a_14383_1842# 0.06627f
+C340 DELAY_VBIASN a_10453_1842# 0.10601f
+C341 DELAY_OUT_TAP25 DELAY_VBIASP 0.04137f
+C342 a_15903_1842# DELAY_OUT_TAP17 0.69646f
+C343 VDD DELAY_OUT_TAP3 0.72899f
+C344 DELAY_VBIASN a_24263_1842# 0.07258f
+C345 DELAY_VBIASP a_22613_1842# 0.11222f
+C346 a_23611_2470# VDD 0.01806f
+C347 DELAY_VBIASN a_12863_1842# 0.07258f
+C348 VDD DELAY_OUT_TAP20 0.72899f
+C349 DELAY_VBIASN a_11973_1842# 0.10601f
+C350 a_21983_1842# VDD 0.49633f
+C351 DELAY_OUT_TAP25 a_21853_1842# 0.0114f
+C352 a_17293_1842# DELAY_OUT_TAP19 0.0114f
+C353 DELAY_VBIASP a_18183_1842# 0.06627f
+C354 VDD a_16663_1842# 0.49633f
+C355 a_10583_1842# a_10453_1842# 0.70845f
+C356 a_17531_2470# a_17423_1842# 0.01697f
+C357 DELAY_OUT_TAP13 a_12863_1842# 0.69646f
+C358 DELAY_VBIASP a_5133_1842# 0.11222f
+C359 a_16011_2470# VDD 0.01806f
+C360 DELAY_OUT_TAP20 a_18053_1842# 0.0114f
+C361 a_11213_1842# DELAY_VBIASN 0.10601f
+C362 DELAY_VBIASN a_20463_1842# 0.07258f
+C363 VDD a_13623_1842# 0.49633f
+C364 DELAY_VBIASN a_6783_1842# 0.07258f
+C365 DELAY_VBIASP DELAY_OUT_TAP8 0.04137f
+C366 VDD a_18053_1842# 0.4916f
+C367 DELAY_VBIASN a_20333_1842# 0.10601f
+C368 a_4503_1842# DELAY_OUT_TAP2 0.69646f
+C369 DELAY_OUT_TAP27 VDD 0.72899f
+C370 a_23611_2470# a_23503_1842# 0.01697f
+C371 a_7543_1842# a_7413_1842# 0.70845f
+C372 DELAY_VBIASP a_21223_1842# 0.06627f
+C373 DELAY_VBIASN a_27737_1842# 0.04176f
+C374 a_8411_2470# a_8303_1842# 0.01697f
+C375 VDD a_23503_1842# 0.49633f
+C376 VDD a_6891_2470# 0.01806f
+C377 a_27737_1842# a_27173_1842# 0.0114f
+C378 DELAY_OUT_TAP6 VDD 0.72899f
+C379 a_19811_2470# VDD 0.01806f
+C380 a_11973_1842# DELAY_OUT_TAP11 0.70708f
+C381 a_13731_1842# a_13623_1842# 0.01163f
+C382 DELAY_VBIASN DELAY_OUT_TAP2 0.04353f
+C383 a_21093_1842# DELAY_OUT_TAP24 0.0114f
+C384 a_25783_1842# VDD 0.49633f
+C385 DELAY_VBIASN DELAY_OUT_TAP12 0.04353f
+C386 a_21223_1842# a_21331_1842# 0.01163f
+C387 DELAY_OUT_TAP25 a_22613_1842# 0.70708f
+C388 VDD a_19573_1842# 0.4916f
+C389 a_5263_1842# DELAY_VBIASP 0.06627f
+C390 DELAY_OUT_TAP17 a_15773_1842# 0.0114f
+C391 DELAY_VBIASP DELAY_OUT_TAP14 0.04137f
+C392 DELAY_VBIASN a_9063_1842# 0.07258f
+C393 VDD DELAY_OUT_TAP22 0.72899f
+C394 DELAY_VBIASN DELAY_OUT_TAP23 0.04353f
+C395 DELAY_OUT_TAP27 a_23503_1842# 0.69646f
+C396 DELAY_VBIASN a_25653_1842# 0.10601f
+C397 a_10453_1842# DELAY_OUT_TAP10 0.0114f
+C398 a_11213_1842# DELAY_OUT_TAP11 0.0114f
+C399 a_6023_1842# a_6131_2470# 0.01697f
+C400 DELAY_VBIASN a_12733_1842# 0.10601f
+C401 DELAY_VBIASN a_9823_1842# 0.07258f
+C402 DELAY_VBIASN DELAY_OUT_LAST 0.04786f
+C403 a_19051_1842# a_18943_1842# 0.01163f
+C404 a_8303_1842# DELAY_OUT_TAP7 0.69646f
+C405 a_4611_1842# a_4503_1842# 0.01163f
+C406 DELAY_VBIASN a_15143_1842# 0.07258f
+C407 DELAY_VBIASN a_11343_1842# 0.07258f
+C408 VDD DELAY_OUT_TAP19 0.72899f
+C409 DELAY_OUT_TAP16 a_15143_1842# 0.69646f
+C410 a_15903_1842# a_16011_1842# 0.01163f
+C411 a_12733_1842# DELAY_OUT_TAP13 0.0114f
+C412 DELAY_VBIASN a_15013_1842# 0.10601f
+C413 DELAY_OUT_TAP16 a_15013_1842# 0.0114f
+C414 DELAY_VBIASP DELAY_OUT_TAP18 0.04137f
+C415 DELAY_VBIASN a_8303_1842# 0.07258f
+C416 DELAY_OUT_TAP26 DELAY_VBIASN 0.04353f
+C417 DELAY_VBIASN a_6023_1842# 0.07258f
+C418 a_25023_1842# a_25131_1842# 0.01163f
+C419 a_26413_1842# a_26543_1842# 0.70845f
+C420 DELAY_OUT_TAP17 VDD 0.72899f
+C421 a_11213_1842# DELAY_OUT_TAP10 0.70708f
+C422 DELAY_VBIASP a_4503_1842# 0.06627f
+C423 a_8173_1842# a_8303_1842# 0.70845f
+C424 DELAY_OUT_TAP19 a_18053_1842# 0.70708f
+C425 VDD a_5371_2470# 0.01806f
+C426 DELAY_VBIASN a_18813_1842# 0.10601f
+C427 a_19573_1842# DELAY_OUT_TAP22 0.0114f
+C428 DELAY_VBIASP DELAY_OUT_TAP7 0.04137f
+C429 a_25891_2470# VDD 0.01806f
+C430 DELAY_OUT_TAP28 a_24263_1842# 0.69646f
+C431 a_16533_1842# DELAY_VBIASP 0.11222f
+C432 a_16771_1842# a_16663_1842# 0.01163f
+C433 a_4503_1842# a_4373_1842# 0.70845f
+C434 a_23503_1842# a_23611_1842# 0.01163f
+C435 VDD a_21093_1842# 0.4916f
+C436 VDD a_7413_1842# 0.4916f
+C437 a_24263_1842# a_24133_1842# 0.70845f
+C438 DELAY_VBIASN DELAY_VBIASP 3.50557f
+C439 DELAY_VBIASP DELAY_OUT_TAP16 0.04137f
+C440 VDD a_27303_1842# 0.49714f
+C441 a_22851_2470# a_22743_1842# 0.01697f
+C442 DELAY_VBIASP a_27173_1842# 0.11222f
+C443 a_8173_1842# DELAY_VBIASP 0.11222f
+C444 DELAY_VBIASN DELAY_IN 0.06969f
+C445 a_11343_1842# DELAY_OUT_TAP11 0.69646f
+C446 a_9693_1842# DELAY_OUT_TAP9 0.0114f
+C447 DELAY_VBIASN a_21853_1842# 0.10601f
+C448 DELAY_VBIASN DELAY_OUT_TAP1 0.04353f
+C449 a_5263_1842# a_5133_1842# 0.70845f
+C450 DELAY_VBIASN a_4373_1842# 0.10601f
+C451 VDD a_26543_1842# 0.49633f
+C452 VDD a_18943_1842# 0.49633f
+C453 DELAY_VBIASP DELAY_OUT_TAP13 0.04137f
+C454 DELAY_VBIASN DELAY_OUT_TAP30 0.04353f
+C455 a_10583_1842# DELAY_VBIASP 0.06627f
+C456 VDD DELAY_OUT_TAP21 0.72899f
+C457 DELAY_VBIASP a_19703_1842# 0.06627f
+C458 DELAY_VBIASN a_3743_1842# 0.0649f
+C459 DELAY_VBIASN a_25023_1842# 0.07258f
+C460 DELAY_VBIASN a_17423_1842# 0.07258f
+C461 a_7543_1842# a_7651_1842# 0.01163f
+C462 a_9693_1842# VDD 0.4916f
+C463 a_10453_1842# DELAY_OUT_TAP9 0.70708f
+C464 DELAY_VBIASN a_5893_1842# 0.10601f
+C465 DELAY_OUT_TAP26 a_23373_1842# 0.70708f
+C466 a_25891_2470# a_25783_1842# 0.01697f
+C467 DELAY_VBIASN a_12103_1842# 0.07258f
+C468 DELAY_OUT_TAP6 a_7413_1842# 0.0114f
+C469 DELAY_VBIASN DELAY_OUT_TAP31 0.04353f
+C470 VDD a_12211_2470# 0.01806f
+C471 a_18291_1842# a_18183_1842# 0.01163f
+C472 a_22851_2470# VDD 0.01806f
+C473 DELAY_VBIASN DELAY_OUT_TAP5 0.04353f
+C474 DELAY_VBIASP a_24893_1842# 0.11222f
+C475 DELAY_OUT_TAP31 a_27173_1842# 0.70708f
+C476 a_24263_1842# a_24371_1842# 0.01163f
+C477 DELAY_VBIASP DELAY_OUT_TAP11 0.04137f
+C478 a_6653_1842# a_6783_1842# 0.70845f
+C479 a_10453_1842# VDD 0.4916f
+C480 a_24263_1842# VDD 0.49633f
+C481 DELAY_VBIASP a_13493_1842# 0.11222f
+C482 a_10583_1842# a_10691_2470# 0.01697f
+C483 DELAY_VBIASN a_14383_1842# 0.07258f
+C484 DELAY_OUT_TAP15 a_15013_1842# 0.70708f
+C485 DELAY_OUT_TAP25 DELAY_VBIASN 0.04353f
+C486 VDD a_12863_1842# 0.49633f
+C487 a_6023_1842# DELAY_OUT_TAP4 0.69646f
+C488 a_11973_1842# VDD 0.4916f
+C489 DELAY_VBIASN a_22613_1842# 0.10601f
+C490 DELAY_VBIASP a_23373_1842# 0.11222f
+C491 a_21331_2470# VDD 0.01806f
+C492 a_25023_1842# a_24893_1842# 0.70845f
+C493 DELAY_VBIASN a_18183_1842# 0.07258f
+C494 a_19573_1842# DELAY_OUT_TAP21 0.70708f
+C495 a_25131_2470# VDD 0.01806f
+C496 a_5263_1842# a_5371_1842# 0.01163f
+C497 a_15903_1842# DELAY_VBIASP 0.06627f
+C498 a_25653_1842# DELAY_OUT_TAP29 0.70708f
+C499 DELAY_VBIASP DELAY_OUT_TAP10 0.04137f
+C500 a_11213_1842# VDD 0.4916f
+C501 a_8933_1842# a_9063_1842# 0.70845f
+C502 VDD a_20463_1842# 0.49633f
+C503 DELAY_VBIASN a_5133_1842# 0.10601f
+C504 VDD a_6783_1842# 0.49633f
+C505 a_27411_1842# a_27303_1842# 0.01163f
+C506 DELAY_VBIASP DELAY_OUT_TAP4 0.04137f
+C507 DELAY_VBIASP DELAY_OUT_TAP15 0.04137f
+C508 VDD a_20333_1842# 0.4916f
+C509 DELAY_VBIASN DELAY_OUT_TAP8 0.04353f
+C510 a_21983_1842# a_22091_1842# 0.01163f
+C511 VDD a_27737_1842# 0.75775f
+C512 a_14491_2470# a_14383_1842# 0.01697f
+C513 a_7543_1842# DELAY_VBIASP 0.06627f
+C514 DELAY_VBIASN a_21223_1842# 0.07258f
+C515 a_3851_2470# a_3743_1842# 0.01697f
+C516 DELAY_VBIASP a_17293_1842# 0.11222f
+C517 a_15251_2470# VDD 0.01806f
 R0 DELAY_VBIASN.n1 DELAY_VBIASN.t31 34.3755
 R1 DELAY_VBIASN.n1 DELAY_VBIASN.t30 33.0005
 R2 DELAY_VBIASN.n2 DELAY_VBIASN.t29 33.0005
@@ -915,908 +915,933 @@ R122 DELAY_VBIASP.n5 DELAY_VBIASP.n4 1.36852
 R123 DELAY_VBIASP.n4 DELAY_VBIASP.n3 1.36852
 R124 DELAY_VBIASP.n3 DELAY_VBIASP.n2 1.36852
 R125 DELAY_VBIASP.n2 DELAY_VBIASP.n1 1.36852
-R126 VDD.t0 VDD.t52 15.1333
-R127 VDD.t0 VDD.t55 15.0005
-R128 VDD.n26 VDD.t47 15.0005
-R129 VDD.n27 VDD 1.59504
-R130 VDD.t0 VDD.t35 6.09923
-R131 VDD.t0 VDD.t39 6.09923
-R132 VDD.t0 VDD.t58 6.09923
-R133 VDD.t0 VDD.t44 6.09923
-R134 VDD.n51 VDD.t38 6.09923
-R135 VDD.n47 VDD.t63 6.09923
-R136 VDD.t0 VDD.t86 6.09923
-R137 VDD.t0 VDD.t67 6.09923
-R138 VDD.t0 VDD.t66 6.09923
-R139 VDD.n49 VDD.t41 6.09923
-R140 VDD.n17 VDD.t46 6.09923
-R141 VDD.n33 VDD.t1 6.09923
-R142 VDD.n19 VDD.t68 6.09923
-R143 VDD.n39 VDD.t40 6.09923
-R144 VDD.n35 VDD.t69 6.09923
-R145 VDD.n23 VDD.t2 6.09923
-R146 VDD.n45 VDD.t37 6.09923
-R147 VDD.n21 VDD.t70 6.09923
-R148 VDD.n43 VDD.t92 6.09923
-R149 VDD.n15 VDD.t96 6.09923
-R150 VDD.n31 VDD.t60 6.09923
-R151 VDD.n25 VDD.t36 6.09923
-R152 VDD.n53 VDD.t83 6.09923
-R153 VDD.n41 VDD.t64 6.09923
-R154 VDD.t0 VDD.t72 6.09923
-R155 VDD.n37 VDD.t79 6.09923
-R156 VDD.n29 VDD.t42 6.09923
-R157 VDD.t0 VDD.t84 6.09923
-R158 VDD.t0 VDD.t82 6.09923
+R126 VDD.t0 VDD.t83 15.1333
+R127 VDD.t0 VDD.t86 15.0005
+R128 VDD.n30 VDD.t78 15.0005
+R129 VDD.n31 VDD 1.59504
+R130 VDD.t0 VDD.t9 6.09923
+R131 VDD.t0 VDD.t49 6.09923
+R132 VDD.t0 VDD.t4 6.09923
+R133 VDD.t0 VDD.t2 6.09923
+R134 VDD.t0 VDD.t7 6.09923
+R135 VDD.t0 VDD.t10 6.09923
+R136 VDD.n29 VDD.t58 6.09923
+R137 VDD.n53 VDD.t57 6.09923
+R138 VDD.n23 VDD.t55 6.09923
+R139 VDD.n45 VDD.t1 6.09923
+R140 VDD.n37 VDD.t60 6.09923
+R141 VDD.t0 VDD.t5 6.09923
+R142 VDD.t0 VDD.t47 6.09923
+R143 VDD.t0 VDD.t3 6.09923
+R144 VDD.n39 VDD.t8 6.09923
+R145 VDD.n21 VDD.t14 6.09923
+R146 VDD.n41 VDD.t48 6.09923
+R147 VDD.n25 VDD.t91 6.09923
+R148 VDD.n47 VDD.t51 6.09923
+R149 VDD.n43 VDD.t11 6.09923
+R150 VDD.t0 VDD.t61 6.09923
+R151 VDD.n49 VDD.t64 6.09923
+R152 VDD.n19 VDD.t63 6.09923
+R153 VDD.n35 VDD.t62 6.09923
+R154 VDD.n27 VDD.t74 6.09923
+R155 VDD.n51 VDD.t72 6.09923
+R156 VDD.n17 VDD.t70 6.09923
+R157 VDD.n17 VDD.t6 6.09923
+R158 VDD.t0 VDD.t95 6.09923
 R159 VDD.t0 VDD.t71 6.09923
-R160 VDD.t0 VDD.t43 6.09923
-R161 VDD.t0 VDD.t101 6.09923
-R162 VDD.n12 VDD.n47 0.0919361
-R163 VDD.t0 VDD.n19 0.609161
-R164 VDD.t0 VDD.n35 0.470721
-R165 VDD.t0 VDD.n21 0.609188
-R166 VDD.t0 VDD.n15 0.609119
-R167 VDD.t0 VDD.n25 0.609147
-R168 VDD.t0 VDD.n41 0.470732
-R169 VDD.n13 VDD.n29 0.0918615
-R170 VDD.n26 VDD.t48 5.60969
-R171 VDD.t0 VDD.t57 5.60347
-R172 VDD.t0 VDD.t54 5.82803
-R173 VDD.n7 VDD.t11 5.59675
-R174 VDD.n8 VDD.t15 5.59675
-R175 VDD.n9 VDD.t14 5.59675
-R176 VDD.n2 VDD.t13 5.59675
-R177 VDD.n50 VDD.t17 5.59675
-R178 VDD.n46 VDD.t16 5.59675
-R179 VDD.n5 VDD.t18 5.59675
-R180 VDD.n3 VDD.t19 5.59675
-R181 VDD.n1 VDD.t12 5.59675
-R182 VDD.n48 VDD.t10 5.59675
-R183 VDD.n16 VDD.t5 5.59675
-R184 VDD.n32 VDD.t20 5.59675
-R185 VDD.n18 VDD.t9 5.59675
-R186 VDD.n38 VDD.t8 5.59675
-R187 VDD.n34 VDD.t6 5.59675
-R188 VDD.n22 VDD.t3 5.59675
-R189 VDD.n44 VDD.t7 5.59675
-R190 VDD.n20 VDD.t22 5.59675
-R191 VDD.n42 VDD.t21 5.59675
-R192 VDD.n14 VDD.t24 5.59675
-R193 VDD.n30 VDD.t23 5.59675
-R194 VDD.n24 VDD.t26 5.59675
-R195 VDD.n52 VDD.t27 5.59675
-R196 VDD.n40 VDD.t28 5.59675
-R197 VDD.n4 VDD.t25 5.59675
-R198 VDD.n36 VDD.t4 5.59675
-R199 VDD.n28 VDD.t31 5.59675
-R200 VDD.n6 VDD.t32 5.59675
-R201 VDD.n0 VDD.t30 5.59675
-R202 VDD.n27 VDD.n26 0.71648
-R203 VDD VDD.n27 1.59504
-R204 VDD.n26 VDD.n110 0.313775
-R205 VDD.n33 VDD.n19 0.409438
-R206 VDD.n31 VDD.n25 0.409438
-R207 VDD.n37 VDD.n13 0.240057
-R208 VDD.n51 VDD.n12 0.240188
-R209 VDD.n39 VDD.n35 0.409441
-R210 VDD.n53 VDD.n41 0.409773
-R211 VDD.n43 VDD.n15 0.409614
-R212 VDD.n45 VDD.n21 0.409651
-R213 VDD.n10 VDD.n17 0.111461
-R214 VDD.t0 VDD.n66 1.55392
-R215 VDD.t0 VDD.n70 1.55376
-R216 VDD.t0 VDD.n77 1.55371
-R217 VDD.t0 VDD.n54 1.55361
-R218 VDD.t0 VDD.n58 1.55361
-R219 VDD.t0 VDD.n65 1.55361
-R220 VDD.t0 VDD.n74 1.55354
-R221 VDD.t0 VDD.n60 1.5535
-R222 VDD.t0 VDD.n64 1.55347
-R223 VDD.t0 VDD.n81 1.55347
-R224 VDD.t0 VDD.n78 1.55347
-R225 VDD.t0 VDD.n57 1.55345
-R226 VDD.t0 VDD.n73 1.55344
-R227 VDD.t0 VDD.n76 1.55341
-R228 VDD.t0 VDD.n67 1.55338
-R229 VDD.t0 VDD.n62 1.55335
-R230 VDD.t0 VDD.n55 1.55334
-R231 VDD.t0 VDD.n59 1.55334
-R232 VDD.t0 VDD.n79 1.55334
-R233 VDD.t0 VDD.n69 1.55334
-R234 VDD.t0 VDD.n80 1.55333
-R235 VDD.t0 VDD.n61 1.55332
-R236 VDD.t0 VDD.n56 1.55331
-R237 VDD.t0 VDD.n75 1.55329
-R238 VDD.t0 VDD.n63 1.55328
-R239 VDD.t0 VDD.n71 1.55327
-R240 VDD.t0 VDD.n68 1.55327
-R241 VDD.t0 VDD.n72 1.55327
-R242 VDD.n26 VDD.t49 6.01449
-R243 VDD.n7 VDD.n110 0.495398
+R160 VDD.n33 VDD.t99 6.09923
+R161 VDD.t0 VDD.t12 6.09923
+R162 VDD.t0 VDD.n23 0.609161
+R163 VDD.t0 VDD.n37 0.470722
+R164 VDD.n13 VDD.n21 0.111389
+R165 VDD.t0 VDD.n25 0.609174
+R166 VDD.t0 VDD.n27 0.609184
+R167 VDD.t0 VDD.n17 0.581199
+R168 VDD.n30 VDD.t79 5.60969
+R169 VDD.t0 VDD.t88 5.60347
+R170 VDD.n7 VDD.t24 5.59675
+R171 VDD.n4 VDD.t28 5.59675
+R172 VDD.n9 VDD.t23 5.59675
+R173 VDD.n8 VDD.t26 5.59675
+R174 VDD.n5 VDD.t29 5.59675
+R175 VDD.n10 VDD.t30 5.59675
+R176 VDD.n28 VDD.t31 5.59675
+R177 VDD.n52 VDD.t32 5.59675
+R178 VDD.n22 VDD.t25 5.59675
+R179 VDD.n44 VDD.t33 5.59675
+R180 VDD.n36 VDD.t19 5.59675
+R181 VDD.n6 VDD.t15 5.59675
+R182 VDD.n11 VDD.t20 5.59675
+R183 VDD.n3 VDD.t34 5.59675
+R184 VDD.n38 VDD.t36 5.59675
+R185 VDD.n20 VDD.t35 5.59675
+R186 VDD.n40 VDD.t37 5.59675
+R187 VDD.n24 VDD.t21 5.59675
+R188 VDD.n46 VDD.t22 5.59675
+R189 VDD.n42 VDD.t38 5.59675
+R190 VDD.n2 VDD.t17 5.59675
+R191 VDD.n48 VDD.t41 5.59675
+R192 VDD.n18 VDD.t42 5.59675
+R193 VDD.n34 VDD.t40 5.59675
+R194 VDD.n26 VDD.t39 5.59675
+R195 VDD.n50 VDD.t27 5.59675
+R196 VDD.n16 VDD.t43 5.59675
+R197 VDD.n15 VDD.t18 5.59675
+R198 VDD.n0 VDD.t44 5.59675
+R199 VDD.n1 VDD.t16 5.59675
+R200 VDD.n32 VDD.t45 5.59675
+R201 VDD.n31 VDD.n30 0.71648
+R202 VDD VDD.n31 1.59504
+R203 VDD.n30 VDD.n112 0.313477
+R204 VDD.n53 VDD.n23 0.4099
+R205 VDD.n35 VDD.n27 0.409347
+R206 VDD.n39 VDD.n13 0.225376
+R207 VDD.n41 VDD.n25 0.409438
+R208 VDD.n12 VDD.n19 0.11148
+R209 VDD.n45 VDD.n37 0.409614
+R210 VDD.n47 VDD.n43 0.409614
+R211 VDD.t0 VDD.n67 1.55402
+R212 VDD.t0 VDD.n78 1.55387
+R213 VDD.t0 VDD.n57 1.55371
+R214 VDD.t0 VDD.n74 1.55371
+R215 VDD.t0 VDD.n81 1.55369
+R216 VDD.t0 VDD.n76 1.55365
+R217 VDD.t0 VDD.n64 1.55361
+R218 VDD.t0 VDD.n68 1.55361
+R219 VDD.t0 VDD.n77 1.55361
+R220 VDD.t0 VDD.n80 1.55353
+R221 VDD.t0 VDD.n55 1.5535
+R222 VDD.t0 VDD.n66 1.5535
+R223 VDD.t0 VDD.n71 1.5535
+R224 VDD.t0 VDD.n61 1.5535
+R225 VDD.t0 VDD.n72 1.5535
+R226 VDD.t0 VDD.n73 1.5535
+R227 VDD.t0 VDD.n79 1.5535
+R228 VDD.t0 VDD.n70 1.55344
+R229 VDD.t0 VDD.n82 1.55344
+R230 VDD.t0 VDD.n54 1.55342
+R231 VDD.t0 VDD.n62 1.55341
+R232 VDD.t0 VDD.n75 1.55334
+R233 VDD.t0 VDD.n63 1.55334
+R234 VDD.t0 VDD.n60 1.55333
+R235 VDD.t0 VDD.n56 1.55327
+R236 VDD.t0 VDD.n58 1.55327
+R237 VDD.t0 VDD.n59 1.55327
+R238 VDD.t0 VDD.n65 1.55327
+R239 VDD.t0 VDD.n69 1.55325
+R240 VDD.n30 VDD.t80 6.01456
+R241 VDD.n7 VDD.n112 0.495398
+R242 VDD.n4 VDD.n111 0.495398
+R243 VDD.n9 VDD.n110 0.495398
 R244 VDD.n8 VDD.n109 0.495398
-R245 VDD.n9 VDD.n108 0.495398
-R246 VDD.n2 VDD.n107 0.495398
-R247 VDD.n50 VDD.n106 0.495398
-R248 VDD.n46 VDD.n105 0.495398
-R249 VDD.n5 VDD.n104 0.495398
-R250 VDD.n3 VDD.n103 0.495398
-R251 VDD.n1 VDD.n102 0.495398
-R252 VDD.n48 VDD.n101 0.495398
-R253 VDD.n16 VDD.n100 0.495398
-R254 VDD.n32 VDD.n99 0.495398
-R255 VDD.n18 VDD.n98 0.495398
-R256 VDD.n38 VDD.n97 0.495398
-R257 VDD.n34 VDD.n96 0.495398
-R258 VDD.n22 VDD.n95 0.495398
-R259 VDD.n44 VDD.n94 0.495398
-R260 VDD.n20 VDD.n93 0.495398
-R261 VDD.n42 VDD.n92 0.495398
-R262 VDD.n14 VDD.n91 0.495398
-R263 VDD.n30 VDD.n90 0.495398
-R264 VDD.n24 VDD.n89 0.495398
-R265 VDD.n52 VDD.n88 0.495398
-R266 VDD.n40 VDD.n87 0.495398
-R267 VDD.n4 VDD.n86 0.495398
-R268 VDD.n36 VDD.n85 0.495398
-R269 VDD.n28 VDD.n84 0.495398
-R270 VDD.n6 VDD.n83 0.495398
-R271 VDD.n0 VDD.n82 0.495398
-R272 VDD.n11 VDD.n82 0.900657
-R273 VDD.t33 VDD.t0 5.78761
-R274 VDD.t0 VDD.n7 0.478641
+R245 VDD.n5 VDD.n108 0.495398
+R246 VDD.n10 VDD.n107 0.495398
+R247 VDD.n28 VDD.n106 0.495398
+R248 VDD.n52 VDD.n105 0.495398
+R249 VDD.n22 VDD.n104 0.495398
+R250 VDD.n44 VDD.n103 0.495398
+R251 VDD.n36 VDD.n102 0.495398
+R252 VDD.n6 VDD.n101 0.495398
+R253 VDD.n11 VDD.n100 0.495398
+R254 VDD.n3 VDD.n99 0.495398
+R255 VDD.n38 VDD.n98 0.495398
+R256 VDD.n20 VDD.n97 0.495398
+R257 VDD.n40 VDD.n96 0.495398
+R258 VDD.n24 VDD.n95 0.495398
+R259 VDD.n46 VDD.n94 0.495398
+R260 VDD.n42 VDD.n93 0.495398
+R261 VDD.n2 VDD.n92 0.495398
+R262 VDD.n48 VDD.n91 0.495398
+R263 VDD.n18 VDD.n90 0.495398
+R264 VDD.n34 VDD.n89 0.495398
+R265 VDD.n26 VDD.n88 0.495398
+R266 VDD.n50 VDD.n87 0.495398
+R267 VDD.n16 VDD.n86 0.495398
+R268 VDD.n15 VDD.n85 0.495398
+R269 VDD.n0 VDD.n84 0.495398
+R270 VDD.n1 VDD.n83 0.495398
+R271 VDD.n32 VDD.n14 0.626363
+R272 VDD.t0 VDD.n7 0.478641
+R273 VDD.t0 VDD.n4 0.478641
+R274 VDD.t0 VDD.n9 0.478641
 R275 VDD.t0 VDD.n8 0.478641
-R276 VDD.t0 VDD.n9 0.478641
-R277 VDD.t0 VDD.n2 0.478641
-R278 VDD.n51 VDD.n50 0.478641
-R279 VDD.n47 VDD.n46 0.478641
-R280 VDD.t0 VDD.n5 0.478641
-R281 VDD.t0 VDD.n3 0.478641
-R282 VDD.t0 VDD.n1 0.478641
-R283 VDD.n49 VDD.n48 0.478641
-R284 VDD.n17 VDD.n16 0.478641
-R285 VDD.n33 VDD.n32 0.478641
-R286 VDD.n19 VDD.n18 0.478641
-R287 VDD.n39 VDD.n38 0.478641
-R288 VDD.n35 VDD.n34 0.478641
-R289 VDD.n23 VDD.n22 0.478641
-R290 VDD.n45 VDD.n44 0.478641
-R291 VDD.n21 VDD.n20 0.478641
-R292 VDD.n43 VDD.n42 0.478641
-R293 VDD.n15 VDD.n14 0.478641
-R294 VDD.n31 VDD.n30 0.478641
-R295 VDD.n25 VDD.n24 0.478641
-R296 VDD.n53 VDD.n52 0.478641
-R297 VDD.n41 VDD.n40 0.478641
-R298 VDD.t0 VDD.n4 0.478641
-R299 VDD.n37 VDD.n36 0.478641
-R300 VDD.n29 VDD.n28 0.478641
-R301 VDD.t0 VDD.n6 0.478641
-R302 VDD.t0 VDD.n0 0.478641
-R303 VDD.n11 VDD.t34 5.7876
-R304 VDD.t0 VDD.t29 5.74419
-R305 VDD.t0 VDD.t53 6.19109
-R306 VDD.n98 VDD.n66 0.467524
-R307 VDD.n94 VDD.n70 0.467303
-R308 VDD.n87 VDD.n77 0.467258
-R309 VDD.n110 VDD.n54 0.467143
-R310 VDD.n106 VDD.n58 0.467143
-R311 VDD.n86 VDD.n78 0.467033
-R312 VDD.n90 VDD.n74 0.467012
-R313 VDD.n88 VDD.n76 0.466909
-R314 VDD.n83 VDD.n81 0.46682
-R315 VDD.n95 VDD.n69 0.466741
-R316 VDD.n108 VDD.n56 0.466717
-R317 VDD.n91 VDD.n73 0.466713
-R318 VDD.n85 VDD.n79 0.466699
-R319 VDD.n109 VDD.n55 0.466699
-R320 VDD.n105 VDD.n59 0.466699
-R321 VDD.n89 VDD.n75 0.466614
-R322 VDD.n84 VDD.n80 0.466589
-R323 VDD.n101 VDD.n63 0.466483
-R324 VDD.n96 VDD.n68 0.466439
-R325 VDD.n92 VDD.n72 0.466439
-R326 VDD.n104 VDD.n60 0.466426
-R327 VDD.n93 VDD.n71 0.466346
-R328 VDD.n103 VDD.n61 0.466314
-R329 VDD.n102 VDD.n62 0.466177
-R330 VDD.n97 VDD.n67 0.466153
-R331 VDD.n107 VDD.n57 0.466103
-R332 VDD.n100 VDD.n64 0.465975
-R333 VDD.n99 VDD.n65 0.465828
-R334 VDD.n98 VDD.n65 0.452143
-R335 VDD.n99 VDD.n64 0.45195
-R336 VDD.n106 VDD.n57 0.451788
-R337 VDD.n101 VDD.n62 0.451743
-R338 VDD.n96 VDD.n67 0.451742
-R339 VDD.n92 VDD.n71 0.451569
-R340 VDD.n102 VDD.n61 0.451566
-R341 VDD.n103 VDD.n60 0.451477
-R342 VDD.n95 VDD.n68 0.451469
-R343 VDD.n91 VDD.n72 0.451469
-R344 VDD.n100 VDD.n63 0.451417
-R345 VDD.n83 VDD.n80 0.451368
-R346 VDD.n88 VDD.n75 0.451263
-R347 VDD.n108 VDD.n55 0.451252
-R348 VDD.n104 VDD.n59 0.451252
-R349 VDD.n84 VDD.n79 0.451252
-R350 VDD.n90 VDD.n73 0.451238
-R351 VDD.n107 VDD.n56 0.451206
-R352 VDD.n94 VDD.n69 0.451193
-R353 VDD.n82 VDD.n81 0.451146
-R354 VDD.n87 VDD.n76 0.451022
-R355 VDD.n85 VDD.n78 0.450933
-R356 VDD.n89 VDD.n74 0.450921
-R357 VDD.n109 VDD.n54 0.450828
-R358 VDD.n105 VDD.n58 0.450828
-R359 VDD.n86 VDD.n77 0.450729
-R360 VDD.n93 VDD.n70 0.450676
-R361 VDD.n97 VDD.n66 0.450481
-R362 VDD.t51 VDD.n26 5.71158
-R363 VDD.n26 VDD.t50 15.0661
-R364 VDD.t0 VDD.n10 1.32847
-R365 VDD.n19 VDD.n39 1.23764
-R366 VDD.n17 VDD.n33 1.23757
-R367 VDD.n15 VDD.n31 1.23757
-R368 VDD.n21 VDD.n43 1.23756
-R369 VDD.n23 VDD.n45 1.23739
-R370 VDD.n10 VDD.n49 0.225481
-R371 VDD.n25 VDD.n53 1.23732
-R372 VDD.t0 VDD.n12 1.15381
-R373 VDD.t0 VDD.n13 1.12029
-R374 VDD.t0 VDD.n11 1.08143
-R375 VDD.t0 VDD.n23 1.06355
-R376 VDD.t0 VDD.n26 1.03492
-R377 VSS.t138 VSS.n92 108.746
-R378 VSS.n2 VSS.t125 108.746
-R379 VSS.t139 VSS.n91 108.746
-R380 VSS.n4 VSS.t137 108.746
-R381 VSS.n6 VSS.t122 108.746
-R382 VSS.t121 VSS.n89 108.746
-R383 VSS.n9 VSS.t141 108.746
-R384 VSS.t142 VSS.n86 108.746
-R385 VSS.n14 VSS.t143 108.746
-R386 VSS.n16 VSS.t123 108.746
-R387 VSS.n18 VSS.t128 108.746
-R388 VSS.t146 VSS.n85 108.746
-R389 VSS.n21 VSS.t145 108.746
-R390 VSS.t126 VSS.n83 108.746
-R391 VSS.n23 VSS.t144 108.746
-R392 VSS.n24 VSS.t130 108.746
-R393 VSS.t131 VSS.n81 108.746
-R394 VSS.t147 VSS.n80 108.746
-R395 VSS.n30 VSS.t150 108.746
-R396 VSS.n32 VSS.t151 108.746
-R397 VSS.t149 VSS.n79 108.746
-R398 VSS.t135 VSS.n77 108.746
-R399 VSS.n37 VSS.t124 108.746
-R400 VSS.n38 VSS.t152 108.746
-R401 VSS.n93 VSS.t132 8.4756
-R402 VSS.n8 VSS.t140 108.746
-R403 VSS.n11 VSS.t129 108.746
-R404 VSS.n26 VSS.t136 108.746
-R405 VSS.n35 VSS.t148 108.746
-R406 VSS.n36 VSS.t127 108.746
-R407 VSS.n40 VSS.t153 108.746
-R408 VSS.n41 VSS.t133 108.746
-R409 VSS.n0 VSS.t86 106.056
-R410 VSS.n1 VSS.t65 106.056
-R411 VSS.n3 VSS.t57 106.056
-R412 VSS.n7 VSS.t58 106.056
-R413 VSS.n12 VSS.t106 106.056
-R414 VSS.n19 VSS.t36 106.056
-R415 VSS.n25 VSS.t154 106.056
-R416 VSS.n28 VSS.t173 106.056
-R417 VSS.n31 VSS.t11 106.056
-R418 VSS.n33 VSS.t115 106.056
-R419 VSS.n39 VSS.t162 106.056
-R420 VSS.t0 VSS.n90 106.056
-R421 VSS.n5 VSS.t166 106.056
-R422 VSS.t71 VSS.n88 106.056
-R423 VSS.t60 VSS.n87 106.056
-R424 VSS.n10 VSS.t59 106.056
-R425 VSS.n13 VSS.t12 106.056
-R426 VSS.n15 VSS.t3 106.056
-R427 VSS.n17 VSS.t8 106.056
-R428 VSS.n20 VSS.t26 106.056
-R429 VSS.t76 VSS.n84 106.056
-R430 VSS.n22 VSS.t25 106.056
-R431 VSS.t168 VSS.n82 106.056
-R432 VSS.n27 VSS.t170 106.056
-R433 VSS.n29 VSS.t81 106.056
-R434 VSS.n34 VSS.t84 106.056
-R435 VSS.t163 VSS.n78 106.056
-R436 VSS.t21 VSS.n76 106.056
-R437 VSS.t157 VSS.n75 106.056
-R438 VSS.t155 VSS.n74 106.056
-R439 VSS.n94 VSS.t22 10.6874
-R440 VSS.t165 VSS.n73 106.056
-R441 VSS.t46 VSS.t43 99.7536
-R442 VSS.t33 VSS.n141 94.1709
-R443 VSS.t17 VSS.n144 94.1709
-R444 VSS.n147 VSS.t37 94.1709
-R445 VSS.t31 VSS.n150 94.1709
-R446 VSS.t15 VSS.n153 94.1709
-R447 VSS.n156 VSS.t87 94.1709
-R448 VSS.n159 VSS.t108 94.1709
-R449 VSS.t107 VSS.n162 94.1709
-R450 VSS.t105 VSS.n165 94.1709
-R451 VSS.t116 VSS.n168 94.1709
-R452 VSS.t90 VSS.n171 94.1709
-R453 VSS.t89 VSS.n174 94.1709
-R454 VSS.t88 VSS.n177 94.1709
-R455 VSS.t109 VSS.n180 94.1709
-R456 VSS.n183 VSS.t91 94.1709
-R457 VSS.t119 VSS.n186 94.1709
-R458 VSS.n189 VSS.t114 94.1709
-R459 VSS.t113 VSS.n192 94.1709
-R460 VSS.t111 VSS.n195 94.1709
-R461 VSS.t117 VSS.n198 94.1709
-R462 VSS.t110 VSS.n201 94.1709
-R463 VSS.t94 VSS.n204 94.1709
-R464 VSS.t98 VSS.n207 94.1709
-R465 VSS.t63 VSS.n210 94.1709
-R466 VSS.n213 VSS.t102 94.1709
-R467 VSS.n216 VSS.t92 94.1709
-R468 VSS.n219 VSS.t95 94.1709
-R469 VSS.n222 VSS.t100 94.1709
-R470 VSS.t96 VSS.n225 94.1709
-R471 VSS.t79 VSS.n228 94.1709
-R472 VSS.n95 VSS.t120 97.257
-R473 VSS.t159 VSS.n98 12.6719
-R474 VSS.n8 VSS.t103 67.0429
-R475 VSS.n11 VSS.t67 67.0429
-R476 VSS.n26 VSS.t172 67.0429
-R477 VSS.n35 VSS.t82 67.0429
-R478 VSS.n36 VSS.t27 67.0429
-R479 VSS.n40 VSS.t167 67.0429
-R480 VSS.n41 VSS.t169 67.0429
-R481 VSS.t6 VSS.n92 67.0426
-R482 VSS.n2 VSS.t66 67.0426
-R483 VSS.t56 VSS.n91 67.0426
-R484 VSS.n4 VSS.t39 67.0426
-R485 VSS.n6 VSS.t55 67.0426
-R486 VSS.t61 VSS.n89 67.0426
-R487 VSS.n9 VSS.t69 67.0426
-R488 VSS.t23 VSS.n86 67.0426
-R489 VSS.n14 VSS.t34 67.0426
-R490 VSS.n16 VSS.t1 67.0426
-R491 VSS.n18 VSS.t72 67.0426
-R492 VSS.t19 VSS.n85 67.0426
-R493 VSS.n21 VSS.t74 67.0426
-R494 VSS.t4 VSS.n83 67.0426
-R495 VSS.n23 VSS.t13 67.0426
-R496 VSS.n24 VSS.t77 67.0426
-R497 VSS.t171 VSS.n81 67.0426
-R498 VSS.t40 VSS.n80 67.0426
-R499 VSS.n30 VSS.t9 67.0426
-R500 VSS.n32 VSS.t156 67.0426
-R501 VSS.t85 VSS.n79 67.0426
-R502 VSS.t164 VSS.n77 67.0426
-R503 VSS.n37 VSS.t158 67.0426
-R504 VSS.n38 VSS.t161 67.0426
-R505 VSS.n93 VSS.n95 4.80622
-R506 VSS.t50 VSS.n99 29.3538
-R507 VSS.n99 VSS.n93 0.139332
-R508 VSS.n141 VSS.t6 43.0498
-R509 VSS.t66 VSS.n144 43.0498
-R510 VSS.n147 VSS.t56 43.0498
-R511 VSS.t39 VSS.n150 43.0498
-R512 VSS.t55 VSS.n153 43.0498
-R513 VSS.n156 VSS.t61 43.0498
-R514 VSS.t103 VSS.n159 43.0498
-R515 VSS.t69 VSS.n162 43.0498
-R516 VSS.t67 VSS.n165 43.0498
-R517 VSS.n168 VSS.t23 43.0498
-R518 VSS.t34 VSS.n171 43.0498
-R519 VSS.t1 VSS.n174 43.0498
-R520 VSS.t72 VSS.n177 43.0498
-R521 VSS.n180 VSS.t19 43.0498
-R522 VSS.t74 VSS.n183 43.0498
-R523 VSS.n186 VSS.t4 43.0498
-R524 VSS.t13 VSS.n189 43.0498
-R525 VSS.t77 VSS.n192 43.0498
-R526 VSS.t172 VSS.n195 43.0498
-R527 VSS.n198 VSS.t171 43.0498
-R528 VSS.n201 VSS.t40 43.0498
-R529 VSS.t9 VSS.n204 43.0498
-R530 VSS.t156 VSS.n207 43.0498
-R531 VSS.n210 VSS.t85 43.0498
-R532 VSS.t82 VSS.n213 43.0498
-R533 VSS.n216 VSS.t164 43.0498
-R534 VSS.t27 VSS.n219 43.0498
-R535 VSS.t158 VSS.n222 43.0498
-R536 VSS.t161 VSS.n225 43.0498
-R537 VSS.t167 VSS.n228 43.0498
-R538 VSS.t29 VSS.n95 24.3376
-R539 VSS.t169 VSS.n98 49.7976
-R540 VSS.n93 VSS.n136 17.0005
-R541 VSS.n93 VSS.n96 2.32453
-R542 VSS.n93 VSS.n234 17.0005
-R543 VSS.n93 VSS.n98 1.1447
-R544 VSS.t37 VSS.n90 15.9213
-R545 VSS.n5 VSS.t31 15.9213
-R546 VSS.t87 VSS.n88 15.9213
-R547 VSS.t108 VSS.n87 15.9213
-R548 VSS.n10 VSS.t107 15.9213
-R549 VSS.n13 VSS.t116 15.9213
-R550 VSS.n15 VSS.t90 15.9213
-R551 VSS.n17 VSS.t89 15.9213
-R552 VSS.n20 VSS.t109 15.9213
-R553 VSS.t91 VSS.n84 15.9213
-R554 VSS.n22 VSS.t119 15.9213
-R555 VSS.t114 VSS.n82 15.9213
-R556 VSS.n27 VSS.t111 15.9213
-R557 VSS.n29 VSS.t110 15.9213
-R558 VSS.n34 VSS.t63 15.9213
-R559 VSS.t102 VSS.n78 15.9213
-R560 VSS.t92 VSS.n76 15.9213
-R561 VSS.t95 VSS.n75 15.9213
-R562 VSS.t100 VSS.n74 15.9213
-R563 VSS.t120 VSS.n73 15.9213
-R564 VSS.n1 VSS.t33 15.9203
-R565 VSS.n3 VSS.t17 15.9203
-R566 VSS.n7 VSS.t15 15.9203
-R567 VSS.n12 VSS.t105 15.9203
-R568 VSS.n19 VSS.t88 15.9203
-R569 VSS.n25 VSS.t113 15.9203
-R570 VSS.n28 VSS.t117 15.9203
-R571 VSS.n31 VSS.t94 15.9203
-R572 VSS.n33 VSS.t98 15.9203
-R573 VSS.n39 VSS.t96 15.9203
-R574 VSS.n0 VSS.t46 13.2297
-R575 VSS.t86 VSS.n59 11.8854
-R576 VSS.t57 VSS.n60 11.8854
-R577 VSS.t166 VSS.n61 11.8854
-R578 VSS.t58 VSS.n62 11.8854
-R579 VSS.n56 VSS.t71 11.8854
-R580 VSS.n55 VSS.t60 11.8854
-R581 VSS.t59 VSS.n54 11.8854
-R582 VSS.t106 VSS.n63 11.8854
-R583 VSS.t12 VSS.n53 11.8854
-R584 VSS.t3 VSS.n64 11.8854
-R585 VSS.t8 VSS.n52 11.8854
-R586 VSS.t36 VSS.n65 11.8854
-R587 VSS.t26 VSS.n66 11.8854
-R588 VSS.n67 VSS.t76 11.8854
-R589 VSS.t25 VSS.n68 11.8854
-R590 VSS.n69 VSS.t168 11.8854
-R591 VSS.t154 VSS.n51 11.8854
-R592 VSS.t170 VSS.n50 11.8854
-R593 VSS.t11 VSS.n70 11.8854
-R594 VSS.t84 VSS.n46 11.8854
-R595 VSS.n71 VSS.t163 11.8854
-R596 VSS.t162 VSS.n72 11.8854
-R597 VSS.t65 VSS.n58 11.8844
-R598 VSS.n57 VSS.t0 11.8844
-R599 VSS.t173 VSS.n49 11.8844
-R600 VSS.t81 VSS.n48 11.8844
-R601 VSS.t115 VSS.n47 11.8844
-R602 VSS.n45 VSS.t21 11.8844
-R603 VSS.n44 VSS.t157 11.8844
-R604 VSS.n43 VSS.t155 11.8844
-R605 VSS.n42 VSS.t165 11.8844
-R606 VSS.t125 VSS.n58 9.19536
-R607 VSS.t137 VSS.n57 9.19536
-R608 VSS.n49 VSS.t147 9.19536
-R609 VSS.t150 VSS.n48 9.19536
-R610 VSS.n47 VSS.t149 9.19536
-R611 VSS.t127 VSS.n45 9.19536
-R612 VSS.t124 VSS.n44 9.19536
-R613 VSS.t152 VSS.n43 9.19536
-R614 VSS.t133 VSS.n42 9.19536
-R615 VSS.n59 VSS.t138 9.19506
-R616 VSS.n60 VSS.t139 9.19506
-R617 VSS.t122 VSS.n61 9.19506
-R618 VSS.n62 VSS.t121 9.19506
-R619 VSS.t140 VSS.n56 9.19506
-R620 VSS.t141 VSS.n55 9.19506
-R621 VSS.t129 VSS.n54 9.19506
-R622 VSS.n63 VSS.t142 9.19506
-R623 VSS.t143 VSS.n53 9.19506
-R624 VSS.t123 VSS.n64 9.19506
-R625 VSS.t128 VSS.n52 9.19506
-R626 VSS.n65 VSS.t146 9.19506
-R627 VSS.t145 VSS.n66 9.19506
-R628 VSS.n67 VSS.t126 9.19506
-R629 VSS.t144 VSS.n68 9.19506
-R630 VSS.t130 VSS.n69 9.19506
-R631 VSS.t136 VSS.n51 9.19506
-R632 VSS.n50 VSS.t131 9.19506
-R633 VSS.t151 VSS.n70 9.19506
-R634 VSS.t148 VSS.n46 9.19506
-R635 VSS.n71 VSS.t135 9.19506
-R636 VSS.t153 VSS.n72 9.19506
-R637 VSS.n93 VSS.n94 0.00542901
-R638 VSS.n93 VSS.n141 8.5005
-R639 VSS.n93 VSS.n144 8.5005
-R640 VSS.n93 VSS.n147 8.5005
-R641 VSS.n93 VSS.n150 8.5005
-R642 VSS.n93 VSS.n153 8.5005
-R643 VSS.n93 VSS.n156 8.5005
-R644 VSS.n93 VSS.n159 8.5005
-R645 VSS.n93 VSS.n162 8.5005
-R646 VSS.n93 VSS.n165 8.5005
-R647 VSS.n93 VSS.n168 8.5005
-R648 VSS.n93 VSS.n171 8.5005
-R649 VSS.n93 VSS.n174 8.5005
-R650 VSS.n93 VSS.n177 8.5005
-R651 VSS.n93 VSS.n180 8.5005
-R652 VSS.n93 VSS.n183 8.5005
-R653 VSS.n93 VSS.n186 8.5005
-R654 VSS.n93 VSS.n189 8.5005
-R655 VSS.n93 VSS.n192 8.5005
-R656 VSS.n93 VSS.n195 8.5005
-R657 VSS.n93 VSS.n198 8.5005
-R658 VSS.n93 VSS.n201 8.5005
-R659 VSS.n93 VSS.n204 8.5005
-R660 VSS.n93 VSS.n207 8.5005
-R661 VSS.n93 VSS.n210 8.5005
-R662 VSS.n93 VSS.n213 8.5005
-R663 VSS.n93 VSS.n216 8.5005
-R664 VSS.n93 VSS.n219 8.5005
-R665 VSS.n93 VSS.n222 8.5005
-R666 VSS.n93 VSS.n225 8.5005
-R667 VSS.n93 VSS.n228 8.5005
-R668 VSS.n93 VSS.n137 8.47732
-R669 VSS.n93 VSS.t49 8.47732
-R670 VSS.n93 VSS.n135 8.47732
-R671 VSS.n93 VSS.n239 8.47732
-R672 VSS.n93 VSS.n232 8.47732
-R673 VSS.n100 VSS.t51 0.279483
-R674 VSS.n93 VSS.n100 1.49546
-R675 VSS.n93 VSS.t43 5.00033
-R676 VSS VSS.n97 2.9705
-R677 VSS.n93 VSS.n101 2.74446
-R678 VSS.n93 VSS.n133 2.74446
-R679 VSS.n93 VSS.n138 2.74446
-R680 VSS.n93 VSS.t160 2.74394
-R681 VSS.n93 VSS.n102 1.55465
-R682 VSS.n93 VSS.n103 1.55465
-R683 VSS.n93 VSS.n104 1.55465
-R684 VSS.n93 VSS.n105 1.55465
-R685 VSS.n93 VSS.n106 1.55465
-R686 VSS.n93 VSS.n107 1.55465
-R687 VSS.n93 VSS.n108 1.55465
-R688 VSS.n93 VSS.n109 1.55465
-R689 VSS.n93 VSS.n110 1.55465
-R690 VSS.n93 VSS.n111 1.55465
-R691 VSS.n93 VSS.n112 1.55465
-R692 VSS.n93 VSS.n113 1.55465
-R693 VSS.n93 VSS.n114 1.55465
-R694 VSS.n93 VSS.n115 1.55465
-R695 VSS.n93 VSS.n116 1.55465
-R696 VSS.n93 VSS.n117 1.55465
-R697 VSS.n93 VSS.n118 1.55465
-R698 VSS.n93 VSS.n119 1.55465
-R699 VSS.n93 VSS.n120 1.55465
-R700 VSS.n93 VSS.n121 1.55465
-R701 VSS.n93 VSS.n122 1.55465
-R702 VSS.n93 VSS.n123 1.55465
-R703 VSS.n93 VSS.n124 1.55465
-R704 VSS.n93 VSS.n125 1.55465
-R705 VSS.n93 VSS.n126 1.55465
-R706 VSS.n93 VSS.n127 1.55465
-R707 VSS.n93 VSS.n128 1.55465
-R708 VSS.n93 VSS.n129 1.55465
-R709 VSS.n93 VSS.n130 1.55465
-R710 VSS.n93 VSS.n131 1.55465
-R711 VSS.n93 VSS.n132 1.55465
-R712 VSS.n93 VSS.n139 1.55388
-R713 VSS.n93 VSS.n142 1.55388
-R714 VSS.n93 VSS.n145 1.55388
-R715 VSS.n93 VSS.n148 1.55388
-R716 VSS.n93 VSS.n151 1.55388
-R717 VSS.n93 VSS.n154 1.55388
-R718 VSS.n93 VSS.n157 1.55388
-R719 VSS.n93 VSS.n160 1.55388
-R720 VSS.n93 VSS.n163 1.55388
-R721 VSS.n93 VSS.n166 1.55388
-R722 VSS.n93 VSS.n169 1.55388
-R723 VSS.n93 VSS.n172 1.55388
-R724 VSS.n93 VSS.n175 1.55388
-R725 VSS.n93 VSS.n178 1.55388
-R726 VSS.n93 VSS.n181 1.55388
-R727 VSS.n93 VSS.n184 1.55388
-R728 VSS.n93 VSS.n187 1.55388
-R729 VSS.n93 VSS.n190 1.55388
-R730 VSS.n93 VSS.n193 1.55388
-R731 VSS.n93 VSS.n196 1.55388
-R732 VSS.n93 VSS.n199 1.55388
-R733 VSS.n93 VSS.n202 1.55388
-R734 VSS.n93 VSS.n205 1.55388
-R735 VSS.n93 VSS.n208 1.55388
-R736 VSS.n93 VSS.n211 1.55388
-R737 VSS.n93 VSS.n214 1.55388
-R738 VSS.n93 VSS.n217 1.55388
-R739 VSS.n93 VSS.n220 1.55388
-R740 VSS.n93 VSS.n223 1.55388
-R741 VSS.n93 VSS.n226 1.55388
-R742 VSS.n93 VSS.n229 1.55388
-R743 VSS.t42 VSS.t45 0.806856
-R744 VSS.t18 VSS.n143 0.802775
-R745 VSS.t38 VSS.n146 0.802775
-R746 VSS.t32 VSS.n149 0.802775
-R747 VSS.t16 VSS.n152 0.802775
-R748 VSS.t62 VSS.n155 0.802775
-R749 VSS.t104 VSS.n158 0.802775
-R750 VSS.t70 VSS.n161 0.802775
-R751 VSS.t68 VSS.n164 0.802775
-R752 VSS.t24 VSS.n167 0.802775
-R753 VSS.t35 VSS.n170 0.802775
-R754 VSS.t2 VSS.n173 0.802775
-R755 VSS.t73 VSS.n176 0.802775
-R756 VSS.t20 VSS.n179 0.802775
-R757 VSS.t75 VSS.n182 0.802775
-R758 VSS.t5 VSS.n185 0.802775
-R759 VSS.t14 VSS.n188 0.802775
-R760 VSS.t78 VSS.n191 0.802775
-R761 VSS.t112 VSS.n194 0.802775
-R762 VSS.t118 VSS.n197 0.802775
-R763 VSS.t41 VSS.n200 0.802775
-R764 VSS.t10 VSS.n203 0.802775
-R765 VSS.t99 VSS.n206 0.802775
-R766 VSS.t64 VSS.n209 0.802775
-R767 VSS.t83 VSS.n212 0.802775
-R768 VSS.t93 VSS.n215 0.802775
-R769 VSS.t28 VSS.n218 0.802775
-R770 VSS.t101 VSS.n221 0.802775
-R771 VSS.t97 VSS.n224 0.802775
-R772 VSS.t80 VSS.n227 0.802775
-R773 VSS.t30 VSS.n230 0.802775
-R774 VSS.t134 VSS.n231 0.802775
-R775 VSS.t52 VSS.n134 0.802775
-R776 VSS.t7 VSS.n140 0.802775
-R777 VSS.n100 VSS.t53 0.234046
-R778 VSS.t51 VSS.n233 0.723599
-R779 VSS.n238 VSS.t44 0.595317
-R780 VSS.t48 VSS.n237 0.595317
-R781 VSS.n229 VSS.t30 0.47671
-R782 VSS.n226 VSS.t80 0.47671
-R783 VSS.n223 VSS.t97 0.47671
-R784 VSS.n220 VSS.t101 0.47671
-R785 VSS.n217 VSS.t28 0.47671
-R786 VSS.n214 VSS.t93 0.47671
-R787 VSS.n211 VSS.t83 0.47671
-R788 VSS.n208 VSS.t64 0.47671
-R789 VSS.n205 VSS.t99 0.47671
-R790 VSS.n202 VSS.t10 0.47671
-R791 VSS.n199 VSS.t41 0.47671
-R792 VSS.n196 VSS.t118 0.47671
-R793 VSS.n193 VSS.t112 0.47671
-R794 VSS.n190 VSS.t78 0.47671
-R795 VSS.n187 VSS.t14 0.47671
-R796 VSS.n184 VSS.t5 0.47671
-R797 VSS.n181 VSS.t75 0.47671
-R798 VSS.n178 VSS.t20 0.47671
-R799 VSS.n175 VSS.t73 0.47671
-R800 VSS.n172 VSS.t2 0.47671
-R801 VSS.n169 VSS.t35 0.47671
-R802 VSS.n166 VSS.t24 0.47671
-R803 VSS.n163 VSS.t68 0.47671
-R804 VSS.n160 VSS.t70 0.47671
-R805 VSS.n157 VSS.t104 0.47671
-R806 VSS.n154 VSS.t62 0.47671
-R807 VSS.n151 VSS.t16 0.47671
-R808 VSS.n148 VSS.t32 0.47671
-R809 VSS.n145 VSS.t38 0.47671
-R810 VSS.n142 VSS.t18 0.47671
-R811 VSS.n139 VSS.t7 0.47671
-R812 VSS.n140 VSS.n102 0.46466
-R813 VSS.n143 VSS.n103 0.46466
-R814 VSS.n146 VSS.n104 0.46466
-R815 VSS.n149 VSS.n105 0.46466
-R816 VSS.n152 VSS.n106 0.46466
-R817 VSS.n155 VSS.n107 0.46466
-R818 VSS.n158 VSS.n108 0.46466
-R819 VSS.n161 VSS.n109 0.46466
-R820 VSS.n164 VSS.n110 0.46466
-R821 VSS.n167 VSS.n111 0.46466
-R822 VSS.n170 VSS.n112 0.46466
-R823 VSS.n173 VSS.n113 0.46466
-R824 VSS.n176 VSS.n114 0.46466
-R825 VSS.n179 VSS.n115 0.46466
-R826 VSS.n182 VSS.n116 0.46466
-R827 VSS.n185 VSS.n117 0.46466
-R828 VSS.n188 VSS.n118 0.46466
-R829 VSS.n191 VSS.n119 0.46466
-R830 VSS.n194 VSS.n120 0.46466
-R831 VSS.n197 VSS.n121 0.46466
-R832 VSS.n200 VSS.n122 0.46466
-R833 VSS.n203 VSS.n123 0.46466
-R834 VSS.n206 VSS.n124 0.46466
-R835 VSS.n209 VSS.n125 0.46466
-R836 VSS.n212 VSS.n126 0.46466
-R837 VSS.n215 VSS.n127 0.46466
-R838 VSS.n218 VSS.n128 0.46466
-R839 VSS.n221 VSS.n129 0.46466
-R840 VSS.n224 VSS.n130 0.46466
-R841 VSS.n227 VSS.n131 0.46466
-R842 VSS.n230 VSS.n132 0.46466
-R843 VSS.n143 VSS.n102 0.45349
-R844 VSS.n146 VSS.n103 0.45349
-R845 VSS.n149 VSS.n104 0.45349
-R846 VSS.n152 VSS.n105 0.45349
-R847 VSS.n155 VSS.n106 0.45349
-R848 VSS.n158 VSS.n107 0.45349
-R849 VSS.n161 VSS.n108 0.45349
-R850 VSS.n164 VSS.n109 0.45349
-R851 VSS.n167 VSS.n110 0.45349
-R852 VSS.n170 VSS.n111 0.45349
-R853 VSS.n173 VSS.n112 0.45349
-R854 VSS.n176 VSS.n113 0.45349
-R855 VSS.n179 VSS.n114 0.45349
-R856 VSS.n182 VSS.n115 0.45349
-R857 VSS.n185 VSS.n116 0.45349
-R858 VSS.n188 VSS.n117 0.45349
-R859 VSS.n191 VSS.n118 0.45349
-R860 VSS.n194 VSS.n119 0.45349
-R861 VSS.n197 VSS.n120 0.45349
-R862 VSS.n200 VSS.n121 0.45349
-R863 VSS.n203 VSS.n122 0.45349
-R864 VSS.n206 VSS.n123 0.45349
-R865 VSS.n209 VSS.n124 0.45349
-R866 VSS.n212 VSS.n125 0.45349
-R867 VSS.n215 VSS.n126 0.45349
-R868 VSS.n218 VSS.n127 0.45349
-R869 VSS.n221 VSS.n128 0.45349
-R870 VSS.n224 VSS.n129 0.45349
-R871 VSS.n227 VSS.n130 0.45349
-R872 VSS.n230 VSS.n131 0.45349
-R873 VSS.n231 VSS.n132 0.45349
-R874 VSS.n139 VSS.t18 0.441374
-R875 VSS.n142 VSS.t38 0.441374
-R876 VSS.n145 VSS.t32 0.441374
-R877 VSS.n148 VSS.t16 0.441374
-R878 VSS.n151 VSS.t62 0.441374
-R879 VSS.n154 VSS.t104 0.441374
-R880 VSS.n157 VSS.t70 0.441374
-R881 VSS.n160 VSS.t68 0.441374
-R882 VSS.n163 VSS.t24 0.441374
-R883 VSS.n166 VSS.t35 0.441374
-R884 VSS.n169 VSS.t2 0.441374
-R885 VSS.n172 VSS.t73 0.441374
-R886 VSS.n175 VSS.t20 0.441374
-R887 VSS.n178 VSS.t75 0.441374
-R888 VSS.n181 VSS.t5 0.441374
-R889 VSS.n184 VSS.t14 0.441374
-R890 VSS.n187 VSS.t78 0.441374
-R891 VSS.n190 VSS.t112 0.441374
-R892 VSS.n193 VSS.t118 0.441374
-R893 VSS.n196 VSS.t41 0.441374
-R894 VSS.n199 VSS.t10 0.441374
-R895 VSS.n202 VSS.t99 0.441374
-R896 VSS.n205 VSS.t64 0.441374
-R897 VSS.n208 VSS.t83 0.441374
-R898 VSS.n211 VSS.t93 0.441374
-R899 VSS.n214 VSS.t28 0.441374
-R900 VSS.n217 VSS.t101 0.441374
-R901 VSS.n220 VSS.t97 0.441374
-R902 VSS.n223 VSS.t80 0.441374
-R903 VSS.n226 VSS.t30 0.441374
-R904 VSS.n229 VSS.t134 0.441374
-R905 VSS.n96 VSS.t45 0.380071
-R906 VSS.n97 VSS.n96 0.280466
-R907 VSS.t160 VSS.t134 0.301976
-R908 VSS.n231 VSS.n133 0.290049
-R909 VSS.n140 VSS.n101 0.276768
-R910 VSS.n236 VSS.n101 0.271299
-R911 VSS.n237 VSS.n138 0.271299
-R912 VSS.t7 VSS.n138 0.265518
-R913 VSS.t160 VSS.t52 0.254814
-R914 VSS.n134 VSS.n133 0.244268
-R915 VSS.t44 VSS.t48 0.1875
-R916 VSS.n134 VSS.t49 0.135868
-R917 VSS.t52 VSS.n232 0.124618
-R918 VSS.n233 VSS.t49 0.122118
-R919 VSS.t51 VSS.n232 0.122118
-R920 VSS.n99 VSS.t54 29.2328
-R921 VSS.t42 VSS.n97 0.0955
-R922 VSS.n93 VSS.n4 0.0884098
-R923 VSS.n93 VSS.n5 0.085468
-R924 VSS.t44 VSS.n235 0.0851154
-R925 VSS.t48 VSS.n236 0.0851154
-R926 VSS.t53 VSS.n135 0.0771176
-R927 VSS.n235 VSS.n137 0.0746176
-R928 VSS.n239 VSS.n238 0.0746176
-R929 VSS.n233 VSS.n135 0.0696176
-R930 VSS.n235 VSS.n136 0.06925
-R931 VSS.n238 VSS.n234 0.06925
-R932 VSS.n236 VSS.n136 0.05925
-R933 VSS.n237 VSS.n234 0.05925
-R934 VSS.n137 VSS.t45 0.0546176
-R935 VSS.n239 VSS.t42 0.0546176
-R936 VSS.n93 VSS.n2 0.0485912
-R937 VSS.n93 VSS.n0 0.0444724
-R938 VSS.n93 VSS.n1 0.0444724
-R939 VSS.n93 VSS.n58 0.0444724
-R940 VSS.n93 VSS.n3 0.0444724
-R941 VSS.n93 VSS.n57 0.0444724
-R942 VSS.n93 VSS.n7 0.0444724
-R943 VSS.n93 VSS.n8 0.0444724
-R944 VSS.n93 VSS.n11 0.0444724
-R945 VSS.n93 VSS.n12 0.0444724
-R946 VSS.n93 VSS.n19 0.0444724
-R947 VSS.n93 VSS.n25 0.0444724
-R948 VSS.n93 VSS.n26 0.0444724
-R949 VSS.n93 VSS.n28 0.0444724
-R950 VSS.n93 VSS.n49 0.0444724
-R951 VSS.n93 VSS.n48 0.0444724
-R952 VSS.n93 VSS.n31 0.0444724
-R953 VSS.n93 VSS.n33 0.0444724
-R954 VSS.n93 VSS.n47 0.0444724
-R955 VSS.n93 VSS.n35 0.0444724
-R956 VSS.n93 VSS.n45 0.0444724
-R957 VSS.n93 VSS.n36 0.0444724
-R958 VSS.n93 VSS.n44 0.0444724
-R959 VSS.n93 VSS.n43 0.0444724
-R960 VSS.n93 VSS.n39 0.0444724
-R961 VSS.n93 VSS.n40 0.0444724
-R962 VSS.n93 VSS.n42 0.0444724
-R963 VSS.n93 VSS.n41 0.0444724
-R964 VSS.n93 VSS.n92 0.0444549
-R965 VSS.n93 VSS.n60 0.0444549
-R966 VSS.n93 VSS.n91 0.0444549
-R967 VSS.n93 VSS.n90 0.0444549
-R968 VSS.n93 VSS.n61 0.0444549
-R969 VSS.n93 VSS.n62 0.0444549
-R970 VSS.n93 VSS.n89 0.0444549
-R971 VSS.n93 VSS.n88 0.0444549
-R972 VSS.n93 VSS.n87 0.0444549
-R973 VSS.n93 VSS.n63 0.0444549
-R974 VSS.n93 VSS.n86 0.0444549
-R975 VSS.n93 VSS.n64 0.0444549
-R976 VSS.n93 VSS.n65 0.0444549
-R977 VSS.n93 VSS.n85 0.0444549
-R978 VSS.n93 VSS.n66 0.0444549
-R979 VSS.n93 VSS.n84 0.0444549
-R980 VSS.n93 VSS.n67 0.0444549
-R981 VSS.n93 VSS.n83 0.0444549
-R982 VSS.n93 VSS.n68 0.0444549
-R983 VSS.n93 VSS.n82 0.0444549
-R984 VSS.n93 VSS.n69 0.0444549
-R985 VSS.n93 VSS.n81 0.0444549
-R986 VSS.n93 VSS.n80 0.0444549
-R987 VSS.n93 VSS.n70 0.0444549
-R988 VSS.n93 VSS.n79 0.0444549
-R989 VSS.n93 VSS.n78 0.0444549
-R990 VSS.n93 VSS.n71 0.0444549
-R991 VSS.n93 VSS.n77 0.0444549
-R992 VSS.n93 VSS.n76 0.0444549
-R993 VSS.n93 VSS.n75 0.0444549
-R994 VSS.n93 VSS.n74 0.0444549
-R995 VSS.n93 VSS.n72 0.0444549
-R996 VSS.n93 VSS.n73 0.0444549
-R997 VSS.n93 VSS.n59 0.0444549
-R998 VSS.n93 VSS.n6 0.0444549
-R999 VSS.n93 VSS.n56 0.0444549
-R1000 VSS.n93 VSS.n55 0.0444549
-R1001 VSS.n93 VSS.n9 0.0444549
-R1002 VSS.n93 VSS.n10 0.0444549
-R1003 VSS.n93 VSS.n54 0.0444549
-R1004 VSS.n93 VSS.n13 0.0444549
-R1005 VSS.n93 VSS.n53 0.0444549
-R1006 VSS.n93 VSS.n14 0.0444549
-R1007 VSS.n93 VSS.n15 0.0444549
-R1008 VSS.n93 VSS.n16 0.0444549
-R1009 VSS.n93 VSS.n17 0.0444549
-R1010 VSS.n93 VSS.n52 0.0444549
-R1011 VSS.n93 VSS.n18 0.0444549
-R1012 VSS.n93 VSS.n20 0.0444549
-R1013 VSS.n93 VSS.n21 0.0444549
-R1014 VSS.n93 VSS.n22 0.0444549
-R1015 VSS.n93 VSS.n23 0.0444549
-R1016 VSS.n93 VSS.n24 0.0444549
-R1017 VSS.n93 VSS.n51 0.0444549
-R1018 VSS.n93 VSS.n27 0.0444549
-R1019 VSS.n93 VSS.n50 0.0444549
-R1020 VSS.n93 VSS.n29 0.0444549
-R1021 VSS.n93 VSS.n30 0.0444549
-R1022 VSS.n93 VSS.n32 0.0444549
-R1023 VSS.n93 VSS.n34 0.0444549
-R1024 VSS.n93 VSS.n46 0.0444549
-R1025 VSS.n93 VSS.n37 0.0444549
-R1026 VSS.n93 VSS.n38 0.0444549
-R1027 VSS.n94 VSS.t79 15.9613
+R276 VDD.t0 VDD.n5 0.478641
+R277 VDD.t0 VDD.n10 0.478641
+R278 VDD.n29 VDD.n28 0.478641
+R279 VDD.n53 VDD.n52 0.478641
+R280 VDD.n23 VDD.n22 0.478641
+R281 VDD.n45 VDD.n44 0.478641
+R282 VDD.n37 VDD.n36 0.478641
+R283 VDD.t0 VDD.n6 0.478641
+R284 VDD.t0 VDD.n11 0.478641
+R285 VDD.t0 VDD.n3 0.478641
+R286 VDD.n39 VDD.n38 0.478641
+R287 VDD.n21 VDD.n20 0.478641
+R288 VDD.n41 VDD.n40 0.478641
+R289 VDD.n25 VDD.n24 0.478641
+R290 VDD.n47 VDD.n46 0.478641
+R291 VDD.n43 VDD.n42 0.478641
+R292 VDD.t0 VDD.n2 0.478641
+R293 VDD.n49 VDD.n48 0.478641
+R294 VDD.n19 VDD.n18 0.478641
+R295 VDD.n35 VDD.n34 0.478641
+R296 VDD.n27 VDD.n26 0.478641
+R297 VDD.n51 VDD.n50 0.478641
+R298 VDD.n17 VDD.n16 0.478641
+R299 VDD.n17 VDD.n15 0.478641
+R300 VDD.t0 VDD.n0 0.478641
+R301 VDD.t0 VDD.n1 0.478641
+R302 VDD.n33 VDD.n32 0.478641
+R303 VDD.t0 VDD.t46 5.75932
+R304 VDD.t0 VDD.t84 6.19118
+R305 VDD.n99 VDD.n67 0.467635
+R306 VDD.n88 VDD.n78 0.467485
+R307 VDD.n109 VDD.n57 0.467258
+R308 VDD.n92 VDD.n74 0.467258
+R309 VDD.n102 VDD.n64 0.467143
+R310 VDD.n98 VDD.n68 0.467143
+R311 VDD.n89 VDD.n77 0.467143
+R312 VDD.n85 VDD.n81 0.467052
+R313 VDD.n86 VDD.n80 0.466916
+R314 VDD.n104 VDD.n62 0.466909
+R315 VDD.n111 VDD.n55 0.466867
+R316 VDD.n84 VDD.n82 0.466798
+R317 VDD.n103 VDD.n63 0.466741
+R318 VDD.n90 VDD.n76 0.466709
+R319 VDD.n91 VDD.n75 0.466699
+R320 VDD.n95 VDD.n71 0.466677
+R321 VDD.n100 VDD.n66 0.466677
+R322 VDD.n97 VDD.n69 0.466592
+R323 VDD.n106 VDD.n60 0.466589
+R324 VDD.n101 VDD.n65 0.466464
+R325 VDD.n110 VDD.n56 0.466439
+R326 VDD.n108 VDD.n58 0.466439
+R327 VDD.n107 VDD.n59 0.466439
+R328 VDD.n105 VDD.n61 0.466426
+R329 VDD.n94 VDD.n72 0.466426
+R330 VDD.n93 VDD.n73 0.466426
+R331 VDD.n112 VDD.n54 0.466273
+R332 VDD.n87 VDD.n79 0.466226
+R333 VDD.n96 VDD.n70 0.466129
+R334 VDD.n83 VDD.n14 0.715183
+R335 VDD.n95 VDD.n70 0.451798
+R336 VDD.n86 VDD.n79 0.451677
+R337 VDD.n111 VDD.n54 0.451619
+R338 VDD.n104 VDD.n61 0.451477
+R339 VDD.n92 VDD.n73 0.451477
+R340 VDD.n93 VDD.n72 0.451477
+R341 VDD.n109 VDD.n56 0.451469
+R342 VDD.n107 VDD.n58 0.451469
+R343 VDD.n106 VDD.n59 0.451469
+R344 VDD.n100 VDD.n65 0.451456
+R345 VDD.n105 VDD.n60 0.451368
+R346 VDD.n96 VDD.n69 0.451294
+R347 VDD.n90 VDD.n75 0.451252
+R348 VDD.n99 VDD.n66 0.451226
+R349 VDD.n94 VDD.n71 0.451226
+R350 VDD.n102 VDD.n63 0.451193
+R351 VDD.n89 VDD.n76 0.451182
+R352 VDD.n83 VDD.n82 0.451129
+R353 VDD.n110 VDD.n55 0.451074
+R354 VDD.n103 VDD.n62 0.451022
+R355 VDD.n85 VDD.n80 0.451012
+R356 VDD.n84 VDD.n81 0.450861
+R357 VDD.n101 VDD.n64 0.450828
+R358 VDD.n97 VDD.n68 0.450828
+R359 VDD.n88 VDD.n77 0.450828
+R360 VDD.n108 VDD.n57 0.450729
+R361 VDD.n91 VDD.n74 0.450729
+R362 VDD.n87 VDD.n78 0.450539
+R363 VDD.n98 VDD.n67 0.450381
+R364 VDD.t82 VDD.n30 5.71158
+R365 VDD.t0 VDD.t85 5.77017
+R366 VDD.n30 VDD.t81 15.0661
+R367 VDD.t0 VDD.n43 1.40663
+R368 VDD.n51 VDD.n17 1.33792
+R369 VDD.t0 VDD.n12 1.32168
+R370 VDD.t0 VDD.n13 1.31611
+R371 VDD.n14 VDD.t0 1.25835
+R372 VDD.t0 VDD.n33 0.521456
+R373 VDD.n19 VDD.n35 1.2377
+R374 VDD.n21 VDD.n41 1.23757
+R375 VDD.n25 VDD.n47 1.23755
+R376 VDD.n23 VDD.n45 1.23753
+R377 VDD.n27 VDD.n51 1.2374
+R378 VDD.n29 VDD.n53 1.23739
+R379 VDD.n12 VDD.n49 0.225502
+R380 VDD.t0 VDD.n30 1.03493
+R381 VDD.t0 VDD.n29 1.01828
+R382 VSS.n238 VSS.t130 108.746
+R383 VSS.n236 VSS.t131 108.746
+R384 VSS.t129 VSS.n5 108.746
+R385 VSS.n234 VSS.t128 108.746
+R386 VSS.t125 VSS.n11 108.746
+R387 VSS.n231 VSS.t133 108.746
+R388 VSS.t134 VSS.n15 108.746
+R389 VSS.t127 VSS.n17 108.746
+R390 VSS.n227 VSS.t123 108.746
+R391 VSS.t139 VSS.n20 108.746
+R392 VSS.n225 VSS.t126 108.746
+R393 VSS.n221 VSS.t135 108.746
+R394 VSS.n217 VSS.t136 108.746
+R395 VSS.t124 VSS.n29 108.746
+R396 VSS.n215 VSS.t145 108.746
+R397 VSS.n214 VSS.t144 108.746
+R398 VSS.t141 VSS.n34 108.746
+R399 VSS.n209 VSS.t147 108.746
+R400 VSS.t149 VSS.n40 108.746
+R401 VSS.t143 VSS.n42 108.746
+R402 VSS.t152 VSS.n44 108.746
+R403 VSS.t153 VSS.n47 108.746
+R404 VSS.t142 VSS.n49 108.746
+R405 VSS.t154 VSS.n51 108.746
+R406 VSS.n199 VSS.t155 108.746
+R407 VSS.n197 VSS.t150 108.746
+R408 VSS.n233 VSS.t132 108.746
+R409 VSS.n223 VSS.t138 108.746
+R410 VSS.n219 VSS.t137 108.746
+R411 VSS.n211 VSS.t140 108.746
+R412 VSS.n207 VSS.t148 108.746
+R413 VSS.n205 VSS.t146 108.746
+R414 VSS.n240 VSS.t42 106.056
+R415 VSS.n235 VSS.t167 106.056
+R416 VSS.n232 VSS.t0 106.056
+R417 VSS.n220 VSS.t33 106.056
+R418 VSS.n218 VSS.t39 106.056
+R419 VSS.n210 VSS.t170 106.056
+R420 VSS.n208 VSS.t87 106.056
+R421 VSS.n206 VSS.t84 106.056
+R422 VSS.n202 VSS.t157 106.056
+R423 VSS.n200 VSS.t160 106.056
+R424 VSS.n237 VSS.t18 106.056
+R425 VSS.t57 VSS.n7 106.056
+R426 VSS.t56 VSS.n9 106.056
+R427 VSS.t53 VSS.n13 106.056
+R428 VSS.n230 VSS.t52 106.056
+R429 VSS.n229 VSS.t51 106.056
+R430 VSS.n228 VSS.t54 106.056
+R431 VSS.n226 VSS.t12 106.056
+R432 VSS.t107 VSS.n22 106.056
+R433 VSS.n224 VSS.t63 106.056
+R434 VSS.n222 VSS.t5 106.056
+R435 VSS.t19 VSS.n28 106.056
+R436 VSS.n216 VSS.t81 106.056
+R437 VSS.t173 VSS.n32 106.056
+R438 VSS.n213 VSS.t168 106.056
+R439 VSS.n212 VSS.t34 106.056
+R440 VSS.n204 VSS.t156 106.056
+R441 VSS.n203 VSS.t117 106.056
+R442 VSS.t165 VSS.n46 106.056
+R443 VSS.n201 VSS.t17 106.056
+R444 VSS.t169 VSS.n53 106.056
+R445 VSS.n198 VSS.t164 106.056
+R446 VSS.t70 VSS.t67 99.7537
+R447 VSS.t22 VSS.n76 94.1709
+R448 VSS.t40 VSS.n80 94.1709
+R449 VSS.n83 VSS.t8 94.1709
+R450 VSS.n87 VSS.t3 94.1709
+R451 VSS.t15 VSS.n91 94.1709
+R452 VSS.n95 VSS.t24 94.1709
+R453 VSS.t94 VSS.n99 94.1709
+R454 VSS.t93 VSS.n103 94.1709
+R455 VSS.t92 VSS.n106 94.1709
+R456 VSS.t91 VSS.n110 94.1709
+R457 VSS.n113 VSS.t90 94.1709
+R458 VSS.t10 VSS.n117 94.1709
+R459 VSS.t35 VSS.n121 94.1709
+R460 VSS.t118 VSS.n125 94.1709
+R461 VSS.t113 VSS.n128 94.1709
+R462 VSS.n132 VSS.t119 94.1709
+R463 VSS.t112 VSS.n135 94.1709
+R464 VSS.n138 VSS.t110 94.1709
+R465 VSS.t109 VSS.n141 94.1709
+R466 VSS.t108 VSS.n145 94.1709
+R467 VSS.t106 VSS.n149 94.1709
+R468 VSS.t114 VSS.n153 94.1709
+R469 VSS.t101 VSS.n156 94.1709
+R470 VSS.t104 VSS.n160 94.1709
+R471 VSS.t102 VSS.n164 94.1709
+R472 VSS.t99 VSS.n168 94.1709
+R473 VSS.n172 VSS.t95 94.1709
+R474 VSS.t120 VSS.n176 94.1709
+R475 VSS.t115 VSS.n180 94.1709
+R476 VSS.n184 VSS.t97 94.1709
+R477 VSS.t121 VSS.n187 94.1709
+R478 VSS.t166 VSS.n189 94.1709
+R479 VSS.n233 VSS.t30 67.0429
+R480 VSS.n223 VSS.t105 67.0429
+R481 VSS.n219 VSS.t20 67.0429
+R482 VSS.n211 VSS.t79 67.0429
+R483 VSS.n207 VSS.t85 67.0429
+R484 VSS.n205 VSS.t82 67.0429
+R485 VSS.n238 VSS.t46 67.0426
+R486 VSS.n236 VSS.t43 67.0426
+R487 VSS.t48 VSS.n5 67.0426
+R488 VSS.n234 VSS.t47 67.0426
+R489 VSS.t62 VSS.n11 67.0426
+R490 VSS.n231 VSS.t60 67.0426
+R491 VSS.t58 VSS.n15 67.0426
+R492 VSS.t49 VSS.n17 67.0426
+R493 VSS.n227 VSS.t1 67.0426
+R494 VSS.t64 VSS.n20 67.0426
+R495 VSS.n225 VSS.t55 67.0426
+R496 VSS.n221 VSS.t6 67.0426
+R497 VSS.n217 VSS.t31 67.0426
+R498 VSS.t37 VSS.n29 67.0426
+R499 VSS.n215 VSS.t171 67.0426
+R500 VSS.n214 VSS.t44 67.0426
+R501 VSS.t26 VSS.n34 67.0426
+R502 VSS.n209 VSS.t88 67.0426
+R503 VSS.t172 VSS.n40 67.0426
+R504 VSS.t161 VSS.n42 67.0426
+R505 VSS.t163 VSS.n44 67.0426
+R506 VSS.t13 VSS.n47 67.0426
+R507 VSS.t159 VSS.n49 67.0426
+R508 VSS.t162 VSS.n51 67.0426
+R509 VSS.n199 VSS.t158 67.0426
+R510 VSS.n197 VSS.t28 67.0426
+R511 VSS.t78 VSS.n59 62.4463
+R512 VSS.t74 VSS.n59 59.7564
+R513 VSS.n190 VSS.t74 57.6669
+R514 VSS.t46 VSS.n76 43.0498
+R515 VSS.t43 VSS.n80 43.0498
+R516 VSS.n83 VSS.t48 43.0498
+R517 VSS.t47 VSS.n87 43.0498
+R518 VSS.t30 VSS.n91 43.0498
+R519 VSS.n95 VSS.t62 43.0498
+R520 VSS.t60 VSS.n99 43.0498
+R521 VSS.n103 VSS.t58 43.0498
+R522 VSS.n106 VSS.t49 43.0498
+R523 VSS.t1 VSS.n110 43.0498
+R524 VSS.n113 VSS.t64 43.0498
+R525 VSS.t55 VSS.n117 43.0498
+R526 VSS.t105 VSS.n121 43.0498
+R527 VSS.t6 VSS.n125 43.0498
+R528 VSS.t20 VSS.n128 43.0498
+R529 VSS.t31 VSS.n132 43.0498
+R530 VSS.n135 VSS.t37 43.0498
+R531 VSS.t171 VSS.n138 43.0498
+R532 VSS.t44 VSS.n141 43.0498
+R533 VSS.n145 VSS.t26 43.0498
+R534 VSS.t79 VSS.n149 43.0498
+R535 VSS.t88 VSS.n153 43.0498
+R536 VSS.t85 VSS.n156 43.0498
+R537 VSS.t82 VSS.n160 43.0498
+R538 VSS.n164 VSS.t172 43.0498
+R539 VSS.n168 VSS.t161 43.0498
+R540 VSS.n172 VSS.t163 43.0498
+R541 VSS.n176 VSS.t13 43.0498
+R542 VSS.n180 VSS.t159 43.0498
+R543 VSS.n184 VSS.t162 43.0498
+R544 VSS.t158 VSS.n187 43.0498
+R545 VSS.t28 VSS.n189 43.0498
+R546 VSS.n246 VSS.n70 17.0005
+R547 VSS.n246 VSS.n1 17.0005
+R548 VSS.n246 VSS.n239 17.0005
+R549 VSS.n190 VSS.t166 15.9618
+R550 VSS.n237 VSS.t22 15.9213
+R551 VSS.t8 VSS.n7 15.9213
+R552 VSS.t3 VSS.n9 15.9213
+R553 VSS.t24 VSS.n13 15.9213
+R554 VSS.n230 VSS.t94 15.9213
+R555 VSS.n229 VSS.t93 15.9213
+R556 VSS.n228 VSS.t92 15.9213
+R557 VSS.n226 VSS.t91 15.9213
+R558 VSS.t90 VSS.n22 15.9213
+R559 VSS.n224 VSS.t10 15.9213
+R560 VSS.n222 VSS.t35 15.9213
+R561 VSS.t119 VSS.n28 15.9213
+R562 VSS.n216 VSS.t112 15.9213
+R563 VSS.t110 VSS.n32 15.9213
+R564 VSS.n213 VSS.t109 15.9213
+R565 VSS.n212 VSS.t108 15.9213
+R566 VSS.n204 VSS.t104 15.9213
+R567 VSS.n203 VSS.t102 15.9213
+R568 VSS.t95 VSS.n46 15.9213
+R569 VSS.n201 VSS.t120 15.9213
+R570 VSS.t97 VSS.n53 15.9213
+R571 VSS.n198 VSS.t121 15.9213
+R572 VSS.n235 VSS.t40 15.9203
+R573 VSS.n232 VSS.t15 15.9203
+R574 VSS.n220 VSS.t118 15.9203
+R575 VSS.n218 VSS.t113 15.9203
+R576 VSS.n210 VSS.t106 15.9203
+R577 VSS.n208 VSS.t114 15.9203
+R578 VSS.n206 VSS.t101 15.9203
+R579 VSS.n202 VSS.t99 15.9203
+R580 VSS.n200 VSS.t115 15.9203
+R581 VSS.n240 VSS.t70 13.2297
+R582 VSS.t42 VSS.n73 11.8854
+R583 VSS.t167 VSS.n69 11.8854
+R584 VSS.n84 VSS.t57 11.8854
+R585 VSS.t0 VSS.n92 11.8854
+R586 VSS.n96 VSS.t53 11.8854
+R587 VSS.t52 VSS.n100 11.8854
+R588 VSS.t51 VSS.n68 11.8854
+R589 VSS.t12 VSS.n67 11.8854
+R590 VSS.t33 VSS.n66 11.8854
+R591 VSS.n65 VSS.t19 11.8854
+R592 VSS.t81 VSS.n64 11.8854
+R593 VSS.n63 VSS.t173 11.8854
+R594 VSS.t34 VSS.n146 11.8854
+R595 VSS.t170 VSS.n150 11.8854
+R596 VSS.t87 VSS.n62 11.8854
+R597 VSS.t84 VSS.n157 11.8854
+R598 VSS.n173 VSS.t165 11.8854
+R599 VSS.t17 VSS.n177 11.8854
+R600 VSS.t160 VSS.n181 11.8854
+R601 VSS.n61 VSS.t169 11.8854
+R602 VSS.t164 VSS.n60 11.8854
+R603 VSS.t18 VSS.n77 11.8844
+R604 VSS.n88 VSS.t56 11.8844
+R605 VSS.t54 VSS.n107 11.8844
+R606 VSS.n114 VSS.t107 11.8844
+R607 VSS.t63 VSS.n118 11.8844
+R608 VSS.t5 VSS.n122 11.8844
+R609 VSS.t39 VSS.n129 11.8844
+R610 VSS.t168 VSS.n142 11.8844
+R611 VSS.t156 VSS.n161 11.8844
+R612 VSS.t117 VSS.n165 11.8844
+R613 VSS.t157 VSS.n169 11.8844
+R614 VSS.t131 VSS.n77 9.19536
+R615 VSS.t132 VSS.n88 9.19536
+R616 VSS.t123 VSS.n107 9.19536
+R617 VSS.t126 VSS.n114 9.19536
+R618 VSS.t138 VSS.n118 9.19536
+R619 VSS.t135 VSS.n122 9.19536
+R620 VSS.t136 VSS.n129 9.19536
+R621 VSS.n142 VSS.t141 9.19536
+R622 VSS.n161 VSS.t149 9.19536
+R623 VSS.n165 VSS.t143 9.19536
+R624 VSS.n169 VSS.t152 9.19536
+R625 VSS.t130 VSS.n73 9.19506
+R626 VSS.n69 VSS.t129 9.19506
+R627 VSS.t128 VSS.n84 9.19506
+R628 VSS.n92 VSS.t125 9.19506
+R629 VSS.t133 VSS.n96 9.19506
+R630 VSS.n100 VSS.t134 9.19506
+R631 VSS.n68 VSS.t127 9.19506
+R632 VSS.n67 VSS.t139 9.19506
+R633 VSS.t137 VSS.n66 9.19506
+R634 VSS.n65 VSS.t124 9.19506
+R635 VSS.t145 VSS.n64 9.19506
+R636 VSS.t144 VSS.n63 9.19506
+R637 VSS.t140 VSS.n146 9.19506
+R638 VSS.t147 VSS.n150 9.19506
+R639 VSS.t148 VSS.n62 9.19506
+R640 VSS.t146 VSS.n157 9.19506
+R641 VSS.n173 VSS.t153 9.19506
+R642 VSS.n177 VSS.t142 9.19506
+R643 VSS.n181 VSS.t154 9.19506
+R644 VSS.t155 VSS.n61 9.19506
+R645 VSS.t150 VSS.n60 9.19506
+R646 VSS.n246 VSS.n76 8.5005
+R647 VSS.n246 VSS.n80 8.5005
+R648 VSS.n246 VSS.n83 8.5005
+R649 VSS.n246 VSS.n87 8.5005
+R650 VSS.n246 VSS.n91 8.5005
+R651 VSS.n246 VSS.n95 8.5005
+R652 VSS.n246 VSS.n99 8.5005
+R653 VSS.n246 VSS.n103 8.5005
+R654 VSS.n246 VSS.n106 8.5005
+R655 VSS.n246 VSS.n110 8.5005
+R656 VSS.n246 VSS.n113 8.5005
+R657 VSS.n246 VSS.n117 8.5005
+R658 VSS.n246 VSS.n121 8.5005
+R659 VSS.n246 VSS.n125 8.5005
+R660 VSS.n246 VSS.n128 8.5005
+R661 VSS.n246 VSS.n132 8.5005
+R662 VSS.n246 VSS.n135 8.5005
+R663 VSS.n246 VSS.n138 8.5005
+R664 VSS.n246 VSS.n141 8.5005
+R665 VSS.n246 VSS.n145 8.5005
+R666 VSS.n246 VSS.n149 8.5005
+R667 VSS.n246 VSS.n153 8.5005
+R668 VSS.n246 VSS.n156 8.5005
+R669 VSS.n246 VSS.n160 8.5005
+R670 VSS.n246 VSS.n164 8.5005
+R671 VSS.n246 VSS.n168 8.5005
+R672 VSS.n246 VSS.n172 8.5005
+R673 VSS.n246 VSS.n176 8.5005
+R674 VSS.n246 VSS.n180 8.5005
+R675 VSS.n246 VSS.n184 8.5005
+R676 VSS.n246 VSS.n187 8.5005
+R677 VSS.n246 VSS.n189 8.5005
+R678 VSS.n246 VSS.n71 8.47732
+R679 VSS.n246 VSS.t73 8.47732
+R680 VSS.n246 VSS.n57 8.47732
+R681 VSS.n246 VSS.n245 8.47732
+R682 VSS.n246 VSS.n191 8.47732
+R683 VSS.n246 VSS.n193 8.47732
+R684 VSS.n246 VSS.n58 5.63777
+R685 VSS.n246 VSS.t67 5.00032
+R686 VSS.n0 VSS.t78 54.979
+R687 VSS.n246 VSS.n195 4.20662
+R688 VSS VSS.n248 2.9705
+R689 VSS.n246 VSS.n2 2.74446
+R690 VSS.n246 VSS.n55 2.74446
+R691 VSS.n246 VSS.n72 2.74446
+R692 VSS.n247 VSS.n246 2.74412
+R693 VSS.n246 VSS.t29 2.74394
+R694 VSS.n246 VSS.n3 1.55465
+R695 VSS.n246 VSS.n4 1.55465
+R696 VSS.n246 VSS.n6 1.55465
+R697 VSS.n246 VSS.n8 1.55465
+R698 VSS.n246 VSS.n10 1.55465
+R699 VSS.n246 VSS.n12 1.55465
+R700 VSS.n246 VSS.n14 1.55465
+R701 VSS.n246 VSS.n16 1.55465
+R702 VSS.n246 VSS.n18 1.55465
+R703 VSS.n246 VSS.n19 1.55465
+R704 VSS.n246 VSS.n21 1.55465
+R705 VSS.n246 VSS.n23 1.55465
+R706 VSS.n246 VSS.n24 1.55465
+R707 VSS.n246 VSS.n25 1.55465
+R708 VSS.n246 VSS.n26 1.55465
+R709 VSS.n246 VSS.n27 1.55465
+R710 VSS.n246 VSS.n30 1.55465
+R711 VSS.n246 VSS.n31 1.55465
+R712 VSS.n246 VSS.n33 1.55465
+R713 VSS.n246 VSS.n35 1.55465
+R714 VSS.n246 VSS.n36 1.55465
+R715 VSS.n246 VSS.n37 1.55465
+R716 VSS.n246 VSS.n38 1.55465
+R717 VSS.n246 VSS.n39 1.55465
+R718 VSS.n246 VSS.n41 1.55465
+R719 VSS.n246 VSS.n43 1.55465
+R720 VSS.n246 VSS.n45 1.55465
+R721 VSS.n246 VSS.n48 1.55465
+R722 VSS.n246 VSS.n50 1.55465
+R723 VSS.n246 VSS.n52 1.55465
+R724 VSS.n246 VSS.n54 1.55465
+R725 VSS.n246 VSS.n74 1.55388
+R726 VSS.n246 VSS.n78 1.55388
+R727 VSS.n246 VSS.n81 1.55388
+R728 VSS.n246 VSS.n85 1.55388
+R729 VSS.n246 VSS.n89 1.55388
+R730 VSS.n246 VSS.n93 1.55388
+R731 VSS.n246 VSS.n97 1.55388
+R732 VSS.n246 VSS.n101 1.55388
+R733 VSS.n246 VSS.n104 1.55388
+R734 VSS.n246 VSS.n108 1.55388
+R735 VSS.n246 VSS.n111 1.55388
+R736 VSS.n246 VSS.n115 1.55388
+R737 VSS.n246 VSS.n119 1.55388
+R738 VSS.n246 VSS.n123 1.55388
+R739 VSS.n246 VSS.n126 1.55388
+R740 VSS.n246 VSS.n130 1.55388
+R741 VSS.n246 VSS.n133 1.55388
+R742 VSS.n246 VSS.n136 1.55388
+R743 VSS.n246 VSS.n139 1.55388
+R744 VSS.n246 VSS.n143 1.55388
+R745 VSS.n246 VSS.n147 1.55388
+R746 VSS.n246 VSS.n151 1.55388
+R747 VSS.n246 VSS.n154 1.55388
+R748 VSS.n246 VSS.n158 1.55388
+R749 VSS.n246 VSS.n162 1.55388
+R750 VSS.n246 VSS.n166 1.55388
+R751 VSS.n246 VSS.n170 1.55388
+R752 VSS.n246 VSS.n174 1.55388
+R753 VSS.n246 VSS.n178 1.55388
+R754 VSS.n246 VSS.n182 1.55388
+R755 VSS.n246 VSS.n185 1.55388
+R756 VSS.t66 VSS.t69 0.806856
+R757 VSS.t41 VSS.n79 0.802775
+R758 VSS.t9 VSS.n82 0.802775
+R759 VSS.t4 VSS.n86 0.802775
+R760 VSS.t16 VSS.n90 0.802775
+R761 VSS.t25 VSS.n94 0.802775
+R762 VSS.t61 VSS.n98 0.802775
+R763 VSS.t59 VSS.n102 0.802775
+R764 VSS.t50 VSS.n105 0.802775
+R765 VSS.t2 VSS.n109 0.802775
+R766 VSS.t65 VSS.n112 0.802775
+R767 VSS.t11 VSS.n116 0.802775
+R768 VSS.t36 VSS.n120 0.802775
+R769 VSS.t7 VSS.n124 0.802775
+R770 VSS.t21 VSS.n127 0.802775
+R771 VSS.t32 VSS.n131 0.802775
+R772 VSS.t38 VSS.n134 0.802775
+R773 VSS.t111 VSS.n137 0.802775
+R774 VSS.t45 VSS.n140 0.802775
+R775 VSS.t27 VSS.n144 0.802775
+R776 VSS.t80 VSS.n148 0.802775
+R777 VSS.t89 VSS.n152 0.802775
+R778 VSS.t86 VSS.n155 0.802775
+R779 VSS.t83 VSS.n159 0.802775
+R780 VSS.t103 VSS.n163 0.802775
+R781 VSS.t100 VSS.n167 0.802775
+R782 VSS.t96 VSS.n171 0.802775
+R783 VSS.t14 VSS.n175 0.802775
+R784 VSS.t116 VSS.n179 0.802775
+R785 VSS.t98 VSS.n183 0.802775
+R786 VSS.t122 VSS.n186 0.802775
+R787 VSS.t151 VSS.n188 0.802775
+R788 VSS.t76 VSS.n56 0.802775
+R789 VSS.t23 VSS.n75 0.802775
+R790 VSS.n194 VSS.t77 0.723599
+R791 VSS.t75 VSS.n192 0.723599
+R792 VSS.n246 VSS.n59 0.607264
+R793 VSS.n244 VSS.t68 0.595317
+R794 VSS.t72 VSS.n243 0.595317
+R795 VSS.n185 VSS.t122 0.47671
+R796 VSS.n182 VSS.t98 0.47671
+R797 VSS.n178 VSS.t116 0.47671
+R798 VSS.n174 VSS.t14 0.47671
+R799 VSS.n170 VSS.t96 0.47671
+R800 VSS.n166 VSS.t100 0.47671
+R801 VSS.n162 VSS.t103 0.47671
+R802 VSS.n158 VSS.t83 0.47671
+R803 VSS.n154 VSS.t86 0.47671
+R804 VSS.n151 VSS.t89 0.47671
+R805 VSS.n147 VSS.t80 0.47671
+R806 VSS.n143 VSS.t27 0.47671
+R807 VSS.n139 VSS.t45 0.47671
+R808 VSS.n136 VSS.t111 0.47671
+R809 VSS.n133 VSS.t38 0.47671
+R810 VSS.n130 VSS.t32 0.47671
+R811 VSS.n126 VSS.t21 0.47671
+R812 VSS.n123 VSS.t7 0.47671
+R813 VSS.n119 VSS.t36 0.47671
+R814 VSS.n115 VSS.t11 0.47671
+R815 VSS.n111 VSS.t65 0.47671
+R816 VSS.n108 VSS.t2 0.47671
+R817 VSS.n104 VSS.t50 0.47671
+R818 VSS.n101 VSS.t59 0.47671
+R819 VSS.n97 VSS.t61 0.47671
+R820 VSS.n93 VSS.t25 0.47671
+R821 VSS.n89 VSS.t16 0.47671
+R822 VSS.n85 VSS.t4 0.47671
+R823 VSS.n81 VSS.t9 0.47671
+R824 VSS.n78 VSS.t41 0.47671
+R825 VSS.n74 VSS.t23 0.47671
+R826 VSS.n75 VSS.n3 0.46466
+R827 VSS.n79 VSS.n4 0.46466
+R828 VSS.n82 VSS.n6 0.46466
+R829 VSS.n86 VSS.n8 0.46466
+R830 VSS.n90 VSS.n10 0.46466
+R831 VSS.n94 VSS.n12 0.46466
+R832 VSS.n98 VSS.n14 0.46466
+R833 VSS.n102 VSS.n16 0.46466
+R834 VSS.n105 VSS.n18 0.46466
+R835 VSS.n109 VSS.n19 0.46466
+R836 VSS.n112 VSS.n21 0.46466
+R837 VSS.n116 VSS.n23 0.46466
+R838 VSS.n120 VSS.n24 0.46466
+R839 VSS.n124 VSS.n25 0.46466
+R840 VSS.n127 VSS.n26 0.46466
+R841 VSS.n131 VSS.n27 0.46466
+R842 VSS.n134 VSS.n30 0.46466
+R843 VSS.n137 VSS.n31 0.46466
+R844 VSS.n140 VSS.n33 0.46466
+R845 VSS.n144 VSS.n35 0.46466
+R846 VSS.n148 VSS.n36 0.46466
+R847 VSS.n152 VSS.n37 0.46466
+R848 VSS.n155 VSS.n38 0.46466
+R849 VSS.n159 VSS.n39 0.46466
+R850 VSS.n163 VSS.n41 0.46466
+R851 VSS.n167 VSS.n43 0.46466
+R852 VSS.n171 VSS.n45 0.46466
+R853 VSS.n175 VSS.n48 0.46466
+R854 VSS.n179 VSS.n50 0.46466
+R855 VSS.n183 VSS.n52 0.46466
+R856 VSS.n186 VSS.n54 0.46466
+R857 VSS.n79 VSS.n3 0.45349
+R858 VSS.n82 VSS.n4 0.45349
+R859 VSS.n86 VSS.n6 0.45349
+R860 VSS.n90 VSS.n8 0.45349
+R861 VSS.n94 VSS.n10 0.45349
+R862 VSS.n98 VSS.n12 0.45349
+R863 VSS.n102 VSS.n14 0.45349
+R864 VSS.n105 VSS.n16 0.45349
+R865 VSS.n109 VSS.n18 0.45349
+R866 VSS.n112 VSS.n19 0.45349
+R867 VSS.n116 VSS.n21 0.45349
+R868 VSS.n120 VSS.n23 0.45349
+R869 VSS.n124 VSS.n24 0.45349
+R870 VSS.n127 VSS.n25 0.45349
+R871 VSS.n131 VSS.n26 0.45349
+R872 VSS.n134 VSS.n27 0.45349
+R873 VSS.n137 VSS.n30 0.45349
+R874 VSS.n140 VSS.n31 0.45349
+R875 VSS.n144 VSS.n33 0.45349
+R876 VSS.n148 VSS.n35 0.45349
+R877 VSS.n152 VSS.n36 0.45349
+R878 VSS.n155 VSS.n37 0.45349
+R879 VSS.n159 VSS.n38 0.45349
+R880 VSS.n163 VSS.n39 0.45349
+R881 VSS.n167 VSS.n41 0.45349
+R882 VSS.n171 VSS.n43 0.45349
+R883 VSS.n175 VSS.n45 0.45349
+R884 VSS.n179 VSS.n48 0.45349
+R885 VSS.n183 VSS.n50 0.45349
+R886 VSS.n186 VSS.n52 0.45349
+R887 VSS.n188 VSS.n54 0.45349
+R888 VSS.n74 VSS.t41 0.441374
+R889 VSS.n78 VSS.t9 0.441374
+R890 VSS.n81 VSS.t4 0.441374
+R891 VSS.n85 VSS.t16 0.441374
+R892 VSS.n89 VSS.t25 0.441374
+R893 VSS.n93 VSS.t61 0.441374
+R894 VSS.n97 VSS.t59 0.441374
+R895 VSS.n101 VSS.t50 0.441374
+R896 VSS.n104 VSS.t2 0.441374
+R897 VSS.n108 VSS.t65 0.441374
+R898 VSS.n111 VSS.t11 0.441374
+R899 VSS.n115 VSS.t36 0.441374
+R900 VSS.n119 VSS.t7 0.441374
+R901 VSS.n123 VSS.t21 0.441374
+R902 VSS.n126 VSS.t32 0.441374
+R903 VSS.n130 VSS.t38 0.441374
+R904 VSS.n133 VSS.t111 0.441374
+R905 VSS.n136 VSS.t45 0.441374
+R906 VSS.n139 VSS.t27 0.441374
+R907 VSS.n143 VSS.t80 0.441374
+R908 VSS.n147 VSS.t89 0.441374
+R909 VSS.n151 VSS.t86 0.441374
+R910 VSS.n154 VSS.t83 0.441374
+R911 VSS.n158 VSS.t103 0.441374
+R912 VSS.n162 VSS.t100 0.441374
+R913 VSS.n166 VSS.t96 0.441374
+R914 VSS.n170 VSS.t14 0.441374
+R915 VSS.n174 VSS.t116 0.441374
+R916 VSS.n178 VSS.t98 0.441374
+R917 VSS.n182 VSS.t122 0.441374
+R918 VSS.n185 VSS.t151 0.441374
+R919 VSS.n247 VSS.t69 0.334469
+R920 VSS.n248 VSS.n247 0.330494
+R921 VSS.t29 VSS.t151 0.301976
+R922 VSS.n188 VSS.n55 0.290049
+R923 VSS.n75 VSS.n2 0.276768
+R924 VSS.n242 VSS.n2 0.271299
+R925 VSS.n243 VSS.n72 0.271299
+R926 VSS.t23 VSS.n72 0.265518
+R927 VSS.n196 VSS.n195 0.259448
+R928 VSS.t29 VSS.t76 0.254814
+R929 VSS.n56 VSS.n55 0.244268
+R930 VSS.n196 VSS.n58 0.206787
+R931 VSS.t68 VSS.t72 0.1875
+R932 VSS.n195 VSS.n194 0.177116
+R933 VSS.t77 VSS.n58 0.141022
+R934 VSS.n56 VSS.t73 0.135868
+R935 VSS.t76 VSS.n191 0.124618
+R936 VSS.n192 VSS.t73 0.122118
+R937 VSS.t75 VSS.n191 0.122118
+R938 VSS.t66 VSS.n1 0.08925
+R939 VSS.n246 VSS.n0 0.00100788
+R940 VSS.t68 VSS.n241 0.0851154
+R941 VSS.t72 VSS.n242 0.0851154
+R942 VSS.t77 VSS.n57 0.0771176
+R943 VSS.n194 VSS.n193 0.0771176
+R944 VSS.n241 VSS.n71 0.0746176
+R945 VSS.n245 VSS.n244 0.0746176
+R946 VSS.n192 VSS.n57 0.0696176
+R947 VSS.n193 VSS.t75 0.0696176
+R948 VSS.n241 VSS.n70 0.06925
+R949 VSS.n244 VSS.n239 0.06925
+R950 VSS.n242 VSS.n70 0.05925
+R951 VSS.n243 VSS.n239 0.05925
+R952 VSS.n71 VSS.t69 0.0546176
+R953 VSS.n245 VSS.t66 0.0546176
+R954 VSS.n246 VSS.n240 0.0444724
+R955 VSS.n246 VSS.n77 0.0444724
+R956 VSS.n246 VSS.n235 0.0444724
+R957 VSS.n246 VSS.n88 0.0444724
+R958 VSS.n246 VSS.n233 0.0444724
+R959 VSS.n246 VSS.n232 0.0444724
+R960 VSS.n246 VSS.n107 0.0444724
+R961 VSS.n246 VSS.n114 0.0444724
+R962 VSS.n246 VSS.n118 0.0444724
+R963 VSS.n246 VSS.n223 0.0444724
+R964 VSS.n246 VSS.n122 0.0444724
+R965 VSS.n246 VSS.n220 0.0444724
+R966 VSS.n246 VSS.n219 0.0444724
+R967 VSS.n246 VSS.n218 0.0444724
+R968 VSS.n246 VSS.n129 0.0444724
+R969 VSS.n246 VSS.n142 0.0444724
+R970 VSS.n246 VSS.n211 0.0444724
+R971 VSS.n246 VSS.n210 0.0444724
+R972 VSS.n246 VSS.n208 0.0444724
+R973 VSS.n246 VSS.n207 0.0444724
+R974 VSS.n246 VSS.n206 0.0444724
+R975 VSS.n246 VSS.n205 0.0444724
+R976 VSS.n246 VSS.n161 0.0444724
+R977 VSS.n246 VSS.n165 0.0444724
+R978 VSS.n246 VSS.n202 0.0444724
+R979 VSS.n246 VSS.n169 0.0444724
+R980 VSS.n246 VSS.n200 0.0444724
+R981 VSS.n246 VSS.n69 0.0444549
+R982 VSS.n246 VSS.n5 0.0444549
+R983 VSS.n246 VSS.n7 0.0444549
+R984 VSS.n246 VSS.n9 0.0444549
+R985 VSS.n246 VSS.n11 0.0444549
+R986 VSS.n246 VSS.n13 0.0444549
+R987 VSS.n246 VSS.n15 0.0444549
+R988 VSS.n246 VSS.n68 0.0444549
+R989 VSS.n246 VSS.n17 0.0444549
+R990 VSS.n246 VSS.n67 0.0444549
+R991 VSS.n246 VSS.n20 0.0444549
+R992 VSS.n246 VSS.n22 0.0444549
+R993 VSS.n246 VSS.n66 0.0444549
+R994 VSS.n246 VSS.n28 0.0444549
+R995 VSS.n246 VSS.n65 0.0444549
+R996 VSS.n246 VSS.n29 0.0444549
+R997 VSS.n246 VSS.n64 0.0444549
+R998 VSS.n246 VSS.n32 0.0444549
+R999 VSS.n246 VSS.n63 0.0444549
+R1000 VSS.n246 VSS.n34 0.0444549
+R1001 VSS.n246 VSS.n62 0.0444549
+R1002 VSS.n246 VSS.n40 0.0444549
+R1003 VSS.n246 VSS.n42 0.0444549
+R1004 VSS.n246 VSS.n44 0.0444549
+R1005 VSS.n246 VSS.n46 0.0444549
+R1006 VSS.n246 VSS.n47 0.0444549
+R1007 VSS.n246 VSS.n49 0.0444549
+R1008 VSS.n246 VSS.n51 0.0444549
+R1009 VSS.n246 VSS.n53 0.0444549
+R1010 VSS.n246 VSS.n61 0.0444549
+R1011 VSS.n246 VSS.n60 0.0444549
+R1012 VSS.n246 VSS.n73 0.0444549
+R1013 VSS.n246 VSS.n238 0.0444549
+R1014 VSS.n246 VSS.n237 0.0444549
+R1015 VSS.n246 VSS.n236 0.0444549
+R1016 VSS.n246 VSS.n84 0.0444549
+R1017 VSS.n246 VSS.n234 0.0444549
+R1018 VSS.n246 VSS.n92 0.0444549
+R1019 VSS.n246 VSS.n96 0.0444549
+R1020 VSS.n246 VSS.n231 0.0444549
+R1021 VSS.n246 VSS.n230 0.0444549
+R1022 VSS.n246 VSS.n100 0.0444549
+R1023 VSS.n246 VSS.n229 0.0444549
+R1024 VSS.n246 VSS.n228 0.0444549
+R1025 VSS.n246 VSS.n227 0.0444549
+R1026 VSS.n246 VSS.n226 0.0444549
+R1027 VSS.n246 VSS.n225 0.0444549
+R1028 VSS.n246 VSS.n224 0.0444549
+R1029 VSS.n246 VSS.n222 0.0444549
+R1030 VSS.n246 VSS.n221 0.0444549
+R1031 VSS.n246 VSS.n217 0.0444549
+R1032 VSS.n246 VSS.n216 0.0444549
+R1033 VSS.n246 VSS.n215 0.0444549
+R1034 VSS.n246 VSS.n214 0.0444549
+R1035 VSS.n246 VSS.n213 0.0444549
+R1036 VSS.n246 VSS.n212 0.0444549
+R1037 VSS.n246 VSS.n146 0.0444549
+R1038 VSS.n246 VSS.n150 0.0444549
+R1039 VSS.n246 VSS.n209 0.0444549
+R1040 VSS.n246 VSS.n157 0.0444549
+R1041 VSS.n246 VSS.n204 0.0444549
+R1042 VSS.n246 VSS.n203 0.0444549
+R1043 VSS.n246 VSS.n173 0.0444549
+R1044 VSS.n246 VSS.n201 0.0444549
+R1045 VSS.n246 VSS.n177 0.0444549
+R1046 VSS.n246 VSS.n181 0.0444549
+R1047 VSS.n246 VSS.n199 0.0444549
+R1048 VSS.n246 VSS.n198 0.0444549
+R1049 VSS.n246 VSS.n197 0.0444549
+R1050 VSS.n248 VSS.n1 0.00675
+R1051 VSS.n246 VSS.n190 0.00413369
+R1052 VSS.n0 VSS.n196 8.48048
 C518 DELAY_VBIASN VSS 16.43641f
 C519 DELAY_OUT_LAST VSS 0.40486f
 C520 DELAY_OUT_TAP31 VSS 0.6437f
@@ -1959,302 +1984,305 @@ C656 VDD.n6 VSS 0.02735f ; **FLOATING
 C657 VDD.n7 VSS 0.02735f ; **FLOATING
 C658 VDD.n8 VSS 0.02735f ; **FLOATING
 C659 VDD.n9 VSS 0.02735f ; **FLOATING
-C660 VDD.t0 VSS 54.4235f ; **FLOATING
-C661 VDD.n11 VSS 0.19864f ; **FLOATING
-C662 VDD.t29 VSS 0.03759f ; **FLOATING
-C663 VDD.n14 VSS 0.02735f ; **FLOATING
-C664 VDD.n15 VSS 0.2141f ; **FLOATING
-C665 VDD.n16 VSS 0.02735f ; **FLOATING
-C666 VDD.n17 VSS 0.2141f ; **FLOATING
-C667 VDD.n18 VSS 0.02735f ; **FLOATING
-C668 VDD.n19 VSS 0.2141f ; **FLOATING
-C669 VDD.n20 VSS 0.02735f ; **FLOATING
-C670 VDD.n21 VSS 0.21408f ; **FLOATING
-C671 VDD.n22 VSS 0.02735f ; **FLOATING
-C672 VDD.n23 VSS 0.21415f ; **FLOATING
-C673 VDD.n24 VSS 0.02735f ; **FLOATING
-C674 VDD.n25 VSS 0.21418f ; **FLOATING
-C675 VDD.t53 VSS 0.03951f ; **FLOATING
-C676 VDD.n26 VSS 1.05795f ; **FLOATING
-C677 VDD.t49 VSS 0.04253f ; **FLOATING
-C678 VDD.n28 VSS 0.02735f ; **FLOATING
-C679 VDD.n29 VSS 0.2141f ; **FLOATING
-C680 VDD.n30 VSS 0.02735f ; **FLOATING
-C681 VDD.n31 VSS 0.21414f ; **FLOATING
-C682 VDD.n32 VSS 0.02735f ; **FLOATING
-C683 VDD.n33 VSS 0.21414f ; **FLOATING
-C684 VDD.n34 VSS 0.02735f ; **FLOATING
-C685 VDD.n35 VSS 0.21414f ; **FLOATING
-C686 VDD.n36 VSS 0.02735f ; **FLOATING
-C687 VDD.n37 VSS 0.21419f ; **FLOATING
-C688 VDD.n38 VSS 0.02735f ; **FLOATING
-C689 VDD.n39 VSS 0.21418f ; **FLOATING
-C690 VDD.n40 VSS 0.02735f ; **FLOATING
-C691 VDD.n41 VSS 0.21414f ; **FLOATING
-C692 VDD.n42 VSS 0.02735f ; **FLOATING
-C693 VDD.n43 VSS 0.21423f ; **FLOATING
-C694 VDD.n44 VSS 0.02735f ; **FLOATING
-C695 VDD.n45 VSS 0.21416f ; **FLOATING
-C696 VDD.n46 VSS 0.02735f ; **FLOATING
-C697 VDD.n47 VSS 0.21412f ; **FLOATING
-C698 VDD.n48 VSS 0.02735f ; **FLOATING
-C699 VDD.n49 VSS 0.21416f ; **FLOATING
-C700 VDD.n50 VSS 0.02735f ; **FLOATING
-C701 VDD.n51 VSS 0.21414f ; **FLOATING
-C702 VDD.n52 VSS 0.02735f ; **FLOATING
-C703 VDD.n53 VSS 0.21414f ; **FLOATING
-C704 VDD.t50 VSS 0.02172f ; **FLOATING
-C705 VDD.n54 VSS 0.05607f ; **FLOATING
-C706 VDD.n55 VSS 0.05614f ; **FLOATING
-C707 VDD.n56 VSS 0.0561f ; **FLOATING
-C708 VDD.n57 VSS 0.056f ; **FLOATING
-C709 VDD.n58 VSS 0.05607f ; **FLOATING
-C710 VDD.n59 VSS 0.05614f ; **FLOATING
-C711 VDD.n60 VSS 0.05601f ; **FLOATING
-C712 VDD.n61 VSS 0.05603f ; **FLOATING
-C713 VDD.n62 VSS 0.05609f ; **FLOATING
-C714 VDD.n63 VSS 0.05608f ; **FLOATING
-C715 VDD.n64 VSS 0.05605f ; **FLOATING
-C716 VDD.n65 VSS 0.05608f ; **FLOATING
-C717 VDD.n66 VSS 0.05602f ; **FLOATING
-C718 VDD.n67 VSS 0.05603f ; **FLOATING
-C719 VDD.n68 VSS 0.05609f ; **FLOATING
-C720 VDD.n69 VSS 0.05611f ; **FLOATING
-C721 VDD.n70 VSS 0.05603f ; **FLOATING
-C722 VDD.n71 VSS 0.0561f ; **FLOATING
-C723 VDD.n72 VSS 0.05609f ; **FLOATING
-C724 VDD.n73 VSS 0.0561f ; **FLOATING
-C725 VDD.n74 VSS 0.05604f ; **FLOATING
-C726 VDD.n75 VSS 0.05603f ; **FLOATING
-C727 VDD.n76 VSS 0.05608f ; **FLOATING
-C728 VDD.n77 VSS 0.05606f ; **FLOATING
-C729 VDD.n78 VSS 0.05612f ; **FLOATING
-C730 VDD.n79 VSS 0.05614f ; **FLOATING
-C731 VDD.n80 VSS 0.05615f ; **FLOATING
-C732 VDD.n81 VSS 0.05612f ; **FLOATING
-C733 VDD.t52 VSS 0.07737f ; **FLOATING
-C734 VDD.t57 VSS 0.03688f ; **FLOATING
-C735 VDD.t55 VSS 0.03564f ; **FLOATING
-C736 VDD.t54 VSS 0.04238f ; **FLOATING
-C737 VDD.t101 VSS 0.04326f ; **FLOATING
-C738 VDD.t43 VSS 0.04326f ; **FLOATING
-C739 VDD.t33 VSS 0.03889f ; **FLOATING
-C740 VDD.t71 VSS 0.04326f ; **FLOATING
-C741 VDD.t34 VSS 0.03905f ; **FLOATING
-C742 VDD.t82 VSS 0.04326f ; **FLOATING
-C743 VDD.t30 VSS 0.03688f ; **FLOATING
-C744 VDD.n82 VSS 0.17706f ; **FLOATING
-C745 VDD.t84 VSS 0.04326f ; **FLOATING
-C746 VDD.t32 VSS 0.03688f ; **FLOATING
-C747 VDD.n83 VSS 0.12112f ; **FLOATING
-C748 VDD.t42 VSS 0.04326f ; **FLOATING
-C749 VDD.t31 VSS 0.03688f ; **FLOATING
-C750 VDD.n84 VSS 0.12111f ; **FLOATING
-C751 VDD.t79 VSS 0.04326f ; **FLOATING
-C752 VDD.t4 VSS 0.03688f ; **FLOATING
-C753 VDD.n85 VSS 0.12114f ; **FLOATING
+C660 VDD.n10 VSS 0.02735f ; **FLOATING
+C661 VDD.n11 VSS 0.02735f ; **FLOATING
+C662 VDD.t0 VSS 54.253f ; **FLOATING
+C663 VDD.n14 VSS 0.16039f ; **FLOATING
+C664 VDD.t46 VSS 0.03766f ; **FLOATING
+C665 VDD.t85 VSS 0.04209f ; **FLOATING
+C666 VDD.n15 VSS 0.02735f ; **FLOATING
+C667 VDD.n16 VSS 0.02735f ; **FLOATING
+C668 VDD.n17 VSS 0.41307f ; **FLOATING
+C669 VDD.n18 VSS 0.02735f ; **FLOATING
+C670 VDD.n19 VSS 0.21406f ; **FLOATING
+C671 VDD.n20 VSS 0.02735f ; **FLOATING
+C672 VDD.n21 VSS 0.21414f ; **FLOATING
+C673 VDD.n22 VSS 0.02735f ; **FLOATING
+C674 VDD.n23 VSS 0.21407f ; **FLOATING
+C675 VDD.n24 VSS 0.02735f ; **FLOATING
+C676 VDD.n25 VSS 0.21413f ; **FLOATING
+C677 VDD.n26 VSS 0.02735f ; **FLOATING
+C678 VDD.n27 VSS 0.21414f ; **FLOATING
+C679 VDD.n28 VSS 0.02735f ; **FLOATING
+C680 VDD.n29 VSS 0.21414f ; **FLOATING
+C681 VDD.t84 VSS 0.03951f ; **FLOATING
+C682 VDD.n30 VSS 1.05792f ; **FLOATING
+C683 VDD.t80 VSS 0.04253f ; **FLOATING
+C684 VDD.n32 VSS 0.06014f ; **FLOATING
+C685 VDD.n33 VSS 0.21414f ; **FLOATING
+C686 VDD.n34 VSS 0.02735f ; **FLOATING
+C687 VDD.n35 VSS 0.21418f ; **FLOATING
+C688 VDD.n36 VSS 0.02735f ; **FLOATING
+C689 VDD.n37 VSS 0.2141f ; **FLOATING
+C690 VDD.n38 VSS 0.02735f ; **FLOATING
+C691 VDD.n39 VSS 0.21414f ; **FLOATING
+C692 VDD.n40 VSS 0.02735f ; **FLOATING
+C693 VDD.n41 VSS 0.21414f ; **FLOATING
+C694 VDD.n42 VSS 0.02735f ; **FLOATING
+C695 VDD.n43 VSS 0.2141f ; **FLOATING
+C696 VDD.n44 VSS 0.02735f ; **FLOATING
+C697 VDD.n45 VSS 0.21418f ; **FLOATING
+C698 VDD.n46 VSS 0.02735f ; **FLOATING
+C699 VDD.n47 VSS 0.2142f ; **FLOATING
+C700 VDD.n48 VSS 0.02735f ; **FLOATING
+C701 VDD.n49 VSS 0.21414f ; **FLOATING
+C702 VDD.n50 VSS 0.02735f ; **FLOATING
+C703 VDD.n51 VSS 0.21418f ; **FLOATING
+C704 VDD.n52 VSS 0.02735f ; **FLOATING
+C705 VDD.n53 VSS 0.21421f ; **FLOATING
+C706 VDD.t81 VSS 0.02172f ; **FLOATING
+C707 VDD.n54 VSS 0.05602f ; **FLOATING
+C708 VDD.n55 VSS 0.05607f ; **FLOATING
+C709 VDD.n56 VSS 0.05609f ; **FLOATING
+C710 VDD.n57 VSS 0.05606f ; **FLOATING
+C711 VDD.n58 VSS 0.05609f ; **FLOATING
+C712 VDD.n59 VSS 0.05609f ; **FLOATING
+C713 VDD.n60 VSS 0.05615f ; **FLOATING
+C714 VDD.n61 VSS 0.05601f ; **FLOATING
+C715 VDD.n62 VSS 0.05608f ; **FLOATING
+C716 VDD.n63 VSS 0.05611f ; **FLOATING
+C717 VDD.n64 VSS 0.05607f ; **FLOATING
+C718 VDD.n65 VSS 0.05611f ; **FLOATING
+C719 VDD.n66 VSS 0.05601f ; **FLOATING
+C720 VDD.n67 VSS 0.056f ; **FLOATING
+C721 VDD.n68 VSS 0.05607f ; **FLOATING
+C722 VDD.n69 VSS 0.05606f ; **FLOATING
+C723 VDD.n70 VSS 0.05607f ; **FLOATING
+C724 VDD.n71 VSS 0.05601f ; **FLOATING
+C725 VDD.n72 VSS 0.05601f ; **FLOATING
+C726 VDD.n73 VSS 0.05601f ; **FLOATING
+C727 VDD.n74 VSS 0.05606f ; **FLOATING
+C728 VDD.n75 VSS 0.05614f ; **FLOATING
+C729 VDD.n76 VSS 0.05593f ; **FLOATING
+C730 VDD.n77 VSS 0.05607f ; **FLOATING
+C731 VDD.n78 VSS 0.05607f ; **FLOATING
+C732 VDD.n79 VSS 0.05601f ; **FLOATING
+C733 VDD.n80 VSS 0.05603f ; **FLOATING
+C734 VDD.n81 VSS 0.05595f ; **FLOATING
+C735 VDD.n82 VSS 0.05606f ; **FLOATING
+C736 VDD.t83 VSS 0.07737f ; **FLOATING
+C737 VDD.t88 VSS 0.03688f ; **FLOATING
+C738 VDD.t86 VSS 0.03564f ; **FLOATING
+C739 VDD.t12 VSS 0.04326f ; **FLOATING
+C740 VDD.t99 VSS 0.04326f ; **FLOATING
+C741 VDD.t45 VSS 0.03688f ; **FLOATING
+C742 VDD.t71 VSS 0.04326f ; **FLOATING
+C743 VDD.t16 VSS 0.03688f ; **FLOATING
+C744 VDD.n83 VSS 0.14077f ; **FLOATING
+C745 VDD.t95 VSS 0.04326f ; **FLOATING
+C746 VDD.t44 VSS 0.03688f ; **FLOATING
+C747 VDD.n84 VSS 0.12126f ; **FLOATING
+C748 VDD.t6 VSS 0.04326f ; **FLOATING
+C749 VDD.t18 VSS 0.03688f ; **FLOATING
+C750 VDD.n85 VSS 0.12126f ; **FLOATING
+C751 VDD.t70 VSS 0.04326f ; **FLOATING
+C752 VDD.t43 VSS 0.03688f ; **FLOATING
+C753 VDD.n86 VSS 0.12121f ; **FLOATING
 C754 VDD.t72 VSS 0.04326f ; **FLOATING
-C755 VDD.t25 VSS 0.03688f ; **FLOATING
-C756 VDD.n86 VSS 0.12117f ; **FLOATING
-C757 VDD.t64 VSS 0.04326f ; **FLOATING
-C758 VDD.t28 VSS 0.03688f ; **FLOATING
-C759 VDD.n87 VSS 0.12117f ; **FLOATING
-C760 VDD.t83 VSS 0.04326f ; **FLOATING
-C761 VDD.t27 VSS 0.03688f ; **FLOATING
-C762 VDD.n88 VSS 0.1212f ; **FLOATING
-C763 VDD.t36 VSS 0.04326f ; **FLOATING
-C764 VDD.t26 VSS 0.03688f ; **FLOATING
-C765 VDD.n89 VSS 0.12123f ; **FLOATING
-C766 VDD.t60 VSS 0.04326f ; **FLOATING
-C767 VDD.t23 VSS 0.03688f ; **FLOATING
-C768 VDD.n90 VSS 0.12117f ; **FLOATING
-C769 VDD.t96 VSS 0.04326f ; **FLOATING
-C770 VDD.t24 VSS 0.03688f ; **FLOATING
-C771 VDD.n91 VSS 0.12115f ; **FLOATING
-C772 VDD.t92 VSS 0.04326f ; **FLOATING
-C773 VDD.t21 VSS 0.03688f ; **FLOATING
-C774 VDD.n92 VSS 0.12115f ; **FLOATING
-C775 VDD.t70 VSS 0.04326f ; **FLOATING
+C755 VDD.t27 VSS 0.03688f ; **FLOATING
+C756 VDD.n87 VSS 0.12127f ; **FLOATING
+C757 VDD.t74 VSS 0.04326f ; **FLOATING
+C758 VDD.t39 VSS 0.03688f ; **FLOATING
+C759 VDD.n88 VSS 0.12117f ; **FLOATING
+C760 VDD.t62 VSS 0.04326f ; **FLOATING
+C761 VDD.t40 VSS 0.03688f ; **FLOATING
+C762 VDD.n89 VSS 0.12125f ; **FLOATING
+C763 VDD.t63 VSS 0.04326f ; **FLOATING
+C764 VDD.t42 VSS 0.03688f ; **FLOATING
+C765 VDD.n90 VSS 0.12121f ; **FLOATING
+C766 VDD.t64 VSS 0.04326f ; **FLOATING
+C767 VDD.t41 VSS 0.03688f ; **FLOATING
+C768 VDD.n91 VSS 0.12118f ; **FLOATING
+C769 VDD.t61 VSS 0.04326f ; **FLOATING
+C770 VDD.t17 VSS 0.03688f ; **FLOATING
+C771 VDD.n92 VSS 0.12119f ; **FLOATING
+C772 VDD.t11 VSS 0.04326f ; **FLOATING
+C773 VDD.t38 VSS 0.03688f ; **FLOATING
+C774 VDD.n93 VSS 0.12125f ; **FLOATING
+C775 VDD.t51 VSS 0.04326f ; **FLOATING
 C776 VDD.t22 VSS 0.03688f ; **FLOATING
-C777 VDD.n93 VSS 0.12123f ; **FLOATING
-C778 VDD.t37 VSS 0.04326f ; **FLOATING
-C779 VDD.t7 VSS 0.03688f ; **FLOATING
-C780 VDD.n94 VSS 0.12117f ; **FLOATING
-C781 VDD.t2 VSS 0.04326f ; **FLOATING
-C782 VDD.t3 VSS 0.03688f ; **FLOATING
-C783 VDD.n95 VSS 0.12114f ; **FLOATING
-C784 VDD.t69 VSS 0.04326f ; **FLOATING
-C785 VDD.t6 VSS 0.03688f ; **FLOATING
-C786 VDD.n96 VSS 0.12118f ; **FLOATING
-C787 VDD.t40 VSS 0.04326f ; **FLOATING
-C788 VDD.t8 VSS 0.03688f ; **FLOATING
-C789 VDD.n97 VSS 0.12129f ; **FLOATING
-C790 VDD.t68 VSS 0.04326f ; **FLOATING
-C791 VDD.t9 VSS 0.03688f ; **FLOATING
-C792 VDD.n98 VSS 0.12114f ; **FLOATING
-C793 VDD.t1 VSS 0.04326f ; **FLOATING
+C777 VDD.n94 VSS 0.12126f ; **FLOATING
+C778 VDD.t91 VSS 0.04326f ; **FLOATING
+C779 VDD.t21 VSS 0.03688f ; **FLOATING
+C780 VDD.n95 VSS 0.1212f ; **FLOATING
+C781 VDD.t48 VSS 0.04326f ; **FLOATING
+C782 VDD.t37 VSS 0.03688f ; **FLOATING
+C783 VDD.n96 VSS 0.12121f ; **FLOATING
+C784 VDD.t14 VSS 0.04326f ; **FLOATING
+C785 VDD.t35 VSS 0.03688f ; **FLOATING
+C786 VDD.n97 VSS 0.12121f ; **FLOATING
+C787 VDD.t8 VSS 0.04326f ; **FLOATING
+C788 VDD.t36 VSS 0.03688f ; **FLOATING
+C789 VDD.n98 VSS 0.12124f ; **FLOATING
+C790 VDD.t3 VSS 0.04326f ; **FLOATING
+C791 VDD.t34 VSS 0.03688f ; **FLOATING
+C792 VDD.n99 VSS 0.12121f ; **FLOATING
+C793 VDD.t47 VSS 0.04326f ; **FLOATING
 C794 VDD.t20 VSS 0.03688f ; **FLOATING
-C795 VDD.n99 VSS 0.1212f ; **FLOATING
-C796 VDD.t46 VSS 0.04326f ; **FLOATING
-C797 VDD.t5 VSS 0.03688f ; **FLOATING
-C798 VDD.n100 VSS 0.12122f ; **FLOATING
-C799 VDD.t41 VSS 0.04326f ; **FLOATING
-C800 VDD.t10 VSS 0.03688f ; **FLOATING
-C801 VDD.n101 VSS 0.12116f ; **FLOATING
-C802 VDD.t66 VSS 0.04326f ; **FLOATING
-C803 VDD.t12 VSS 0.03688f ; **FLOATING
-C804 VDD.n102 VSS 0.12121f ; **FLOATING
-C805 VDD.t67 VSS 0.04326f ; **FLOATING
-C806 VDD.t19 VSS 0.03688f ; **FLOATING
-C807 VDD.n103 VSS 0.12124f ; **FLOATING
-C808 VDD.t86 VSS 0.04326f ; **FLOATING
-C809 VDD.t18 VSS 0.03688f ; **FLOATING
-C810 VDD.n104 VSS 0.12119f ; **FLOATING
-C811 VDD.t63 VSS 0.04326f ; **FLOATING
-C812 VDD.t16 VSS 0.03688f ; **FLOATING
-C813 VDD.n105 VSS 0.12117f ; **FLOATING
-C814 VDD.t38 VSS 0.04326f ; **FLOATING
-C815 VDD.t17 VSS 0.03688f ; **FLOATING
-C816 VDD.n106 VSS 0.12118f ; **FLOATING
-C817 VDD.t44 VSS 0.04326f ; **FLOATING
-C818 VDD.t13 VSS 0.03688f ; **FLOATING
-C819 VDD.n107 VSS 0.12123f ; **FLOATING
-C820 VDD.t58 VSS 0.04326f ; **FLOATING
-C821 VDD.t14 VSS 0.03688f ; **FLOATING
-C822 VDD.n108 VSS 0.12113f ; **FLOATING
-C823 VDD.t39 VSS 0.04326f ; **FLOATING
-C824 VDD.t15 VSS 0.03688f ; **FLOATING
-C825 VDD.n109 VSS 0.12117f ; **FLOATING
-C826 VDD.t35 VSS 0.04326f ; **FLOATING
-C827 VDD.t11 VSS 0.03688f ; **FLOATING
-C828 VDD.n110 VSS 0.10393f ; **FLOATING
-C829 VDD.t51 VSS 0.0373f ; **FLOATING
-C830 VDD.t48 VSS 0.03688f ; **FLOATING
-C831 VDD.t47 VSS 0.02663f ; **FLOATING
-C832 DELAY_VBIASP.n0 VSS 0.14347f ; **FLOATING
-C833 DELAY_VBIASP.t31 VSS 0.36739f ; **FLOATING
-C834 DELAY_VBIASP.t30 VSS 0.35917f ; **FLOATING
-C835 DELAY_VBIASP.n1 VSS 0.64365f ; **FLOATING
-C836 DELAY_VBIASP.t29 VSS 0.35917f ; **FLOATING
-C837 DELAY_VBIASP.n2 VSS 0.44541f ; **FLOATING
-C838 DELAY_VBIASP.t28 VSS 0.35917f ; **FLOATING
-C839 DELAY_VBIASP.n3 VSS 0.44541f ; **FLOATING
-C840 DELAY_VBIASP.t27 VSS 0.35917f ; **FLOATING
-C841 DELAY_VBIASP.n4 VSS 0.44541f ; **FLOATING
-C842 DELAY_VBIASP.t26 VSS 0.35917f ; **FLOATING
-C843 DELAY_VBIASP.n5 VSS 0.44541f ; **FLOATING
-C844 DELAY_VBIASP.t25 VSS 0.35917f ; **FLOATING
-C845 DELAY_VBIASP.n6 VSS 0.44541f ; **FLOATING
-C846 DELAY_VBIASP.t24 VSS 0.35917f ; **FLOATING
-C847 DELAY_VBIASP.n7 VSS 0.44541f ; **FLOATING
-C848 DELAY_VBIASP.t23 VSS 0.35917f ; **FLOATING
-C849 DELAY_VBIASP.n8 VSS 0.44541f ; **FLOATING
-C850 DELAY_VBIASP.t22 VSS 0.35917f ; **FLOATING
-C851 DELAY_VBIASP.n9 VSS 0.44541f ; **FLOATING
-C852 DELAY_VBIASP.t21 VSS 0.35917f ; **FLOATING
-C853 DELAY_VBIASP.n10 VSS 0.44541f ; **FLOATING
-C854 DELAY_VBIASP.t20 VSS 0.35917f ; **FLOATING
-C855 DELAY_VBIASP.n11 VSS 0.44541f ; **FLOATING
-C856 DELAY_VBIASP.t19 VSS 0.35917f ; **FLOATING
-C857 DELAY_VBIASP.n12 VSS 0.44541f ; **FLOATING
-C858 DELAY_VBIASP.t18 VSS 0.35917f ; **FLOATING
-C859 DELAY_VBIASP.n13 VSS 0.44541f ; **FLOATING
-C860 DELAY_VBIASP.t17 VSS 0.35917f ; **FLOATING
-C861 DELAY_VBIASP.n14 VSS 0.44541f ; **FLOATING
-C862 DELAY_VBIASP.t16 VSS 0.35917f ; **FLOATING
-C863 DELAY_VBIASP.n15 VSS 0.44541f ; **FLOATING
-C864 DELAY_VBIASP.t15 VSS 0.35917f ; **FLOATING
-C865 DELAY_VBIASP.n16 VSS 0.44541f ; **FLOATING
-C866 DELAY_VBIASP.t14 VSS 0.35917f ; **FLOATING
-C867 DELAY_VBIASP.n17 VSS 0.44541f ; **FLOATING
-C868 DELAY_VBIASP.t13 VSS 0.35917f ; **FLOATING
-C869 DELAY_VBIASP.n18 VSS 0.44541f ; **FLOATING
-C870 DELAY_VBIASP.t12 VSS 0.35917f ; **FLOATING
-C871 DELAY_VBIASP.n19 VSS 0.44541f ; **FLOATING
-C872 DELAY_VBIASP.t11 VSS 0.35917f ; **FLOATING
-C873 DELAY_VBIASP.n20 VSS 0.44541f ; **FLOATING
-C874 DELAY_VBIASP.t10 VSS 0.35917f ; **FLOATING
-C875 DELAY_VBIASP.n21 VSS 0.44541f ; **FLOATING
-C876 DELAY_VBIASP.t9 VSS 0.35917f ; **FLOATING
-C877 DELAY_VBIASP.n22 VSS 0.44541f ; **FLOATING
-C878 DELAY_VBIASP.t8 VSS 0.35917f ; **FLOATING
-C879 DELAY_VBIASP.n23 VSS 0.44541f ; **FLOATING
-C880 DELAY_VBIASP.t7 VSS 0.35917f ; **FLOATING
-C881 DELAY_VBIASP.n24 VSS 0.44541f ; **FLOATING
-C882 DELAY_VBIASP.t6 VSS 0.35917f ; **FLOATING
-C883 DELAY_VBIASP.n25 VSS 0.44541f ; **FLOATING
-C884 DELAY_VBIASP.t5 VSS 0.35917f ; **FLOATING
-C885 DELAY_VBIASP.n26 VSS 0.44541f ; **FLOATING
-C886 DELAY_VBIASP.t4 VSS 0.35917f ; **FLOATING
-C887 DELAY_VBIASP.n27 VSS 0.44541f ; **FLOATING
-C888 DELAY_VBIASP.t3 VSS 0.35917f ; **FLOATING
-C889 DELAY_VBIASP.n28 VSS 0.44541f ; **FLOATING
-C890 DELAY_VBIASP.t2 VSS 0.35917f ; **FLOATING
-C891 DELAY_VBIASP.n29 VSS 0.44541f ; **FLOATING
-C892 DELAY_VBIASP.t1 VSS 0.35917f ; **FLOATING
-C893 DELAY_VBIASP.n30 VSS 0.44541f ; **FLOATING
-C894 DELAY_VBIASP.t0 VSS 0.35917f ; **FLOATING
-C895 DELAY_VBIASN.n0 VSS 0.25441f ; **FLOATING
-C896 DELAY_VBIASN.t31 VSS 0.15177f ; **FLOATING
-C897 DELAY_VBIASN.t30 VSS 0.14732f ; **FLOATING
-C898 DELAY_VBIASN.n1 VSS 0.34864f ; **FLOATING
-C899 DELAY_VBIASN.t29 VSS 0.14732f ; **FLOATING
-C900 DELAY_VBIASN.n2 VSS 0.24183f ; **FLOATING
-C901 DELAY_VBIASN.t28 VSS 0.14732f ; **FLOATING
-C902 DELAY_VBIASN.n3 VSS 0.24183f ; **FLOATING
-C903 DELAY_VBIASN.t27 VSS 0.14732f ; **FLOATING
-C904 DELAY_VBIASN.n4 VSS 0.24183f ; **FLOATING
-C905 DELAY_VBIASN.t26 VSS 0.14732f ; **FLOATING
-C906 DELAY_VBIASN.n5 VSS 0.24183f ; **FLOATING
-C907 DELAY_VBIASN.t25 VSS 0.14732f ; **FLOATING
-C908 DELAY_VBIASN.n6 VSS 0.24183f ; **FLOATING
-C909 DELAY_VBIASN.t24 VSS 0.14732f ; **FLOATING
-C910 DELAY_VBIASN.n7 VSS 0.24183f ; **FLOATING
-C911 DELAY_VBIASN.t23 VSS 0.14732f ; **FLOATING
-C912 DELAY_VBIASN.n8 VSS 0.24183f ; **FLOATING
-C913 DELAY_VBIASN.t22 VSS 0.14732f ; **FLOATING
-C914 DELAY_VBIASN.n9 VSS 0.24183f ; **FLOATING
-C915 DELAY_VBIASN.t21 VSS 0.14732f ; **FLOATING
-C916 DELAY_VBIASN.n10 VSS 0.24183f ; **FLOATING
-C917 DELAY_VBIASN.t20 VSS 0.14732f ; **FLOATING
-C918 DELAY_VBIASN.n11 VSS 0.24183f ; **FLOATING
-C919 DELAY_VBIASN.t19 VSS 0.14732f ; **FLOATING
-C920 DELAY_VBIASN.n12 VSS 0.24183f ; **FLOATING
-C921 DELAY_VBIASN.t18 VSS 0.14732f ; **FLOATING
-C922 DELAY_VBIASN.n13 VSS 0.24183f ; **FLOATING
-C923 DELAY_VBIASN.t17 VSS 0.14732f ; **FLOATING
-C924 DELAY_VBIASN.n14 VSS 0.24183f ; **FLOATING
-C925 DELAY_VBIASN.t16 VSS 0.14732f ; **FLOATING
-C926 DELAY_VBIASN.n15 VSS 0.24183f ; **FLOATING
-C927 DELAY_VBIASN.t15 VSS 0.14732f ; **FLOATING
-C928 DELAY_VBIASN.n16 VSS 0.24183f ; **FLOATING
-C929 DELAY_VBIASN.t14 VSS 0.14732f ; **FLOATING
-C930 DELAY_VBIASN.n17 VSS 0.24183f ; **FLOATING
-C931 DELAY_VBIASN.t13 VSS 0.14732f ; **FLOATING
-C932 DELAY_VBIASN.n18 VSS 0.24183f ; **FLOATING
-C933 DELAY_VBIASN.t12 VSS 0.14732f ; **FLOATING
-C934 DELAY_VBIASN.n19 VSS 0.24183f ; **FLOATING
-C935 DELAY_VBIASN.t11 VSS 0.14732f ; **FLOATING
-C936 DELAY_VBIASN.n20 VSS 0.24183f ; **FLOATING
-C937 DELAY_VBIASN.t10 VSS 0.14732f ; **FLOATING
-C938 DELAY_VBIASN.n21 VSS 0.24183f ; **FLOATING
-C939 DELAY_VBIASN.t9 VSS 0.14732f ; **FLOATING
-C940 DELAY_VBIASN.n22 VSS 0.24183f ; **FLOATING
-C941 DELAY_VBIASN.t8 VSS 0.14732f ; **FLOATING
-C942 DELAY_VBIASN.n23 VSS 0.24183f ; **FLOATING
-C943 DELAY_VBIASN.t7 VSS 0.14732f ; **FLOATING
-C944 DELAY_VBIASN.n24 VSS 0.24183f ; **FLOATING
-C945 DELAY_VBIASN.t6 VSS 0.14732f ; **FLOATING
-C946 DELAY_VBIASN.n25 VSS 0.24183f ; **FLOATING
-C947 DELAY_VBIASN.t5 VSS 0.14732f ; **FLOATING
-C948 DELAY_VBIASN.n26 VSS 0.24183f ; **FLOATING
-C949 DELAY_VBIASN.t4 VSS 0.14732f ; **FLOATING
-C950 DELAY_VBIASN.n27 VSS 0.24183f ; **FLOATING
-C951 DELAY_VBIASN.t3 VSS 0.14732f ; **FLOATING
-C952 DELAY_VBIASN.n28 VSS 0.24183f ; **FLOATING
-C953 DELAY_VBIASN.t2 VSS 0.14732f ; **FLOATING
-C954 DELAY_VBIASN.n29 VSS 0.24183f ; **FLOATING
-C955 DELAY_VBIASN.t1 VSS 0.14732f ; **FLOATING
-C956 DELAY_VBIASN.n30 VSS 0.24183f ; **FLOATING
-C957 DELAY_VBIASN.t0 VSS 0.14732f ; **FLOATING
+C795 VDD.n100 VSS 0.12119f ; **FLOATING
+C796 VDD.t5 VSS 0.04326f ; **FLOATING
+C797 VDD.t15 VSS 0.03688f ; **FLOATING
+C798 VDD.n101 VSS 0.12119f ; **FLOATING
+C799 VDD.t60 VSS 0.04326f ; **FLOATING
+C800 VDD.t19 VSS 0.03688f ; **FLOATING
+C801 VDD.n102 VSS 0.12115f ; **FLOATING
+C802 VDD.t1 VSS 0.04326f ; **FLOATING
+C803 VDD.t33 VSS 0.03688f ; **FLOATING
+C804 VDD.n103 VSS 0.12117f ; **FLOATING
+C805 VDD.t55 VSS 0.04326f ; **FLOATING
+C806 VDD.t25 VSS 0.03688f ; **FLOATING
+C807 VDD.n104 VSS 0.1212f ; **FLOATING
+C808 VDD.t57 VSS 0.04326f ; **FLOATING
+C809 VDD.t32 VSS 0.03688f ; **FLOATING
+C810 VDD.n105 VSS 0.12118f ; **FLOATING
+C811 VDD.t58 VSS 0.04326f ; **FLOATING
+C812 VDD.t31 VSS 0.03688f ; **FLOATING
+C813 VDD.n106 VSS 0.12113f ; **FLOATING
+C814 VDD.t10 VSS 0.04326f ; **FLOATING
+C815 VDD.t30 VSS 0.03688f ; **FLOATING
+C816 VDD.n107 VSS 0.12116f ; **FLOATING
+C817 VDD.t7 VSS 0.04326f ; **FLOATING
+C818 VDD.t29 VSS 0.03688f ; **FLOATING
+C819 VDD.n108 VSS 0.12121f ; **FLOATING
+C820 VDD.t2 VSS 0.04326f ; **FLOATING
+C821 VDD.t26 VSS 0.03688f ; **FLOATING
+C822 VDD.n109 VSS 0.12115f ; **FLOATING
+C823 VDD.t4 VSS 0.04326f ; **FLOATING
+C824 VDD.t23 VSS 0.03688f ; **FLOATING
+C825 VDD.n110 VSS 0.12119f ; **FLOATING
+C826 VDD.t49 VSS 0.04326f ; **FLOATING
+C827 VDD.t28 VSS 0.03688f ; **FLOATING
+C828 VDD.n111 VSS 0.1212f ; **FLOATING
+C829 VDD.t9 VSS 0.04326f ; **FLOATING
+C830 VDD.t24 VSS 0.03688f ; **FLOATING
+C831 VDD.n112 VSS 0.10402f ; **FLOATING
+C832 VDD.t82 VSS 0.0373f ; **FLOATING
+C833 VDD.t79 VSS 0.03688f ; **FLOATING
+C834 VDD.t78 VSS 0.02663f ; **FLOATING
+C835 DELAY_VBIASP.n0 VSS 0.14347f ; **FLOATING
+C836 DELAY_VBIASP.t31 VSS 0.36739f ; **FLOATING
+C837 DELAY_VBIASP.t30 VSS 0.35917f ; **FLOATING
+C838 DELAY_VBIASP.n1 VSS 0.64365f ; **FLOATING
+C839 DELAY_VBIASP.t29 VSS 0.35917f ; **FLOATING
+C840 DELAY_VBIASP.n2 VSS 0.44541f ; **FLOATING
+C841 DELAY_VBIASP.t28 VSS 0.35917f ; **FLOATING
+C842 DELAY_VBIASP.n3 VSS 0.44541f ; **FLOATING
+C843 DELAY_VBIASP.t27 VSS 0.35917f ; **FLOATING
+C844 DELAY_VBIASP.n4 VSS 0.44541f ; **FLOATING
+C845 DELAY_VBIASP.t26 VSS 0.35917f ; **FLOATING
+C846 DELAY_VBIASP.n5 VSS 0.44541f ; **FLOATING
+C847 DELAY_VBIASP.t25 VSS 0.35917f ; **FLOATING
+C848 DELAY_VBIASP.n6 VSS 0.44541f ; **FLOATING
+C849 DELAY_VBIASP.t24 VSS 0.35917f ; **FLOATING
+C850 DELAY_VBIASP.n7 VSS 0.44541f ; **FLOATING
+C851 DELAY_VBIASP.t23 VSS 0.35917f ; **FLOATING
+C852 DELAY_VBIASP.n8 VSS 0.44541f ; **FLOATING
+C853 DELAY_VBIASP.t22 VSS 0.35917f ; **FLOATING
+C854 DELAY_VBIASP.n9 VSS 0.44541f ; **FLOATING
+C855 DELAY_VBIASP.t21 VSS 0.35917f ; **FLOATING
+C856 DELAY_VBIASP.n10 VSS 0.44541f ; **FLOATING
+C857 DELAY_VBIASP.t20 VSS 0.35917f ; **FLOATING
+C858 DELAY_VBIASP.n11 VSS 0.44541f ; **FLOATING
+C859 DELAY_VBIASP.t19 VSS 0.35917f ; **FLOATING
+C860 DELAY_VBIASP.n12 VSS 0.44541f ; **FLOATING
+C861 DELAY_VBIASP.t18 VSS 0.35917f ; **FLOATING
+C862 DELAY_VBIASP.n13 VSS 0.44541f ; **FLOATING
+C863 DELAY_VBIASP.t17 VSS 0.35917f ; **FLOATING
+C864 DELAY_VBIASP.n14 VSS 0.44541f ; **FLOATING
+C865 DELAY_VBIASP.t16 VSS 0.35917f ; **FLOATING
+C866 DELAY_VBIASP.n15 VSS 0.44541f ; **FLOATING
+C867 DELAY_VBIASP.t15 VSS 0.35917f ; **FLOATING
+C868 DELAY_VBIASP.n16 VSS 0.44541f ; **FLOATING
+C869 DELAY_VBIASP.t14 VSS 0.35917f ; **FLOATING
+C870 DELAY_VBIASP.n17 VSS 0.44541f ; **FLOATING
+C871 DELAY_VBIASP.t13 VSS 0.35917f ; **FLOATING
+C872 DELAY_VBIASP.n18 VSS 0.44541f ; **FLOATING
+C873 DELAY_VBIASP.t12 VSS 0.35917f ; **FLOATING
+C874 DELAY_VBIASP.n19 VSS 0.44541f ; **FLOATING
+C875 DELAY_VBIASP.t11 VSS 0.35917f ; **FLOATING
+C876 DELAY_VBIASP.n20 VSS 0.44541f ; **FLOATING
+C877 DELAY_VBIASP.t10 VSS 0.35917f ; **FLOATING
+C878 DELAY_VBIASP.n21 VSS 0.44541f ; **FLOATING
+C879 DELAY_VBIASP.t9 VSS 0.35917f ; **FLOATING
+C880 DELAY_VBIASP.n22 VSS 0.44541f ; **FLOATING
+C881 DELAY_VBIASP.t8 VSS 0.35917f ; **FLOATING
+C882 DELAY_VBIASP.n23 VSS 0.44541f ; **FLOATING
+C883 DELAY_VBIASP.t7 VSS 0.35917f ; **FLOATING
+C884 DELAY_VBIASP.n24 VSS 0.44541f ; **FLOATING
+C885 DELAY_VBIASP.t6 VSS 0.35917f ; **FLOATING
+C886 DELAY_VBIASP.n25 VSS 0.44541f ; **FLOATING
+C887 DELAY_VBIASP.t5 VSS 0.35917f ; **FLOATING
+C888 DELAY_VBIASP.n26 VSS 0.44541f ; **FLOATING
+C889 DELAY_VBIASP.t4 VSS 0.35917f ; **FLOATING
+C890 DELAY_VBIASP.n27 VSS 0.44541f ; **FLOATING
+C891 DELAY_VBIASP.t3 VSS 0.35917f ; **FLOATING
+C892 DELAY_VBIASP.n28 VSS 0.44541f ; **FLOATING
+C893 DELAY_VBIASP.t2 VSS 0.35917f ; **FLOATING
+C894 DELAY_VBIASP.n29 VSS 0.44541f ; **FLOATING
+C895 DELAY_VBIASP.t1 VSS 0.35917f ; **FLOATING
+C896 DELAY_VBIASP.n30 VSS 0.44541f ; **FLOATING
+C897 DELAY_VBIASP.t0 VSS 0.35917f ; **FLOATING
+C898 DELAY_VBIASN.n0 VSS 0.25441f ; **FLOATING
+C899 DELAY_VBIASN.t31 VSS 0.15177f ; **FLOATING
+C900 DELAY_VBIASN.t30 VSS 0.14732f ; **FLOATING
+C901 DELAY_VBIASN.n1 VSS 0.34864f ; **FLOATING
+C902 DELAY_VBIASN.t29 VSS 0.14732f ; **FLOATING
+C903 DELAY_VBIASN.n2 VSS 0.24183f ; **FLOATING
+C904 DELAY_VBIASN.t28 VSS 0.14732f ; **FLOATING
+C905 DELAY_VBIASN.n3 VSS 0.24183f ; **FLOATING
+C906 DELAY_VBIASN.t27 VSS 0.14732f ; **FLOATING
+C907 DELAY_VBIASN.n4 VSS 0.24183f ; **FLOATING
+C908 DELAY_VBIASN.t26 VSS 0.14732f ; **FLOATING
+C909 DELAY_VBIASN.n5 VSS 0.24183f ; **FLOATING
+C910 DELAY_VBIASN.t25 VSS 0.14732f ; **FLOATING
+C911 DELAY_VBIASN.n6 VSS 0.24183f ; **FLOATING
+C912 DELAY_VBIASN.t24 VSS 0.14732f ; **FLOATING
+C913 DELAY_VBIASN.n7 VSS 0.24183f ; **FLOATING
+C914 DELAY_VBIASN.t23 VSS 0.14732f ; **FLOATING
+C915 DELAY_VBIASN.n8 VSS 0.24183f ; **FLOATING
+C916 DELAY_VBIASN.t22 VSS 0.14732f ; **FLOATING
+C917 DELAY_VBIASN.n9 VSS 0.24183f ; **FLOATING
+C918 DELAY_VBIASN.t21 VSS 0.14732f ; **FLOATING
+C919 DELAY_VBIASN.n10 VSS 0.24183f ; **FLOATING
+C920 DELAY_VBIASN.t20 VSS 0.14732f ; **FLOATING
+C921 DELAY_VBIASN.n11 VSS 0.24183f ; **FLOATING
+C922 DELAY_VBIASN.t19 VSS 0.14732f ; **FLOATING
+C923 DELAY_VBIASN.n12 VSS 0.24183f ; **FLOATING
+C924 DELAY_VBIASN.t18 VSS 0.14732f ; **FLOATING
+C925 DELAY_VBIASN.n13 VSS 0.24183f ; **FLOATING
+C926 DELAY_VBIASN.t17 VSS 0.14732f ; **FLOATING
+C927 DELAY_VBIASN.n14 VSS 0.24183f ; **FLOATING
+C928 DELAY_VBIASN.t16 VSS 0.14732f ; **FLOATING
+C929 DELAY_VBIASN.n15 VSS 0.24183f ; **FLOATING
+C930 DELAY_VBIASN.t15 VSS 0.14732f ; **FLOATING
+C931 DELAY_VBIASN.n16 VSS 0.24183f ; **FLOATING
+C932 DELAY_VBIASN.t14 VSS 0.14732f ; **FLOATING
+C933 DELAY_VBIASN.n17 VSS 0.24183f ; **FLOATING
+C934 DELAY_VBIASN.t13 VSS 0.14732f ; **FLOATING
+C935 DELAY_VBIASN.n18 VSS 0.24183f ; **FLOATING
+C936 DELAY_VBIASN.t12 VSS 0.14732f ; **FLOATING
+C937 DELAY_VBIASN.n19 VSS 0.24183f ; **FLOATING
+C938 DELAY_VBIASN.t11 VSS 0.14732f ; **FLOATING
+C939 DELAY_VBIASN.n20 VSS 0.24183f ; **FLOATING
+C940 DELAY_VBIASN.t10 VSS 0.14732f ; **FLOATING
+C941 DELAY_VBIASN.n21 VSS 0.24183f ; **FLOATING
+C942 DELAY_VBIASN.t9 VSS 0.14732f ; **FLOATING
+C943 DELAY_VBIASN.n22 VSS 0.24183f ; **FLOATING
+C944 DELAY_VBIASN.t8 VSS 0.14732f ; **FLOATING
+C945 DELAY_VBIASN.n23 VSS 0.24183f ; **FLOATING
+C946 DELAY_VBIASN.t7 VSS 0.14732f ; **FLOATING
+C947 DELAY_VBIASN.n24 VSS 0.24183f ; **FLOATING
+C948 DELAY_VBIASN.t6 VSS 0.14732f ; **FLOATING
+C949 DELAY_VBIASN.n25 VSS 0.24183f ; **FLOATING
+C950 DELAY_VBIASN.t5 VSS 0.14732f ; **FLOATING
+C951 DELAY_VBIASN.n26 VSS 0.24183f ; **FLOATING
+C952 DELAY_VBIASN.t4 VSS 0.14732f ; **FLOATING
+C953 DELAY_VBIASN.n27 VSS 0.24183f ; **FLOATING
+C954 DELAY_VBIASN.t3 VSS 0.14732f ; **FLOATING
+C955 DELAY_VBIASN.n28 VSS 0.24183f ; **FLOATING
+C956 DELAY_VBIASN.t2 VSS 0.14732f ; **FLOATING
+C957 DELAY_VBIASN.n29 VSS 0.24183f ; **FLOATING
+C958 DELAY_VBIASN.t1 VSS 0.14732f ; **FLOATING
+C959 DELAY_VBIASN.n30 VSS 0.24183f ; **FLOATING
+C960 DELAY_VBIASN.t0 VSS 0.14732f ; **FLOATING
 .ends

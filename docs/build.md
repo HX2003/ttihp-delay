@@ -19,8 +19,7 @@ Caution ⚠️: The IHP Open PDK is in active development, and the PDK's directo
 
 ## Build Process
 
-There are many dependencies used to create this project.
-
+The project was created and tested on Ubuntu 24.04.4 LTS. The following tools and libraries were used:
 
 | Dependency                                                | Description                                                |
 | :-------------------------------------------------------- | ---------------------------------------------------------- |
